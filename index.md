@@ -1,6 +1,9 @@
-## Welcome to Web Project Design and Development, Fall 2021
+## Welcome to Web Project Design and Development
 
-### ISS 241 / VMS 257 / ISS/CMAC 741
+Fall 2021, ISS 241 / VMS 257 / ISS/CMAC 741
+
+| [Schedule](./schedule.md) | [Resources](./resources.md) | [Assignments](./assignments.md) |
+| :------------------------ | :-------------------------- | :------------------------------ |
 
 This course covers the design and development of user-centered and interactive projects for the web using HTML, CSS, and JavaScript. It builds on the material introduced in _Fundamentals of Web-Based Multimedia Communications_, and students should have prior experience with HTML/CSS.
 
@@ -8,7 +11,7 @@ This course covers the design and development of user-centered and interactive p
 
 ### Expectations
 
-The first secret of coding for the web is that you can teach yourself how to code for the web, on the web. In this course you'll often be expected to help yourself by reading documentation, watching tutorials, consulting references, searching forums like [Stack Overflow](https://stackoverflow.com/), and engage in some plain old googling. In class, we will work together in a demo format and you will be expected to follow along on your own machine and learn by doing.
+The first secret of coding for the web is that you can teach yourself how to code for the web, on the web. In this course you'll often be expected to help yourself by reading documentation, watching tutorials, consulting references, searching forums like [Stack Overflow](https://stackoverflow.com/), and some plain old googling. In class, we will work together in a demo format and you will be expected to follow along on your own machine and learn by doing.
 
 This is also a course in _visual and media studies_ so we will be engaging in critical looking and critical making. Technical exercises for learning and building with HTML/CSS and JavaScript will be supplemented by readings on user-centered design and critical technical practice. You'll be asked to notice the designed world around you, both on the web and off, and engage in constructive analysis and criticism of your own and your colleagues' designs in the classroom.
 
@@ -24,7 +27,7 @@ Ultimately, this course is designed to provide you with the skills to a critical
     - Google Chrome or Firefox with Developer tools
     - [Cisco AnyConnect](https://oit.duke.edu/what-we-do/services/vpn), the Duke VPN software for logging into the Duke CIFS servers remotely
   - Computer / Server Set-up
-    -
+    - For the most part, we will be using the Duke CIFS server space to serve static web content.
 
 ```markdown
 Syntax highlighted code block
