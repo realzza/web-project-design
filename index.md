@@ -3,7 +3,6 @@
 Fall 2021, ISS 241 / VMS 257 / ISS/CMAC 741
 
 | [Schedule](./schedule.md) | [Resources](./resources.md) | [Assignments](./assignments.md) |
-| ------------------------- | --------------------------- | ------------------------------- |
 
 This course covers the design and development of user-centered and interactive projects for the web using HTML, CSS, and JavaScript. It builds on the material introduced in _Fundamentals of Web-Based Multimedia Communications_, and students should have prior experience with HTML/CSS.
 
@@ -15,7 +14,7 @@ The first secret of coding for the web is that you can teach yourself how to cod
 
 This is also a course in _visual and media studies_ so we will be engaging in critical looking and critical making. Technical exercises for learning and building with HTML/CSS and JavaScript will be supplemented by readings on user-centered design and critical technical practice. You'll be asked to notice the designed world around you, both on the web and off, and engage in constructive analysis and criticism of your own and your colleagues' designs in the classroom.
 
-Ultimately, this course is designed to provide you with the skills to a critical consumer and producer of web-based technologies and inspire you to keep building.
+If I could pick another title for this course I would have called it **Super-User**. Ultimately, it is designed to provide you with the skills to be a critical consumer and producer of web-based technologies and inspire you to keep building.
 
 ### Requirements
 
@@ -27,34 +26,7 @@ Ultimately, this course is designed to provide you with the skills to a critical
     - Google Chrome or Firefox with Developer tools
     - [Cisco AnyConnect](https://oit.duke.edu/what-we-do/services/vpn), the Duke VPN software for logging into the Duke CIFS servers remotely
   - Computer / Server Set-up
-    - For the most part, we will be using the Duke CIFS server space to serve static web content.
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-
-## Header 2
-
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
-
-### Jekyll Themes
-
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/maximusrex/web-project-design/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
-
-### Support or Contact
-
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+    - For the most part, we will be using the Duke CIFS server space to serve static web content. [Set up your CIFS space with these instructions](./FTPLogin.md).
+    - We will also be making extended use of the Terminal Application (Mac), or the Windows Command Prompt (PC). This is a way of navigating files (and doing a bunch of other things) in your computer by text command, without the graphical user interface (GUI). In a way, Terminal is it's own GUI, with text input instead of mousing around and clicking on icons. We will spend some time in class getting used to Terminal/Command Prompt, but to start you may want to check out these guides.
+      - On PC use [this guide](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/) for Command Line
+      - On Mac use [this guide](https://www.makeuseof.com/tag/beginners-guide-mac-terminal/) for Terminal
