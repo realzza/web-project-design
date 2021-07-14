@@ -18,7 +18,7 @@ Development environment setup, the browser as a context, HTML/CSS Review, Layout
 
 Welcome, Overview, PC Setup
 
-- In Class:
+- In Class
   - Introductions
   - Course overview
   - Logistics
@@ -33,7 +33,7 @@ Welcome, Overview, PC Setup
 
 HTML/CSS Review I
 
-- In Class:
+- In Class
   - PC Setup troubleshooting
   - HTML/CSS Review: creating files, html syntax, structuring content, file structure, linking, posting to the server, styling, css typography, Google fonts, embedding multimedia
 - Homework
@@ -47,16 +47,64 @@ HTML/CSS Review I
 
 HTML/CSS Review II
 
--In Class: - CSS Layout: spacing, position, flexbox, grid - CSS Media Queries, Responsive Design - HTML/CSS Validation
-
+- In Class
+  - CSS Layout: spacing, position, flexbox, grid - CSS Media Queries, Responsive Design - HTML/CSS Validation
 - Homework
   - Take the tools we learned in class for spacing, position, and responsive design and revise the layout of both index.html and the html file containing your text
   - Reading (and reference): [Layout Essentials, "Getting Started"]()
+  - Reading: Janet Murray, _Inventing The Medium_, [Introduction: A Cultural Approach to Interaction Design & Ch. 1: Design in an Evolving Medium]()
 
 ### September 7, 2021
 
+Design Thinking / Designing for the Web
+
+- In Class
+  - Discussion: What is "user experience"? What is a "user"? How do you design an "interaction"?
+  - Building information architecture and site mapping, hands-on
+- Homework
+  - Work on Midterm website site maps: start designing your information architecture and brainstorming content ideas
+  - Reading: Donald Norman, _The Design of Everyday Things_, [Chapter 6: The Design Challenge & Chapter 7: User-Centered Design]()
+
 ### September 9, 2021
+
+Interface, Prototyping, and Wireframing
+
+- In Class
+  - Discussion: What is an interface? And User-Centered Design
+  - Intro to User Experience
+  - Adobe XD Demo
+- Exercise (TBD)
+
+## Unit II: Intro to Client-Side Vanilla JavaScript
 
 ### September 14, 2021
 
-###
+Javascript Ia: What is JavaScript? Where to JavaScript?
+
+- In Class
+  - JavaScript and the browser
+  - JavaScript and HTML/CSS
+  - JavaScript helps modify DOM elements
+- Homework
+  - Reading: MDN Docs, [JavaScript First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps) and _Eloquent JavaScript_, [Chapter 1: Values, Types, and Operators]()
+  - Exercise
+
+### September 16, 2021
+
+**Assignment 1: Sitemap and Wireframes Due**
+
+Javascript Ib: Variables, Declaring Variables, Types, Statements
+
+- In Class
+  - Demo on Variables, declarations, types, statements
+- Homework
+  - Reading: _Eloquent Javascript_, [Chapter 2: Program Structure]()
+  - Exercise
+
+### September 21, 2021
+
+### September 23, 2021
+
+### September 28, 2021
+
+### September 30, 2021
