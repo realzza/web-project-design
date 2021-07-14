@@ -11,7 +11,7 @@ Development environment setup, the browser as a context, HTML/CSS Review, Layout
 ### Tutorials for Reference & Exercise
 
 - [HTML Essential Training](https://www.linkedin.com/learning-login/share?account=77842946&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fhtml-essential-training-4%3Ftrk%3Dshare_ent_url%26shareId%3DyIoZwS%252FpTtWIO%252BQmQa4fBg%253D%253D)
-- [CSS Essential Training]()
+- [CSS Essential Training](https://www.linkedin.com/learning-login/share?account=77842946&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fcss-essential-training-3%3Ftrk%3Dshare_ent_url%26shareId%3Dimqyx%252Bp1QzWp1fAezqLChg%253D%253D)
 - [W3 Schools HTML/CSS](https://www.w3schools.com/html/default.asp)
 
 ### August 24, 2021
