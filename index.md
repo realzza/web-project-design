@@ -25,15 +25,18 @@ If I could pick another title for this course I would have called it **Super-Use
     - [Filezilla](https://filezilla-project.org/), a free FTP client for uploading/downloading content from a web server
     - Google Chrome or Firefox with Developer tools
     - [Cisco AnyConnect](https://oit.duke.edu/what-we-do/services/vpn), the Duke VPN software for logging into the Duke CIFS servers remotely
+    - Adobe XD - this is available through the Duke Adobe Cloud
 - Computer / Server Set-up
   - For the most part, we will be using the Duke CIFS server space to serve static web content. [Set up your CIFS space with these instructions](./FTPLogin.md).
   - We will also be making extended use of the Terminal Application (Mac), or the Windows Command Prompt (PC). This is a way of navigating files (and doing a bunch of other things) in your computer by text command, without the graphical user interface (GUI). In a way, Terminal is it's own GUI, with text input instead of mousing around and clicking on icons. We will spend some time in class getting used to Terminal/Command Prompt, but to start you may want to check out these guides.
     - On PC use [this guide](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/) for Command Line
     - On Mac use [this guide](https://www.makeuseof.com/tag/beginners-guide-mac-terminal/) for Terminal
 - User Accouts. This course involves some 3rd-party platforms for hosting our content on the web and hooking into APIs (Application Programming Interfaces). You should go ahead now and sign up for user accounts on the following if you do not have them already.
-  - [Github](https://github.com/). Github is a version control platform that also does other things, and hey, it's what this website is hosted on! (secret: you can make a pretty decent website without writing one line of HTML/CSS or JS in Github pages). I'll post all of the demo files from class on Git in the [main branch of this repository](https://github.com/maximusrex/web-project-design).  
-    -You might also find the [Github desktop](https://desktop.github.com/) a helpful way to upload and keep track of files on Git so you don't have to do it in the Command Line.
+  - [Github](https://github.com/). Github is a version control platform that also does other things, and hey, it's what this website is hosted on! (secret: you can make a pretty decent website without writing one line of HTML/CSS or JS in Github pages). I'll post all of the demo files from class on Git in the [main branch of this repository](https://github.com/maximusrex/web-project-design).
+    - You might also find the [Github desktop](https://desktop.github.com/) a helpful way to upload and keep track of files on Git so you don't have to do it in the Command Line.
     - LinkedIn Learning offers a good [github tutorial]() for practice getting used to the interface. I'll be using it a lot in demo as well.
+  - [Google/Google Analytics](https://analytics.google.com/). Analytics allows you a simple tool to plant a tiny bit of code in your website so it can be tracked. We'll set this up in the first week or two.
+  - [Twitter](https://twitter.com) This one isn't necessary, but the Twitter API is easy to use and a rich source of information. We'll be looking at libraries and tools that allow you to pull data from twitter and post it / do things with it.
 
 ### Assignments and Exercises
 
