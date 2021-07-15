@@ -73,7 +73,8 @@ Interface, Prototyping, and Wireframing
   - Discussion: What is an interface? And User-Centered Design
   - Intro to User Experience
   - Adobe XD Demo
-- Exercise (TBD)
+- Homework
+  - Exercise: Pick either an app or website you use daily, use it, and reflect on that experience. For example, open the text app on your phone and text a friend. Or, open an e-commerce site you use, browse for something you like, and add it to your shopping cart. Or, make a post on a social media website. As you're completing this discrete task, take some moments to reflect on your experience and write down your observations. What is the experience like? What steps did you have to take to achieve the result? (be detailed!) What elements of the interface did you most engage with? Were these legible? And how? How did you know how to complete the task you set for yourself? Think about layout, icons, input fields, input methods, etc. What elements of the experience, if any, gave you trouble? Why?
 
 ## Unit II: Intro to Client-Side Vanilla JavaScript
 
@@ -96,15 +97,103 @@ Javascript Ia: What is JavaScript? Where to JavaScript?
 Javascript Ib: Variables, Declaring Variables, Types, Statements
 
 - In Class
-  - Demo on Variables, declarations, types, statements
+  - Variables
+  - Declaring Variables
+  - Data Types
+  - Operators
 - Homework
   - Reading: _Eloquent Javascript_, [Chapter 2: Program Structure]()
   - Exercise
 
 ### September 21, 2021
 
+JavaScript Ic: Functions, Loops, and Conditionals
+
+- In Class
+  - Functions, Defining Functions, invoking Functions
+  - Local Variables
+  - Invoking functions with Events
+- Homework
+  - Reading: _Eloquent JavaScript_, [Chapter 3: Functions]()
+  - Exercise
+
 ### September 23, 2021
+
+JavaScript Id: Arrays, Iterating Arrays
+
+- In Class
+  - Arrays
+  - Arrays are objects (and more)
+  - Array Methods
+  - Array Iteration with forEach() and map()
+- Homework
+  - Reading: _Eloquent JavaScript_, [Chapter 4: Data Structures: Objects and Arrays]()
 
 ### September 28, 2021
 
+JavaScript Ie: Objects, Attributes, Methods, and JSON (JavaScript Object Notation)
+
+- In Class
+  - Objects
+  - Object Attributes
+  - Methods
+  - JavaScript Object Notation for data
+
+## Unit III: Make it Easier: Libraries and Client-Side APIs
+
 ### September 30, 2021
+
+**Midterm Website Project Due**
+
+Javascript IIa: APIs
+
+- In Class
+  - Into to APIs
+  - The Browser API
+  - Libraries, Frameworks, Third-Party APIs
+- Homework
+  - Read: MDN Docs, [Client Side Web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs)
+  - Over break: research JavaScript libraries, frameworks, and APIs for use in your final projects over break. Try to implement a test of one of these.
+
+### October 5, 2021 **Fall Break, No Class**
+
+### October 7, 2021
+
+JavaScript IIb: JQuery / JQuery UI to simplify DOM interaction
+
+- In Class
+  - Report back: JavaScript Libraries
+  - Intro to JQuery for DOM
+- Homework
+  - JQuery Exercise
+
+### October 12, 2021
+
+Javascript IIc: Interactive Canvas with P5.js Library
+
+- In Class
+  - Intro to p5.js
+  - p5.js canvas
+  - P5.js beyond the canvas - libraries, plugins, helpers
+- Homework
+  - Prep for Oct 14th Class: Install [Homebrew](https://brew.sh/) (on Mac), which is a helpful package installer for Mac and Linux, and/or follow the installation guides for Node.js [on Mac](https://treehouse.github.io/installation-guides/mac/node-mac.html) or [on a Windows PC](https://treehouse.github.io/installation-guides/windows/node-windows.html). On Mac, you will need Homebrew as a helper to install node.js, on PC you will not.
+  - The above requires that you use the Command Line Interface on your PC. If you don't have much experience with the command line outside of this course, you might want to check out [A Beginner's Guide to Using the Mac Termina](https://www.makeuseof.com/tag/beginners-guide-mac-terminal/) or [A Beginner's Guide to the Windows Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/)
+
+## Unit IV: JavaScript Stack: Mongo DB, Express, React, and Node for Full Stack Development (MERN)
+
+### October 14, 2021
+
+Intro to Node / NPM
+
+- In Class
+  -
+
+### October 19, 2021
+
+### October 21, 2021
+
+### October 26, 2021
+
+### October 28, 2021
+
+### November 2, 2021
