@@ -183,17 +183,58 @@ Javascript IIc: Interactive Canvas with P5.js Library
 
 ### October 14, 2021
 
-Intro to Node / NPM
+CLI Basics, Intro to Node
 
 - In Class
-  -
+  - Command Line Basics: naviagting around, mkdir, touch, sudo
+  - What is node?
+  - Finishing node installation
+  - Setting up a project, npm init, package.json
+- Homework: TBD
 
 ### October 19, 2021
 
+Node Express Server
+
+- In Class
+  - Add express, requiring dependencies
+  - Simple express server
+  - Serve static files
+  - Intro to Routes
+- Homework: TBD
+
 ### October 21, 2021
+
+Node/Express - Routes with Parameters
 
 ### October 26, 2021
 
+Node/Express, adding React for component-based UI
+
 ### October 28, 2021
 
+React II
+
 ### November 2, 2021
+
+**Final Project Proposal and Wireframe Due**
+
+### November 4, 2021
+
+### November 9, 2021
+
+### November 11, 2021
+
+### November 16, 2021
+
+### November 18, 2021
+
+### November 23, 2021
+
+### November 30, 2021
+
+### December 2, 2021
+
+**Final Project Working Draft Presentation**
+
+**Final Project Due on Scheduled Exam Day**
