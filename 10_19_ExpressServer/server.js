@@ -13,6 +13,15 @@ app.use(express.static("public"));
 //and you can use routes to serve things back when the user requests
 //the first parameter is the path localhost:3000/example, and the second is a callback function to handle the request and response
 app.get("/example", (req, res) => {
-  console.log(req);
+  //console.log(req);
   res.send("This is an example of a route at /example!");
 });
+
+//or make this something that changes every time
+app.get("/:userRoute", sendRoute);
+
+function sendRoute(req, res) {
+  var data = req.params;
+  console.log(data);
+  res.send(`You entered ${data.userRoute}`);
+}
