@@ -194,7 +194,7 @@ CLI Basics, Intro to Node
 
 ### October 19, 2021
 
-Node Express Server
+Node Express http Server
 
 - In Class
   - Add express, requiring dependencies
@@ -205,33 +205,49 @@ Node Express Server
 
 ### October 21, 2021
 
-Node/Express - Routes with Parameters
+Node/Express - Routes with Parameters, REST
 
 ### October 26, 2021
 
-Node/Express, adding React for component-based UI
+Node/Express - Data from an API
 
 ### October 28, 2021
 
-React II
+Adding to the Stack - Intro to MongoDB Cloud
 
 ### November 2, 2021
+
+MongoDB Queries
 
 **Final Project Proposal and Wireframe Due**
 
 ### November 4, 2021
 
+Adding UI - Intro to Server-Side Templating, View Engines, React
+
 ### November 9, 2021
+
+React II
 
 ### November 11, 2021
 
+Deploying - Heroku
+
 ### November 16, 2021
+
+Open for JS Library/Framework of your choosing
 
 ### November 18, 2021
 
+Open for JS Library/Framework of your choosing
+
 ### November 23, 2021
 
+Final Project Workshop
+
 ### November 30, 2021
+
+Final Project Workshop
 
 ### December 2, 2021
 
