@@ -2,6 +2,8 @@
 
 ### ISS 241 / VMS 257 / ISS/CMAC 741
 
+| [Schedule](./schedule.md) | [Resources](./resources.md) | [Assignments](./assignments.md) |
+
 # Schedule
 
 ## Unit I: Designing For the Web
