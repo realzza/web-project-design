@@ -6,7 +6,7 @@ Fall 2021, ISS 241 / VMS 257 / ISS/CMAC 741
 
 # Resources
 
-    <div class="w3-container">
+<div class="w3-container">
       <div class="header">
         <h1>Resources for VMS 257 / ISS 241</h1>
         <div class="nav">
@@ -34,7 +34,7 @@ Fall 2021, ISS 241 / VMS 257 / ISS/CMAC 741
         </p>
       </div>
       <div id="resources-table"></div>
-    </div>
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="js/papaparse.js"></script>
-    <script src="js/resources.js"></script>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+<script src="js/papaparse.js"></script>
+<script src="js/resources.js"></script>
