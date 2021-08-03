@@ -1,7 +1,7 @@
-# Web Project Design and Development
+##Web Project Design and Development
 
-### ISS 241 / VMS 257 / ISS/CMAC 741
+Fall 2021, ISS 241 / VMS 257 / ISS/CMAC 741
+
+| [Home](./) | [Resources](./resources.md) | [Schedule](./schedule.md) |
 
 # Assignments
-
-| [Schedule](./schedule.md) | [Resources](./resources.html) |
