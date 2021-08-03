@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VMS 257 / ISS 241: resources-table</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+    <link rel="stylesheet" href="styles/resources-style.css" />
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/papaparse.js"></script>
+  </head>
+  <body>
+    <div class="w3-container">
+      <div class="header">
+        <h1>Resources for VMS 257 / ISS 241</h1>
+        <div class="nav">
+          <a href="index.md">Home</a> | <a href="schedule.md">Schedule</a> |
+          <a href="assignments.md">Assignments</a>
+        </div>
+        <p>
+          Below You'll find a number of resources for everything covered in this
+          course from setting up your development environment to final project
+          ideas and building single-page apps in React
+        </p>
+        <p>
+          The links below are color-coded by subject:
+          <span class="JavaScript">JavaScript</span>,
+          <span class="JS-Libraries">JavaScript Libraries</span>,
+          <span class="Wireframing">Wireframing Tools</span>,
+          <span class="Design">Design</span>,
+          <span class="Development-Environment"
+            >Setting up a Development Environment</span
+          >, <span class="Node-JS">Node.JS and Related Tools</span>,
+          <span class="React">Learning React</span>,
+          <span class="Project-Ideas">ideas for final projects</span>,
+          <span class="Deploy">Tips and Tools for Deploying</span>,
+          <span class="MongoDB">Mongo DB</span>, and info on
+          <span class="CSS">CSS</span> and <span class="HTML">HTML</span>.
+        </p>
+      </div>
+      <div id="resources-table"></div>
+    </div>
+    <!--end .w3-container-->
+
+    <script>
+      getResources();
+
+      async function getResources() {
+        response = await fetch("data/student-resources.csv");
+        const data = await response.text();
+        const jsonData = Papa.parse(data).data.slice(1);
+        console.log(jsonData);
+        var dataContainer = document.getElementById("resources-table");
+        var ul = document.createElement("ul");
+        dataContainer.appendChild(ul);
+        jsonData.forEach((item) => {
+          var li = document.createElement("li");
+          li.classList.add(item[2]);
+          li.classList.add("w3-card-2");
+          var link = document.createElement("a");
+          link.href = item[3];
+          link.innerHTML = item[0];
+          var div = document.createElement("div");
+          div.innerHTML = item[1];
+          link.appendChild(div);
+          li.appendChild(link);
+          ul.appendChild(li);
+        });
+      }
+    </script>
+  </body>
+</html>

@@ -4,4 +4,4 @@
 
 # Assignments
 
-| [Schedule](./schedule.md) | [Resources](./resources.md) |
+| [Schedule](./schedule.md) | [Resources](./resources.html) |

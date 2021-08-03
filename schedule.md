@@ -2,7 +2,7 @@
 
 ### ISS 241 / VMS 257 / ISS/CMAC 741
 
-| [Resources](./resources.md) | [Assignments](./assignments.md) |
+| [Resources](./resources.html) | [Assignments](./assignments.md) |
 
 # Schedule
 
@@ -29,6 +29,7 @@ Welcome, Overview, PC Setup
   - Re-Introduction to the browser as a development tool
 - Homework
   - Finish environment setup: install Visual Studio Code, Filezilla, Cisco Anyconnect, and practice with the Chrome or Firefox developer console (crtl+click->inspect or cmd + shift + C or View-->Developer-->Developer Tools) and inspect some web pages
+  - See the [FTP Login Page](./FTPLogin.md) for details on how to connect an FTP uploading tool to add files to your CIFS server space
   - Reading for Thursday: Tim Berners-Lee, [A One-page Personal History of the Web](https://www.w3.org/People/Berners-Lee/ShortHistory.html)
 
 ### August 26, 2021

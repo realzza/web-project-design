@@ -2,7 +2,7 @@
 
 Fall 2021, ISS 241 / VMS 257 / ISS/CMAC 741
 
-| [Schedule](./schedule.md) | [Resources](./resources.md) | [Assignments](./assignments.md) |
+| [Schedule](./schedule.md) | [Resources](./resources.html) | [Assignments](./assignments.md) |
 
 This course covers the design and development of user-centered and interactive projects for the web using HTML, CSS, and JavaScript. It builds on the material introduced in _Fundamentals of Web-Based Multimedia Communications_, and students should have prior experience with HTML/CSS.
 
