@@ -3,23 +3,23 @@
 
 @import "{{ site.theme }}";
 
-.resources-list ul {
+ul.resources-list {
   list-style-type: none;
 }
 
-.resources-list ul li {
+ul.resources-list li {
   margin: 1em auto;
   max-width: 80%;
   padding: 1em 2em;
 }
 
-.resources-list ul li a {
+ul.resources-list li a {
   text-decoration: none;
   display: block;
   font-weight: bold;
 }
 
-.resources-list ul li a:hover {
+ul.resources-list li a:hover {
   text-decoration: underline;
 }
 
