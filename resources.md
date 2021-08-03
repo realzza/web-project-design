@@ -39,6 +39,7 @@ Fall 2021, ISS 241 / VMS 257 / ISS/CMAC 741
   console.log(jsonData);
   var dataContainer = document.getElementById("resources-table");
   var ul = document.createElement("ul");
+  ul.classlist.add('resources-list');
   dataContainer.appendChild(ul);
   jsonData.forEach((item) => {
     var li = document.createElement("li");
