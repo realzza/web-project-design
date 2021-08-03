@@ -1,1 +1,108 @@
-@import "./resources-style.css";
+---
+---
+
+@import "{{ site.theme }}";
+
+.header {
+  margin: 1.2em auto;
+  max-width: 80%;
+}
+
+.header h1 {
+  text-align: center;
+}
+
+.header p {
+  margin: 1em auto;
+  width: 90%;
+}
+
+.nav {
+  width: 80%;
+  margin: 1em auto;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+}
+
+ul li {
+  margin: 1em auto;
+  max-width: 80%;
+  padding: 1em 2em;
+}
+
+ul li a {
+  text-decoration: none;
+  display: block;
+  font-weight: bold;
+}
+
+ul li a:hover {
+  text-decoration: underline;
+}
+
+.JavaScript {
+  color: #f72585;
+  background-color: #f725848a;
+}
+
+.JS-Libraries {
+  color: #b5179e;
+  background-color: #b5179d7a;
+}
+.Wireframing {
+  color: #7209b7;
+  background-color: #7109b785;
+}
+
+.Design {
+  color: #560bad;
+  background-color: #570bad8a;
+}
+
+.Development-Environment {
+  color: #480ca8;
+  background-color: #480ca883;
+}
+
+.Node-JS {
+  color: #3a0ca3;
+  background-color: #390ca37c;
+}
+
+.APIs-Data {
+  color: #3f37c9;
+  background-color: #3e37c980;
+}
+
+.React {
+  color: #4361ee;
+  background-color: #4362ee81;
+}
+
+.Project-Ideas {
+  color: #4895ef;
+  background-color: #4896ef69;
+}
+
+.Deploy {
+  color: #04a57a;
+  background-color: #06d69e8a;
+}
+
+.MongoDB {
+  color: #4cc9f0;
+  background-color: #4ccaf077;
+}
+
+.CSS {
+  color: rgb(47, 47, 48);
+  background-color: rgba(47, 47, 48, 0.486);
+}
+
+.HTML {
+  color: rgb(47, 47, 48);
+  background-color: rgba(47, 47, 48, 0.486);
+}
