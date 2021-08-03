@@ -1,6 +1,3 @@
-<head>
-  <link rel="stylesheet" href="/styles/resources-style.css">
-</head>
 ## Welcome to Web Project Design and Development
 
 Fall 2021, ISS 241 / VMS 257 / ISS/CMAC 741
