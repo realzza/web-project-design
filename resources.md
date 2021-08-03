@@ -1,16 +1,11 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>VMS 257 / ISS 241: resources-table</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link rel="stylesheet" href="styles/resources-style.css" />
-    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
-    <script src="js/papaparse.js"></script>
-    <script src="js/resources.js"></script>
-  </head>
-  <body>
+## Welcome to Web Project Design and Development
+
+Fall 2021, ISS 241 / VMS 257 / ISS/CMAC 741
+
+| [Home](./) | [Schedule](./scjedule.md) | [Assignments](./assignments.md) |
+
+# Resources
+
     <div class="w3-container">
       <div class="header">
         <h1>Resources for VMS 257 / ISS 241</h1>
@@ -40,6 +35,6 @@
       </div>
       <div id="resources-table"></div>
     </div>
-
-  </body>
-</html>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src="js/papaparse.js"></script>
+    <script src="js/resources.js"></script>
