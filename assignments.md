@@ -35,6 +35,7 @@ Fall 2021, ISS 241 / VMS 257 / ISS/CMAC 741
 
 3. Sitemap, Wireframes, and Midterm Website Proposal
    **Due September 16, 2021**
+   This is your time to start planning the site you want to build for the midterm project. This could be a personal website, a site presenting a project you've done, or an MVP (minimum viable prototype) for your final project.
 
    In the end, the midterm website will have at least
 
