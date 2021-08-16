@@ -41,7 +41,7 @@ HTML/CSS Review I
   - HTML/CSS Review: creating files, html syntax, structuring content, file structure, linking, posting to the server, styling, css typography, Google fonts, embedding multimedia
 - Homework
   - Post index.html in your public_html folder. This is your "home page" where you'll be posting content and links to content from time to time. You may style and structure this page as you wish. For this first assignment please have at least one div, a paragraph tag, and a header tag.
-  - Take a piece of writing from another class - this should be no more than a few pages, and create an html file with this text as the content. Use paragraph tags and heading tags to structure this content, and perhaps bold and italics. Think about the size of the fonts, font-face, and readability. Link to this html file from your index page and post it in your public_html folder.
+  - [Assignment 1](./assignments.md): Take a piece of writing from another class - this should be no more than a few pages, and create an html file with this text as the content. Use paragraph tags and heading tags to structure this content, and perhaps bold and italics. Think about the size of the fonts, font-face, and readability. Link to this html file from your index page and post it in your public_html folder.
   - Reading (and reference):
     - [We are all Typographers, Ch. 1+2]()
     - MDN Docs: [Structuring the Web with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML), [Learning to Style with CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
@@ -50,16 +50,21 @@ HTML/CSS Review I
 
 HTML/CSS Review II
 
+**Assignment 1 Due**
+
 - In Class
   - CSS Layout: spacing, position, flexbox, grid - CSS Media Queries, Responsive Design - HTML/CSS Validation
 - Homework
-  - Take the tools we learned in class for spacing, position, and responsive design and revise the layout of both index.html and the html file containing your text
+  - Take the tools we learned in class for spacing, position, and responsive design and revise the layout of index.html.
+  - [Assignment 2](./assignments.md): Take the .html page you created in assignment 1 and add a grid layout. Use what we've learned in class about spacing, padding, margins, and grids to apply layout and position to this content. See Assignments page for more details.
   - Reading (and reference): [Layout Essentials, "Getting Started"]()
   - Reading: Janet Murray, _Inventing The Medium_, [Introduction: A Cultural Approach to Interaction Design & Ch. 1: Design in an Evolving Medium]()
 
 ### September 7, 2021
 
 Design Thinking / Designing for the Web
+
+**Assignment 2 Due**
 
 - In Class
   - Discussion: What is "user experience"? What is a "user"? How do you design an "interaction"?
@@ -78,6 +83,7 @@ Interface, Prototyping, and Wireframing
   - Adobe XD Demo
 - Homework
   - Exercise: Pick either an app or website you use daily, use it, and reflect on that experience. For example, open the text app on your phone and text a friend. Or, open an e-commerce site you use, browse for something you like, and add it to your shopping cart. Or, make a post on a social media website. As you're completing this discrete task, take some moments to reflect on your experience and write down your observations. What is the experience like? What steps did you have to take to achieve the result? (be detailed!) What elements of the interface did you most engage with? Were these legible? And how? How did you know how to complete the task you set for yourself? Think about layout, icons, input fields, input methods, etc. What elements of the experience, if any, gave you trouble? Why?
+  - Start [Assignment 3: Sitemap, Wireframes, and Midterm Website Proposal](./assignments.md), due Sept. 16.
 
 ## Unit II: Intro to Client-Side Vanilla JavaScript
 
@@ -95,7 +101,7 @@ Javascript Ia: What is JavaScript? Where to JavaScript?
 
 ### September 16, 2021
 
-**Assignment 1: Sitemap and Wireframes Due**
+**Assignment 3: Sitemap and Wireframes Due**
 
 Javascript Ib: Variables, Declaring Variables, Types, Statements
 
