@@ -2,3 +2,5 @@ theme: jekyll-theme-minimal
 
 title: Web Project Design and Development
 description: Fall 2021 - Course Website
+
+site_favicon: favicon.ico
