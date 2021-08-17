@@ -35,7 +35,7 @@ a. apply a grid layout to the essay you styled for the previous assignment. You 
 or
 b. create a pure html-css layout experiment. You can use the grid to compose with color, work with layering with opacity, z-index, and absolute positioning, or try to reproduce a layout from any website you like. Remember to credit your sources.
 
-## Sitemap, Wireframes, and Midterm Website Proposal
+## Assignment 3: Sitemap, Wireframes, and Midterm Website Proposal
 
 **Due September 16, 2021**
 This is your time to start planning the site you want to build for the midterm project. This could be a personal website, a site presenting a project you've done, or an MVP (minimum viable prototype) for your final project.
@@ -97,6 +97,8 @@ Write up a brief on each one, with links, explaining its main uses and post this
 ## Assignment 8: Final Project Proposal and Wireframes
 
 **Due Nov 2**
+
+TBA, but this will follow the basic format of the midterm proposal.
 
 ## Final Project - JavaScript enabled App or Interactive website Due on the Scheduled Exam Date for this Class
 
