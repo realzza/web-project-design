@@ -58,29 +58,30 @@ Fall 2021, ISS 241 / VMS 257 / ISS/CMAC 741
      - I encourage you to search the web for more examples. Try googling "javascript" and the thing you want to do like "dropdown menu" or "change background image"
 
 4. ## Assignment 4: Design Iteration
+
    **Be ready to discuss in class on September 23**
    For this assignment you're going to iterate through the wireframes and design ideas from your proposal and start adding real content. At this point, you should be moving from dummy content and lorem ipsum to real images and text and planning out a "style guide" for your site. What is your color palette? What fonts will you use for heading and text? What images and other media will you use? How will you position these elements?
 
-You can work directly in CSS/HTML and/or work from wireframes
+   You can work directly in CSS/HTML and/or work from wireframes
 
-The deliverable for this assignment is a 1-page writeup showing your fonts, colors, and an image of your wireframe iterations in a .html file.
+   The deliverable for this assignment is a 1-page writeup showing your fonts, colors, and an image of your wireframe iterations in a .html file.
 
-At this point, you should also be building out your site in HTML/CSS.
+   At this point, you should also be building out your site in HTML/CSS.
 
 5. ## Assignment 5: Midterm Website
 
-**Due online (posted to/as your main website at people.duke.edu) Sept. 30**
+   **Due online (posted to/as your main website at people.duke.edu) Sept. 30**
 
-The midterm website can be either a website of your conception and creation: a personal site, a site displaying a project, an "experimental artwork" delivered via website, or a site architecture and design for a js-enabled application you plan on building in the second part of the class. The point of this assignment is to get you quickly building and working with real content on the web.
+   The midterm website can be either a website of your conception and creation: a personal site, a site displaying a project, an "experimental artwork" delivered via website, or a site architecture and design for a js-enabled application you plan on building in the second part of the class. The point of this assignment is to get you quickly building and working with real content on the web.
 
-Your completed midterm site should have:
+   Your completed midterm site should have:
 
-- (at least) 5 html web pages and one or more CSS files, and
-  - CSS Typography and spacing
-  - CSS grid/flexbox or framework based layout (e.g. bootstrap or w3.css)
-  - at least 1-2 CSS3 [transitions](https://www.w3schools.com/css/css3_transitions.asp)or [animations](https://www.w3schools.com/css/css3_animations.asp). (See also: [This CSS3 cheatsheet](https://www.kirupa.com/html5/css_transitions_cheatsheet.htm)).
-  - 3-4 Embedded media (images, video, sound, iframe) - have as many as you'd like but be aware of your image resolution and size!
-  - at least 2 elements styled or rendered dynamically using vanilla JavaScript (no libraries or frameworks, not even jquery).
+   - (at least) 5 html web pages and one or more CSS files, and
+     - CSS Typography and spacing
+     - CSS grid/flexbox or framework based layout (e.g. bootstrap or w3.css)
+     - at least 1-2 CSS3 [transitions](https://www.w3schools.com/css/css3_transitions.asp)or [animations](https://www.w3schools.com/css/css3_animations.asp). (See also: [This CSS3 cheatsheet](https://www.kirupa.com/html5/css_transitions_cheatsheet.htm)).
+     - 3-4 Embedded media (images, video, sound, iframe) - have as many as you'd like but be aware of your image resolution and size!
+     - at least 2 elements styled or rendered dynamically using vanilla JavaScript (no libraries or frameworks, not even jquery).
 
 6. ## Assignment 6: Library & Plugin Research
 
