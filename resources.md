@@ -7,48 +7,83 @@
    course from setting up your development environment to final project
    ideas and building single-page apps in React
   </p>
-  <p>
-    The links below are color-coded by subject:
-    <span class="JavaScript">JavaScript</span>,
-    <span class="JS-Libraries">JavaScript Libraries</span>,
-    <span class="Wireframing">Wireframing Tools</span>,
-    <span class="Design">Design</span>,
-    <span class="Development-Environment">Setting up a Development Environment</span>, 
-    <span class="Node-JS">Node.JS and Related Tools</span>,
-    <span class="React">Learning React</span>,
-    <span class="Project-Ideas">ideas for final projects</span>,
-    <span class="Deploy">Tips and Tools for Deploying</span>,
-    <span class="MongoDB">Mongo DB</span>, and info on
-    <span class="CSS">CSS</span> and <span class="HTML">HTML</span>.
-  </p>
-
-<div id="resources-table"></div>
+  <div class="resources">
+    <div class="resource-list" id="JavaScript"></div>
+    <div class="resource-list" id="JS-Libraries"></div>
+    <div class="resource-list" id="Wireframing"></div>
+    <div class="resource-list" id="Design"></div>
+    <div class="resource-list" id="Development-Environment"></div>
+    <div class="resource-list" id="Node-JS"></div>
+    <div class="resource-list" id="React"></div>
+    <div class="resource-list" id="Project-Ideas"></div>
+    <div class="resource-list" id="Deploy"></div>
+    <div class="resource-list" id="MongoDB"></div>
+    <div class="resource-list" id="css-html"></div>
+</div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 <script src="js/papaparse.js"></script>
 <script>
   getResources();
   async function getResources() {
+    //get resources List
   response = await fetch("data/student-resources.csv");
   const data = await response.text();
   const jsonData = Papa.parse(data).data.slice(1);
   console.log(jsonData);
-  var dataContainer = document.getElementById("resources-table");
-  var ul = document.createElement("ul");
-  ul.classList.add("resources-list");
-  dataContainer.appendChild(ul);
+  //for each data item
   jsonData.forEach((item) => {
-    var li = document.createElement("li");
-    li.classList.add(item[2]);
-    li.classList.add("w3-card-2");
+    //make a div
+    var div = document.createElement("div");
+    //add a class to that div
+    div.classList.add("resource-item");
+    var p = document.createElement("p");
+    p.innerHTML = item[1];
+    var resourceKind = item[2];
+    console.log(resourceKind);
+    div.classList.add("resource-link");
     var link = document.createElement("a");
     link.href = item[3];
     link.innerHTML = item[0];
-    var div = document.createElement("div");
-    div.innerHTML = item[1];
-    link.appendChild(div);
-    li.appendChild(link);
-    ul.appendChild(li);
+    div.appendChild(a);
+    div.appendChild(p);
+    if(resourceKind=="JavaScript") {
+      var anchor = document.getElementById("JavaScript");
+      anchor.appendChild(div);
+    } else if (resourceKind=="JS-Libraries") {
+      var anchor = document.getElementById("JS-Libraries");
+      anchor.appendChild(div);
+    } else if (resourceKind=="Wireframing") {
+      var anchor = document.getElementById("Wireframing");
+      anchor.appendChild(div);
+    } else if (resourceKind=="Design") {
+      var anchor = document.getElementById("Design");
+      anchor.appendChild(div);
+    } else if (resourceKind=="Development-Environment") {
+      var anchor = document.getElementById("Development-Environment");
+      anchor.appendChild(div);
+    } else if (resourceKind=="Node-JS") {
+      var anchor = document.getElementById("Node-JS");
+      anchor.appendChild(div);
+    } else if (resourceKind=="React") {
+      var anchor = document.getElementById("React");
+      anchor.appendChild(div);
+    } else if (resourceKind=="Project-Ideas") {
+      var anchor = document.getElementById("Project-Ideas");
+      anchor.appendChild(div);
+    } else if (resourceKind=="Deploy") {
+      var anchor = document.getElementById("Deploy");
+      anchor.appendChild(div);
+    } else if (resourceKind=="MongoDB") {
+      var anchor = document.getElementById("MongoDB");
+      anchor.appendChild(div);
+    } else if (resourceKind=="css-html") {
+      var anchor = document.getElementById("css-html");
+      anchor.appendChild(div);
+    } else {
+      console.log("error, your resource name could not be found");
+    }
+  
   });
 }
 </script>
