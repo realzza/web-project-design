@@ -10,6 +10,8 @@
   <div class="resources">
     <div class="resource-list" id="css-html">
       <p>CSS/HTML Reference</p></div>
+    <div class="resource-list" id="Development-Environment">
+      <p>Setting up your Development Environment</p></div>
     <div class="resource-list" id="JavaScript">
       <p>JavasScript</p></div>
     <div class="resource-list" id="JS-Libraries">
@@ -18,8 +20,6 @@
      <p>Wireframing</p></div>
     <div class="resource-list" id="Design">
       <p>Design</p></div>
-    <div class="resource-list" id="Development-Environment">
-      <p>Setting up your Development Environment</p></div>
     <div class="resource-list" id="Node-JS">
       <p>Node JS Resources</p></div>
     <div class="resource-list" id="React">
