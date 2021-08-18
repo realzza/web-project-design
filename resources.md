@@ -6,7 +6,7 @@ Here you'll find a number of resources and tutorials for topics covered in this 
 
 In general, always remember to [Google first](http://www.google.com). You'll probably also come across results from [Stack Overflow](https://stackoverflow.com/), a very popular Q&A platform for developers. These results are often helpful and contain bits of useful example code.
 
-You may also want to bookmark [W3 Schools](https://www.w3schools.com/), which is a great reference for HTML, CSS, and JavaScript with tutorials and in-browser "try it yourself" editing. The [MDN Web Docs](https://developer.mozilla.org/en-US/) produced by Mozilla are another excellent source for documentation of several web technologies and text-based guides and tutorials.
+You may also want to bookmark [W3 Schools](https://www.w3schools.com/), which is a great reference for HTML, CSS, and JavaScript with tutorials and in-browser "try it yourself" editing. The [MDN Web Docs](https://developer.mozilla.org/en-US/) produced by Mozilla are another excellent source for documentation of several web technologies with text-based guides and tutorials.
 
   <div class="resources">
     <div class="resource-list" id="css-html">
