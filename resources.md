@@ -8,17 +8,28 @@
    ideas and building single-page apps in React
   </p>
   <div class="resources">
-    <div class="resource-list" id="JavaScript"></div>
-    <div class="resource-list" id="JS-Libraries"></div>
-    <div class="resource-list" id="Wireframing"></div>
-    <div class="resource-list" id="Design"></div>
-    <div class="resource-list" id="Development-Environment"></div>
-    <div class="resource-list" id="Node-JS"></div>
-    <div class="resource-list" id="React"></div>
-    <div class="resource-list" id="Project-Ideas"></div>
-    <div class="resource-list" id="Deploy"></div>
-    <div class="resource-list" id="MongoDB"></div>
-    <div class="resource-list" id="css-html"></div>
+    <div class="resource-list" id="css-html">
+      <p>CSS/HTML Reference</p></div>
+    <div class="resource-list" id="JavaScript">
+      <p>JavasScript</p></div>
+    <div class="resource-list" id="JS-Libraries">
+      <p>JS Libraries</p></div>
+    <div class="resource-list" id="Wireframing">
+     <p>Wireframing</p></div>
+    <div class="resource-list" id="Design">
+      <p>Design</p></div>
+    <div class="resource-list" id="Development-Environment">
+      <p>Setting up your Development Environment</p></div>
+    <div class="resource-list" id="Node-JS">
+      <p>Node JS Resources</p></div>
+    <div class="resource-list" id="React">
+      <p>Tutorials and Reference for React</p></div>
+    <div class="resource-list" id="Project-Ideas">
+      <p>Project Ideas</p></div>
+    <div class="resource-list" id="Deploy">
+      <p>Deploy</p></div>
+    <div class="resource-list" id="MongoDB">
+      <p>Mongo DB</p></div>
 </div>
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
