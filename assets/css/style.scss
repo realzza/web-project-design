@@ -16,9 +16,21 @@
 }
 
 .resource-item {
-  font-size: 12px;
   padding: 10px;
+  margin: 4px;
   border: 1px solid #000;
+}
+
+.resource-item a {
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.resource-item a:hover {
+  text-decoration: underline;
+}
+.resource-item p {
+  font-size: 12px;
 }
 
 .JavaScript {
