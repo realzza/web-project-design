@@ -2,11 +2,12 @@
 
 # Resources
 
-  <p>
-   Below You'll find a number of resources for everything covered in this
-   course from setting up your development environment to final project
-   ideas and building single-page apps in React
-  </p>
+Here you'll find a number of resources and tutorials for topics covered in this course from HTML/CSS reference and review to deploying full stack apps to the web. The internet is full of great resources for learning how to code in any language, but especially web-based markup and the languages and utilities that the modern web is built upon.
+
+In general, always remember to [Google first](http://www.google.com). You'll probably also come across results from [Stack Overflow](https://stackoverflow.com/), a very popular Q&A platform for developers. These results are often helpful and contain bits of useful example code.
+
+You may also want to bookmark [W3 Schools](https://www.w3schools.com/), which is a great reference for HTML, CSS, and JavaScript with tutorials and in-browser "try it yourself" editing. The [MDN Web Docs](https://developer.mozilla.org/en-US/) produced by Mozilla are another excellent source for documentation of several web technologies and text-based guides and tutorials.
+
   <div class="resources">
     <div class="resource-list" id="css-html">
       <p>CSS/HTML Reference</p></div>
