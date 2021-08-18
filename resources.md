@@ -45,7 +45,7 @@
     var link = document.createElement("a");
     link.href = item[3];
     link.innerHTML = item[0];
-    div.appendChild(a);
+    div.appendChild(link);
     div.appendChild(p);
     if(resourceKind=="JavaScript") {
       var anchor = document.getElementById("JavaScript");
