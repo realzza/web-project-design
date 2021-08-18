@@ -1,4 +1,4 @@
-| [Home](./) | [Schedule](./schedule.md) | [Assignments](./assignments.md) |
+| [Home](./) | [Schedule](./schedule.md) | [Assignments](./assignments.md) | **[Resources](./resources.md)**|
 
 # Resources
 

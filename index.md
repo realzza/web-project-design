@@ -1,4 +1,4 @@
-| [Schedule](./schedule.md) | [Resources](./resources.html) | [Assignments](./assignments.md) |
+|**[Home](./)** | [Schedule](./schedule.md) | [Assignments](./assignments.md)| [Resources](./resources.html) |
 
 ### Welcome to Web Project Design and Development
 
