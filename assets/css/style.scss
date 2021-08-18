@@ -7,9 +7,16 @@
 }
 
 .resource-list {
+  text-align: center;
+}
+
+.resource-list p {
+  font-weight: bold;
+  font-size: 16px;
 }
 
 .resource-item {
+  font-size: 12px;
   padding: 10px;
   border: 1px solid #000;
 }

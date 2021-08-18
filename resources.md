@@ -52,8 +52,8 @@
     p.innerHTML = item[1];
     var resourceKind = item[2];
     console.log(resourceKind);
-    div.classList.add("resource-link");
     var link = document.createElement("a");
+    link.classList.add("resource-link");
     link.href = item[3];
     link.innerHTML = item[0];
     div.appendChild(link);
