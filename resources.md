@@ -88,7 +88,7 @@
     } else if (resourceKind=="MongoDB") {
       var anchor = document.getElementById("MongoDB");
       anchor.appendChild(div);
-    } else if (resourceKind=="css-html") {
+    } else if (resourceKind=="CSS") {
       var anchor = document.getElementById("css-html");
       anchor.appendChild(div);
     } else {
