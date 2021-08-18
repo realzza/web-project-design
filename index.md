@@ -42,8 +42,8 @@ If I could pick another title for this course I would have called it **Super-Use
 
 ### Assignments and Exercises
 
-This class includes readings, a few technical assignments, exercises with brief written responses, and some sketching/wireframing/and mockup work. In addition, you will be required to build two completed projects: a midterm website where you will also post content throughout the class, and a final project. We will be developing together through the course, and many of your homework assignments will involve sketching and building out components of these digital artifacts.
+This class includes readings, a few technical assignments for which you'll be asked to write styled html web pages and JavaScript, exercises with brief written responses, and some sketching/wireframing/and mockup work. In addition, you will be required to build two completed projects: a midterm website where you will also post content throughout the class, and a final project. We will be developing together through the course, and many of your homework assignments will involve sketching and building out components of these digital artifacts.
 
-You will be expected to deliver work on time and correctly linked (when posting to the web).
+You will submit the majority of your assignments to your Duke CIFS server space, which we will spend some time setting up in the first class (if you have not already done so). You will be expected to maintain your Duke CIFS space, or a directory within it, populated with correctly linked .html web pages and links to your completed assignments. Later in the course, we'll learn a few more deployment methods for full-stack applications.
 
 You can find detailed descriptions on the [assignments](./assignments.md) page.
