@@ -30,6 +30,8 @@ Welcome, Overview, PC Setup
   - See the [FTP Login Page](./FTPLogin.md) for details on how to connect an FTP uploading tool to add files to your CIFS server space
   - Reading for Thursday: Tim Berners-Lee, [A One-page Personal History of the Web](https://www.w3.org/People/Berners-Lee/ShortHistory.html)
 
+---
+
 ### August 26, 2021
 
 HTML/CSS Review I
@@ -43,6 +45,8 @@ HTML/CSS Review I
   - Reading (and reference):
     - [We are all Typographers, Ch. 1+2]()
     - MDN Docs: [Structuring the Web with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML), [Learning to Style with CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+
+---
 
 ### September 2, 2021
 
@@ -58,6 +62,8 @@ HTML/CSS Review II
   - Reading (and reference): [Layout Essentials, "Getting Started"]()
   - Reading: Janet Murray, _Inventing The Medium_, [Introduction: A Cultural Approach to Interaction Design & Ch. 1: Design in an Evolving Medium]()
 
+---
+
 ### September 7, 2021
 
 Design Thinking / Designing for the Web
@@ -71,6 +77,8 @@ Design Thinking / Designing for the Web
   - Work on Midterm website site maps: start designing your information architecture and brainstorming content ideas
   - Reading: Donald Norman, _The Design of Everyday Things_, [Chapter 6: The Design Challenge & Chapter 7: User-Centered Design]()
 
+---
+
 ### September 9, 2021
 
 Interface, Prototyping, and Wireframing
@@ -82,6 +90,8 @@ Interface, Prototyping, and Wireframing
 - Homework
   - Exercise: Pick either an app or website you use daily, use it, and reflect on that experience. For example, open the text app on your phone and text a friend. Or, open an e-commerce site you use, browse for something you like, and add it to your shopping cart. Or, make a post on a social media website. As you're completing this discrete task, take some moments to reflect on your experience and write down your observations. What is the experience like? What steps did you have to take to achieve the result? (be detailed!) What elements of the interface did you most engage with? Were these legible? And how? How did you know how to complete the task you set for yourself? Think about layout, icons, input fields, input methods, etc. What elements of the experience, if any, gave you trouble? Why?
   - Start [Assignment 3: Sitemap, Wireframes, and Midterm Website Proposal](./assignments.md), due Sept. 16.
+
+---
 
 ## Unit II: Intro to Client-Side Vanilla JavaScript
 
@@ -96,6 +106,8 @@ Javascript Ia: What is JavaScript? Where to JavaScript?
 - Homework
   - Reading: MDN Docs, [JavaScript First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps) and _Eloquent JavaScript_, [Chapter 1: Values, Types, and Operators]()
   - Exercise
+
+---
 
 ### September 16, 2021
 
@@ -112,6 +124,8 @@ Javascript Ib: Variables, Declaring Variables, Types, Statements
   - Reading: _Eloquent Javascript_, [Chapter 2: Program Structure]()
   - Exercise
 
+---
+
 ### September 21, 2021
 
 JavaScript Ic: Functions, Loops, and Conditionals
@@ -124,6 +138,8 @@ JavaScript Ic: Functions, Loops, and Conditionals
   - Reading: _Eloquent JavaScript_, [Chapter 3: Functions]()
   - Exercise
 
+---
+
 ### September 23, 2021
 
 JavaScript Id: Arrays, Iterating Arrays
@@ -135,6 +151,8 @@ JavaScript Id: Arrays, Iterating Arrays
   - Array Iteration with forEach() and map()
 - Homework
   - Reading: _Eloquent JavaScript_, [Chapter 4: Data Structures: Objects and Arrays]()
+
+---
 
 ### September 28, 2021
 
@@ -164,7 +182,11 @@ Javascript IIa: APIs
   - Read: MDN Docs, [Client Side Web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs)
   - Over break: research JavaScript libraries, frameworks, and APIs for use in your final projects over break. Try to implement a test of one of these.
 
+---
+
 ### October 5, 2021 **Fall Break, No Class**
+
+---
 
 ### October 7, 2021
 
@@ -175,6 +197,8 @@ JavaScript IIb: JQuery / JQuery UI to simplify DOM interaction
   - Intro to JQuery for DOM
 - Homework
   - JQuery Exercise
+
+---
 
 ### October 12, 2021
 
@@ -187,6 +211,8 @@ Javascript IIc: Interactive Canvas with P5.js Library
 - Homework
   - Prep for Oct 14th Class: Install [Homebrew](https://brew.sh/) (on Mac), which is a helpful package installer for Mac and Linux, and/or follow the installation guides for Node.js [on Mac](https://treehouse.github.io/installation-guides/mac/node-mac.html) or [on a Windows PC](https://treehouse.github.io/installation-guides/windows/node-windows.html). On Mac, you will need Homebrew as a helper to install node.js, on PC you will not.
   - The above requires that you use the Command Line Interface on your PC. If you don't have much experience with the command line outside of this course, you might want to check out [A Beginner's Guide to Using the Mac Termina](https://www.makeuseof.com/tag/beginners-guide-mac-terminal/) or [A Beginner's Guide to the Windows Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/)
+
+---
 
 ## Unit IV: JavaScript Stack: Mongo DB, Express, React, and Node for Full Stack Development (MERN)
 
@@ -201,6 +227,8 @@ CLI Basics, Intro to Node
   - Setting up a project, npm init, package.json
 - Homework: TBD
 
+---
+
 ### October 19, 2021
 
 Node Express http Server
@@ -212,17 +240,25 @@ Node Express http Server
   - Intro to Routes
 - Homework: TBD
 
+---
+
 ### October 21, 2021
 
 Node/Express - Routes with Parameters, REST
+
+---
 
 ### October 26, 2021
 
 Node/Express - Data from an API
 
+---
+
 ### October 28, 2021
 
 Adding to the Stack - Intro to MongoDB Cloud
+
+---
 
 ### November 2, 2021
 
@@ -230,33 +266,49 @@ MongoDB Queries
 
 **Final Project Proposal and Wireframe Due**
 
+---
+
 ### November 4, 2021
 
 Adding UI - Intro to Server-Side Templating, View Engines, React
+
+---
 
 ### November 9, 2021
 
 React II
 
+---
+
 ### November 11, 2021
 
 Deploying - Heroku
+
+---
 
 ### November 16, 2021
 
 Open for JS Library/Framework of your choosing
 
+---
+
 ### November 18, 2021
 
 Open for JS Library/Framework of your choosing
+
+---
 
 ### November 23, 2021
 
 Final Project Workshop
 
+---
+
 ### November 30, 2021
 
 Final Project Workshop
+
+---
 
 ### December 2, 2021
 
