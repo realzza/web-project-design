@@ -144,7 +144,7 @@ JavaScript Ie: Objects, Attributes, Methods... and the DOM
   - Methods
   - the DOM (Document Object Model)
 - Homework
-  - Reading/Exercise: [Tania Rascia, "Intriduction to the DOM](https://www.taniarascia.com/introduction-to-the-dom/)
+  - Reading/Exercise: [Tania Rascia, "Introduction to the DOM](https://www.taniarascia.com/introduction-to-the-dom/)
 
 ## Unit III: Make it Easier: Libraries and Client-Side APIs
 
