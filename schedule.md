@@ -2,6 +2,8 @@
 
 # Schedule
 
+_Schedule will be updated over the course of the semester_
+
 ## Unit I: Designing For the Web
 
 Development environment setup, the browser as a context, HTML/CSS Review, Layout and Design Basics, Tips & Tricks & Frameworks
