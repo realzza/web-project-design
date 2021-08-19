@@ -136,13 +136,15 @@ JavaScript Id: Arrays, Iterating Arrays
 
 ### September 28, 2021
 
-JavaScript Ie: Objects, Attributes, Methods, and JSON (JavaScript Object Notation)
+JavaScript Ie: Objects, Attributes, Methods... and the DOM
 
 - In Class
   - Objects
   - Object Attributes
   - Methods
-  - JavaScript Object Notation for data
+  - the DOM (Document Object Model)
+- Homework
+  - Reading/Exercise: [Tania Rascia, "Intriduction to the DOM](https://www.taniarascia.com/introduction-to-the-dom/)
 
 ## Unit III: Make it Easier: Libraries and Client-Side APIs
 
