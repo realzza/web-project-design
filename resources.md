@@ -89,7 +89,7 @@ You may also want to bookmark [W3 Schools](https://www.w3schools.com/), which is
     } else if (resourceKind=="MongoDB") {
       var anchor = document.getElementById("MongoDB");
       anchor.appendChild(div);
-    } else if (resourceKind=="CSS") {
+    } else if (resourceKind=="css-html") {
       var anchor = document.getElementById("css-html");
       anchor.appendChild(div);
     } else {
