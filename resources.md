@@ -49,16 +49,25 @@ You may also want to bookmark [W3 Schools](https://www.w3schools.com/), which is
     var div = document.createElement("div");
     //add a class to that div
     div.classList.add("resource-item");
+    //create a p element
     var p = document.createElement("p");
+    //add the description to that p element
     p.innerHTML = item[1];
+    //get the tag and put it in a var called "resourceKind"
     var resourceKind = item[2];
-    console.log(resourceKind);
+    //console.log(resourceKind);
+    //create an a element
     var link = document.createElement("a");
     link.classList.add("resource-link");
+    //make the href of the link the 4th elem in array
     link.href = item[3];
+    //text for the the link with the first element
     link.innerHTML = item[0];
+    //appdend these to the div
     div.appendChild(link);
     div.appendChild(p);
+    //now test and source by contents of the resourceKind variable to append Links 
+    //to the right place in the page
     if(resourceKind=="JavaScript") {
       var anchor = document.getElementById("JavaScript");
       anchor.appendChild(div);
