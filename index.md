@@ -4,6 +4,12 @@
 
 Fall 2021, ISS 241 / VMS 257 / ISS/CMAC 741
 
+### Instructor and Office Hours
+
+**Instructor**: Max Symuleski, Ph.D. (CMAC @ Duke, 2021)
+**Contact**: max.symuleski@duke.edu
+Office hours by appointment, please email.
+
 ### Overview
 
 This course covers the design and development of user-centered and interactive projects for the web using HTML, CSS, and JavaScript. It builds on the material introduced in _Fundamentals of Web-Based Multimedia Communications_, and students should have prior experience with HTML/CSS.
@@ -16,7 +22,9 @@ The first secret of coding for the web is that you can teach yourself how to cod
 
 This is also a course in _visual and media studies_ so we will be engaging in critical looking and critical making. Technical exercises for learning and building with HTML/CSS and JavaScript will be supplemented by readings on user-centered design and critical technical practice. You'll be asked to notice the designed world around you in many exercises and activities, both on the web and off, and engage in constructive analysis and criticism of your own and your colleagues' designs in the classroom.
 
-If I could pick another title for this course I would have called it **Super-User**. Ultimately, it is designed to provide you with the skills to be a critical consumer and producer of web-based technologies and inspire you to keep building.
+While we will be taking snippets and other code from the web and using it in our own projects, you will be expected to keep track of what you borrow and take ownership over your own work. If you find a substantial amount of code elsewhere to integrate into your own work, unchanged, please cite your sources. You will be held to the Duke Code of Conduct for plagiarism.
+
+Finally, if I could pick another title for this course I would have called it [Super-User](https://en.wikipedia.org/wiki/Superuser) because of the ways in which you will be re-oriented to your computer and software you have probably used daily, at a higher level. Ultimately, this course is designed to provide you with the skills to be a critical consumer and producer of web-based technologies and inspire you to keep building.
 
 ### Requirements
 
