@@ -1,4 +1,4 @@
-﻿Name,Description,Tags,url
+﻿Name,Description,Tag,url
 What is JavaScript? - Learn web development | MDN,JavaScript Docs,JavaScript,https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps/What_is_JavaScript
 Introduction to client-side frameworks - Learn web development | MDN,MDN into to client-side frameworks (like React),JavaScript,https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/Introduction
 Getting started with React - Learn web development | MDN,MDN Intro to React,JavaScript,https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started
@@ -18,7 +18,7 @@ Building RESTful APIs using Express and Node with MongoDB Atlas | Buddy,"A good 
 Express - Node.js web application framework,Express is a web application framework for Node.js.  We'll use express to run server instances,Node-JS,https://expressjs.com/
 Introduction to Node and Express | Daniel Shiffman,Dan Shiffman's introduction tutorials for Node and Express,Node-JS,https://shiffman.net/a2z/server-node/
 The Always-recent Guide to Creating Your Own Full-stack JavaScript Development Environment for Nodejs and Reactjs,"A guide to building a react app with Node, Express, Webpack and Babel from the ground up without create-react-app",Node-JS,https://jscomplete.com/learn/1rd-reactful
-5 day weather forecast - OpenWeatherMap,Open Weather Map provides a data API for weather data,APIs-Data,https://openweathermap.org/forecast5
+5 day weather forecast - OpenWeatherMap,Open Weather Map provides a data API for weather data,Project-Ideas,https://openweathermap.org/forecast5
 Building a Text-Based Adventure in Vue.js,A guide to building a text-based adventure with Vue.js,Project-Ideas,https://www.raymondcamden.com/2018/02/14/building-a-text-based-adventure-in-vuejs/
 Gherciu/react-p5: 🎨 This Component lets you integrate p5 Sketches into your React App.,A tool/library for constructing p5 components in React Apps,Project-Ideas,https://github.com/Gherciu/react-p5
 Getting Started – React,React's guide to getting started with React,React,https://reactjs.org/docs/getting-started.html
@@ -31,24 +31,31 @@ How to Create a React Application and Deploy It on GitHub Pages | Pluralsight,Ho
 ColorSpace - Color Palettes Generator and Color Gradient Tool,Colorspace is a color palette generator,Design,https://mycolor.space/?hex=%2331454D&sub=1
 React Icons,An icons library for react,React,https://react-icons.github.io/react-icons/
 gitname/react-gh-pages: Deploying a React App (created using create-react-app) to GitHub Pages,Another guide to deploying a react app on Github Pages,Deploy,https://github.com/gitname/react-gh-pages
-public-apis/public-apis: A collective list of free APIs,A list of publicly available APIs collectively created on Github,APIs-Data,https://github.com/public-apis/public-apis
-Google Public Data Explorer,Google guide to public data,APIs-Data,https://www.google.com/publicdata/directory
+public-apis/public-apis: A collective list of free APIs,A list of publicly available APIs collectively created on Github,Project-Ideas,https://github.com/public-apis/public-apis
+Google Public Data Explorer,Google guide to public data,Project-Ideas,https://www.google.com/publicdata/directory
 Home | Joey Lee | Creative Technologist,"Joey Lee is a creative coder who works primarily in JavaScript.  He is a lead developer on ml5.js, the machine learning JavaScript library",Project-Ideas,https://jk-lee.com/
 Understanding Component-Based Architecture | by dshaps | Medium,React is a component-based framework for single page app development.  This article explains what that means.,React,https://medium.com/@dan.shapiro1210/understanding-component-based-architecture-3ff48ec0c238
 React for Beginners – A React.js Handbook for Front End Developers,A React handbook and tutorial for beginners,React,https://www.freecodecamp.org/news/react-beginner-handbook/
 Build a Web App with React — Glitch Blog,A beginner's guide for building a single page web app with React,React,https://www.taniarascia.com/getting-started-with-react/?utm_source=coursereport&utm_medium=blogpost
 React Tutorial: An Overview and Walkthrough | Tania Rascia,A text-based tutorial introduction to React,React,https://www.taniarascia.com/getting-started-with-react/?utm_source=coursereport&utm_medium=blogpost
 10+ Best JavaScript Animation Libraries to Use in 2021,This is a list of good JavaScript libraries for animating things,JS-Libraries,https://www.codeinwp.com/blog/best-javascript-animation-libraries/
-Working with Data and APIs in JavaScript - YouTube,Dan Shiffman YouTube tutorials,APIs-Data,https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X
+Working with Data and APIs in JavaScript - YouTube,Dan Shiffman YouTube tutorials,Project-Ideas,https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X
 Beginners Guide to Machine Learning in JavaScript - Dan Shiffman / Youtube,Dan Shiffman on machine learning with ml5.js,Project-Ideas,https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y
 Treehouse Installation Guides,Guides for installing Node.js and NPM on Mac and Windows,Node-JS,http://treehouse.github.io/installation-guides/
 How to quickly deploy React and Node app on AWS | by Abhinav Dhasmana | Medium,Deploy React/Node app on AWS,Deploy,https://adhasmana.medium.com/how-to-quickly-deploy-react-and-node-app-on-aws-80e5dfe7d86e
 10 ways to deploy a React app for free - LogRocket Blog,A guide to deploying a React App for free through a number of services including Github Pages and Netlify,Deploy,https://blog.logrocket.com/8-ways-to-deploy-a-react-app-for-free/
 Visual Studio Code - Download,Visual Studio Code is the text editor we will be using throughout this course,Development-Environment,https://code.visualstudio.com/
-"Bootstrap · The most popular HTML, CSS, and JS library in the world.",Bootstrap is a widely used front-end development grid framework for responsive design.,CSS,https://getbootstrap.com/
-W3.CSS Home,W3.css is a css grid and style framework and alternative to bootstrap,CSS,https://www.w3schools.com/w3css/defaulT.asp
-"css: Online Courses, Training and Tutorials on LinkedIn Learning",CSS tutorials on LinkedIn Learning,CSS,https://www.linkedin.com/learning/search?keywords=css&u=77842946
+"Bootstrap · The most popular HTML, CSS, and JS library in the world.",Bootstrap is a widely used front-end development grid framework for responsive design.,css-html,https://getbootstrap.com/
+W3.CSS Home,W3.css is a css grid and style framework and alternative to bootstrap,css-html,https://www.w3schools.com/w3css/defaulT.asp
+"css: Online Courses, Training and Tutorials on LinkedIn Learning",CSS tutorials on LinkedIn Learning,css-html,https://www.linkedin.com/learning/search?keywords=css&u=77842946
 A Complete Guide to Grid | CSS-Tricks,A complete guide to CSS Grid for layout and positioning,Design,https://css-tricks.com/snippets/css/complete-guide-grid/
 A Complete Guide to Flexbox | CSS-Tricks,A great visual guide to CSS Flexbox for layout and positioning,Design,https://css-tricks.com/snippets/css/a-guide-to-flexbox/
-What is HTML?,LinkedIn Learning HTML tutorial,HTML,https://www.linkedin.com/learning/html-essential-training-4/what-is-html?u=77842946
+What is HTML?,LinkedIn Learning HTML tutorial,css-html,https://www.linkedin.com/learning/html-essential-training-4/what-is-html?u=77842946
 React Tutorial: Learn React JS - Free 4-Hour Course,"A well-respected, free React tutorial with it's own internal editor for following along.  Requires email sign up.",React,https://scrimba.com/learn/learnreact?utm_source=coursereport&utm_medium=blogpost
+16: Topics of JavaScript/ES6-ES8 - p5.js Tutorial - YouTube,Dan Shiffman's video tutorials on various topics in JavaScript / ES6,JavaScript,https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YgpA3Oht-7B4NBQwFVe3pr
+Building Interactive Websites with JavaScript: JavaScript and the DOM Cheatsheet | Codecademy,A JavaScript DOM cheatsheet from Codecademy,JavaScript,https://www.codecademy.com/learn/fscp-building-interactive-websites-with-javascript/modules/fecp-javascript-and-the-dom/cheatsheet
+Josh Comeau's Tutorials,"Josh Comeau is a developer and his blog has tons of great articles on CSS, React, and other development topics",css-html,https://www.joshwcomeau.com/tutorials/
+An introduction to d3.js in 10 basic examples,An intro tutorial for d3.js. D3 is a JavaScript library for making interactive charts and graphs from data.,JS-Libraries,https://www.d3-graph-gallery.com/intro_d3js.html
+Intro | Learn JavaScript,A JavaScript tutorial with in-page editing / exercises,JavaScript,https://learnjavascript.online/app.html
+MongoDB: A Beginner’s Guide. Learn how to combine the power of… | by Bret Cameron | Medium,,MongoDB,
+Figma,Figma is an online wireframing and design tool,Wireframing,http://www.figma.com
