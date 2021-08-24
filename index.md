@@ -7,7 +7,9 @@ Fall 2021, ISS 241 / VMS 257 / ISS/CMAC 741
 ### Instructor and Office Hours
 
 **Instructor**: Max Symuleski, Ph.D. (CMAC @ Duke, 2021)
+
 **Contact**: max.symuleski@duke.edu
+
 Office hours by appointment, please email.
 
 ### Overview
