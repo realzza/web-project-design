@@ -58,13 +58,16 @@ HTML/CSS Review II
 **Assignment 1 Due**
 
 - In Class
-  - CSS Layout: spacing, position, flexbox, grid(s) and frameworks for layout, validation
+  - CSS Layout: spacing, position, flexbox, grid(s) and frameworks for layout, responsive layout, embedding images, image-backgrounds, overlaying elements and z-index
+  - HTML/CSS Validation and checking your work
 - Homework
-  - [Assignment 2](./assignments.md/#assignment-2-apply-a-grid-layout-to-your-content): Take the .html page you created in assignment 1 and add some kind of layout - you may use one of the grid systems we discussed in class, or a layout of your own. Think about your content and how you might break it up and give it space on the page using grid elements or flex and/or padding, margins, absolute and relative positioning, and floats. You may use some of the helper css explored in class.
+  - [Assignment 2](./assignments.md/#assignment-2-apply-a-grid-layout-to-your-content): Add grid or other layout to your content.
   - Reading (and reference):
     - [Beth Tondreau, Layout Essentials: 100 Design Principles for Using Grids, "Getting Started"](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/Tondreau_LayoutEss_GettingStarted.pdf)
     - [Interaction Design Foundation, "The Grid System: Building a Solid Design" Layout](https://www.interaction-design.org/literature/article/the-grid-system-building-a-solid-design-layout)
   - Some Sample Grid Systems and Frameworks with Grids
+    - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) isn't a grid system, but it is a way of laying out, aligning, and spacing elements in a container, even if the size of the container changes by altering their width, height and order to best fit the available space, so is an easy way to incorporate responsive design
+    - CSS Grid Layout is native to CSS. It can allow you to make either a row/column grid system, but also allows for many other systems and overlapping elements. See the [MDN Docs on CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) and [CSS-Tricks: A complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
     - [W3.css](https://www.w3schools.com/w3css/w3css_grid.asp), a css framework with grid system by W3 Schools
     - [Bootstrap](https://getbootstrap.com/) is a very popular css framework that includes a grid layout system, as well as many other UI elements
     - [Dead Simple Grid](http://mourner.github.io/dead-simple-grid/) a lightweight css grid system that only has two main classes: row and col

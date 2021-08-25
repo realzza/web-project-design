@@ -28,26 +28,33 @@ Add a link to this file from the index.html file we created in class (your home 
 
 **Due September 7, 2021**
 Using the techniques discussed in class for layout (grid, flexbox, and css frameworks) and either:
-a. apply a grid layout to the essay you styled for the previous assignment. You can do this on one page, or across multiple pages. Consider how you might want to position embedded images, videos, or other content.
-or
-b. create a pure html-css layout experiment. You can use the grid to compose with color, work with layering with opacity, z-index, and absolute positioning, or try to reproduce a layout from any website you like. Remember to credit your sources.
+
+- Option A: Take the .html page you created in assignment 1 and add some kind of layout - you may use one of the grid systems we discussed in class, or a layout of your own. Think about your content and how you might break it up and give it space on the page using grid elements or flex and/or padding, margins, absolute and relative positioning, and floats. You may break this into multiple pages.
+  **or**
+- Option B: perform a "grid experiment" in html/css. Use flexobox, one of the grid systems discussed in class, and/ or size and position elements manually to create a creative or aesthetic exploration of the grid. Use background-color or embedded images and/or video to make a composition of adjacent cells. You may also experiment with opacity and overlapping with positioning using z-index.
+
+Post your .html file to your web space and create a link to it on your landing page.
 <br />
 <br />
 
 ## Assignment 3: Sitemap, Wireframes, and Midterm Website Proposal
 
 **Due September 16, 2021**
-This is your time to start planning the site you want to build for the midterm project. This could be a personal website, a site presenting a project you've done, or an MVP (minimum viable prototype) for your final project.
+This is your time to start planning the site you want to build for the midterm project. This could be a personal website, a site presenting a project you've done, or an early demo of the possible pages or elements in your final project.
 
-Wireframes: For this first part of the assignment you need to map out the basic concept and information architecture (how any subfolders, pages, or contents are related to one another) and basic wireframe sketches for your page designs. At this point, think about basic and general questions like: where does the navigation go? What does this menu link to? Is everything on one page.
+Wireframes: For this first part of the assignment you need to map out the basic concept and information architecture (how any subfolders, pages, or contents are related to one another) and basic wireframe sketches for your page designs. At this point, think about basic and general questions like: where does the navigation go? What pages or sections does the navigation link to? What goes on each page? And, generally, how is this laid out? Sketch your wireframes out by hand or in one of the tools discussed in class, and either capture a digital image or save these as an image file. Finally, draw, map, or outline your folder/file structure for the project.
 
 Proposal: Please explain in a paragraph or two the basic point of your site, whether it's a basic personal website, a site to display a project, a standalone web art work, or a design for a future web app. Explain the flow of the information architecture you mapped out in your provisional wireframes, and describe the user interactions you imagine on the site. How do you get around the site? Are there any text input fields? Buttons to click? Links to follow? Etc.
 
-In the end, the midterm website will have
+Write this proposal up as a .html file, embed your wireframe images. You can add your file/folder structure as images or an unordered list (ul with li's). Make sure to add structure (headings, paragraphs), layout, and design to this proposal. Upload your finished version to your web space, and link to it from your class landing page.
+
+### Helpful Guidelines
+
+Though you do not need to attend to all of these details now, in the end, the midterm website should have:
 
 - (at least) 5 html web pages and one or more CSS files
 - CSS Typography and spacing
-- CSS grid/flexbox or framework based layout (e.g. bootstrap or w3.css)
+- CSS grid/flexbox or framework based layout (e.g. bootstrap or w3.css), or a grid of your own creation
 - at least 1-2 CSS3 [transitions](https://www.w3schools.com/css/css3_transitions.asp)or [animations](https://www.w3schools.com/css/css3_animations.asp). (See also: [This CSS3 cheatsheet](https://www.kirupa.com/html5/css_transitions_cheatsheet.htm)).
 - 3-4 Embedded media (images, video, sound, iframe) - have as many as you'd like but be aware of your image resolution and size!
 - at least 2 elements styled or rendered dynamically using vanilla JavaScript (no libraries or frameworks, not even jquery). These can be simple. For example:
