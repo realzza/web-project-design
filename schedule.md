@@ -38,14 +38,16 @@ HTML/CSS Review I
 
 - In Class
   - PC Setup troubleshooting
-  - HTML/CSS Review: creating files, html syntax, structuring content, file structure, linking, posting to the server, styling, css typography, Google fonts, embedding multimedia
+  - HTML/CSS Review: creating files, html syntax, structuring content, file structure, linking, styling text and typography, responsive design & media queries
 - Homework
-  - Post index.html in your public_html folder. This is your "home page" where you'll be posting content and links to content from time to time. You may style and structure this page as you wish.
+  - Post an index.html in your public_html folder if you don't already have one there. This is your "home page" where you'll be posting content and links to content from time to time. You may style and structure this page as you wish.
     **Please make sure this page has clear navigation and links to any relevant class content, like the following assignment:**
   - [Assignment 1](./assignments.md/#assignment-1-format-an-essay-or-article): Take a piece of writing from another class - this should be no more than a few pages, and create an html file with this text as the content. Use paragraph tags and heading tags to structure this content and style it with CSS. Think about the elements of readability, structure, and context, as discussed in class and in the reading. Post this .html file to your CIFS server space, and link to it from your index.html page.
   - Reading (and reference):
     - [We are all Typographers, Ch. 1+2](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/Rutter_WebTypography_Ch1-2.pdf)
-    - For reference: MDN Docs: [Structuring the Web with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML), [Learning to Style with CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+    - For reference - MDN Docs:
+      - [Structuring the Web with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+      - [Learning to Style with CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
 
 ---
 
@@ -56,12 +58,17 @@ HTML/CSS Review II
 **Assignment 1 Due**
 
 - In Class
-  - CSS Layout: spacing, position, flexbox, grid - CSS Media Queries, Responsive Design - HTML/CSS Validation
+  - CSS Layout: spacing, position, flexbox, grid(s) and frameworks for layout, validation
 - Homework
-  - Take the tools we learned in class for spacing, position, and responsive design and revise the layout of index.html.
-  - [Assignment 2](./assignments.md): Take the .html page you created in assignment 1 and add a grid layout. Use what we've learned in class about spacing, padding, margins, and grids to apply layout and position to this content. See Assignments page for more details.
-  - Reading (and reference): [Layout Essentials, "Getting Started"]()
-  - Reading: Janet Murray, _Inventing The Medium_, [Introduction: A Cultural Approach to Interaction Design & Ch. 1: Design in an Evolving Medium]()
+  - [Assignment 2](./assignments.md/#assignment-2-apply-a-grid-layout-to-your-content): Take the .html page you created in assignment 1 and add some kind of layout - you may use one of the grid systems we discussed in class, or a layout of your own. Think about your content and how you might break it up and give it space on the page using grid elements or flex and/or padding, margins, absolute and relative positioning, and floats. You may use some of the helper css explored in class.
+  - Reading (and reference):
+    - [Beth Tondreau, Layout Essentials: 100 Design Principles for Using Grids, "Getting Started"](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/Tondreau_LayoutEss_GettingStarted.pdf)
+    - [Interaction Design Foundation, "The Grid System: Building a Solid Design" Layout](https://www.interaction-design.org/literature/article/the-grid-system-building-a-solid-design-layout)
+  - Some Sample Grid Systems and Frameworks with Grids
+    - [W3.css](https://www.w3schools.com/w3css/w3css_grid.asp), a css framework with grid system by W3 Schools
+    - [Bootstrap](https://getbootstrap.com/) is a very popular css framework that includes a grid layout system, as well as many other UI elements
+    - [Dead Simple Grid](http://mourner.github.io/dead-simple-grid/) a lightweight css grid system that only has two main classes: row and col
+    - [Skeleton](http://getskeleton.com/#intro) Another simple grid system that uses easy to read class names like "container", "row" and "two columns" or "five columns"
 
 ---
 
