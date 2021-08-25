@@ -40,11 +40,12 @@ HTML/CSS Review I
   - PC Setup troubleshooting
   - HTML/CSS Review: creating files, html syntax, structuring content, file structure, linking, posting to the server, styling, css typography, Google fonts, embedding multimedia
 - Homework
-  - Post index.html in your public_html folder. This is your "home page" where you'll be posting content and links to content from time to time. You may style and structure this page as you wish. For this first assignment please have at least one div, a paragraph tag, and a header tag.
-  - [Assignment 1](./assignments.md): Take a piece of writing from another class - this should be no more than a few pages, and create an html file with this text as the content. Use paragraph tags and heading tags to structure this content, and perhaps bold and italics. Think about the size of the fonts, font-face, and readability. Link to this html file from your index page and post it in your public_html folder.
+  - Post index.html in your public_html folder. This is your "home page" where you'll be posting content and links to content from time to time. You may style and structure this page as you wish.
+    **Please make sure this page has clear navigation and links to any relevant class content, like the following assignment:**
+  - [Assignment 1](./assignments.md/#assignment-1-format-an-essay-or-article): Take a piece of writing from another class - this should be no more than a few pages, and create an html file with this text as the content. Use paragraph tags and heading tags to structure this content and style it with CSS. Think about the elements of readability, structure, and context, as discussed in class and in the reading. Post this .html file to your CIFS server space, and link to it from your index.html page.
   - Reading (and reference):
-    - [We are all Typographers, Ch. 1+2]()
-    - MDN Docs: [Structuring the Web with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML), [Learning to Style with CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+    - [We are all Typographers, Ch. 1+2](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/Rutter_WebTypography_Ch1-2.pdf)
+    - For reference: MDN Docs: [Structuring the Web with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML), [Learning to Style with CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
 
 ---
 
