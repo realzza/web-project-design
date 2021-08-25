@@ -5,7 +5,7 @@
 ## Assignment 1: Format an Essay or Article
 
 **Due September 2, 2021**
-Take a piece of writing you have done in the past. It may be a poem, blog post, or essay, around 1,000-1,500 words. Format and structure this content using HTML tags, and style it with CSS for readability and aesthetics.
+Take a piece of writing you have done in the past. It may be a poem, blog post, or essay, around 1,000-1,500 words. Format and structure this content using HTML tags, and style it with CSS for structure, readability, and style, keeping in mind the content, tone, and reader context(s), as discussed in the _Web Typography_ reading.
 
 Feel free to add images or other multimedia content, but make sure to consider how you want to position these elements with text.
 
@@ -13,15 +13,16 @@ If you're not comfortable sharing your own writing, you may excerpt writing you 
 
 Things you should consider
 
-- Font(s)
-- Font size and style
+- Semantic hierarchy and structure, separating relevant content into divs, p's, h's, li's, etc.
+- Font style and size
 - Colors, background-color and contrast
 - Line height
 - Layout and width on the page
 - Alignment
-- Semantic hierarchy with headers, paragraphs, and lists
 
 Add a link to this file from the index.html file we created in class (your home page) and upload it (along with any necessary .css files) to your CIFS server space.
+<br />
+<br />
 
 ## Assignment 2: Apply a Grid Layout to Your Content
 
@@ -30,6 +31,8 @@ Using the techniques discussed in class for layout (grid, flexbox, and css frame
 a. apply a grid layout to the essay you styled for the previous assignment. You can do this on one page, or across multiple pages. Consider how you might want to position embedded images, videos, or other content.
 or
 b. create a pure html-css layout experiment. You can use the grid to compose with color, work with layering with opacity, z-index, and absolute positioning, or try to reproduce a layout from any website you like. Remember to credit your sources.
+<br />
+<br />
 
 ## Assignment 3: Sitemap, Wireframes, and Midterm Website Proposal
 
@@ -52,6 +55,8 @@ In the end, the midterm website will have
   - use Javascript to change an element's CSS definitions
   - Or something like [a clickable dropdown](https://www.w3schools.com/howto/howto_js_dropdown.asp)
   - I encourage you to search the web for more examples. Try googling "javascript" and the thing you want to do like "dropdown menu" or "change background image"
+    <br />
+    <br />
 
 ## Assignment 4: Design Iteration
 
@@ -63,6 +68,8 @@ You can work directly in CSS/HTML and/or work from wireframes
 The deliverable for this assignment is a 1-page writeup showing your fonts, colors, and an image of your wireframe iterations in a .html file.
 
 At this point, you should also be building out your site in HTML/CSS.
+<br />
+<br />
 
 ## Assignment 5: Midterm Website
 
@@ -78,6 +85,8 @@ Your completed midterm site should have:
   - at least 1-2 CSS3 [transitions](https://www.w3schools.com/css/css3_transitions.asp)or [animations](https://www.w3schools.com/css/css3_animations.asp). (See also: [This CSS3 cheatsheet](https://www.kirupa.com/html5/css_transitions_cheatsheet.htm)).
   - 3-4 Embedded media (images, video, sound, iframe) - have as many as you'd like but be aware of your image resolution and size!
   - at least 2 elements styled or rendered dynamically using vanilla JavaScript (no libraries or frameworks, not even jquery).
+    <br />
+    <br />
 
 ## Assignment 6: Library & Plugin Research
 
@@ -85,16 +94,22 @@ Your completed midterm site should have:
 Find 2-3 Javascript Libraries, Plugins, or Frameworks you are interested in or would like to incorporate into a project.
 
 Write up a brief on each one, with links, explaining its main uses and post this to your site to share in-class by Oct 7.
+<br />
+<br />
 
 ## Assignment 7: Midterm Peer Crit
 
 **Due Oct 14**
+<br />
+<br />
 
 ## Assignment 8: Final Project Proposal and Wireframes
 
 **Due Nov 2**
 
 TBA, but this will follow the basic format of the midterm proposal.
+<br />
+<br />
 
 ## Final Project - JavaScript enabled App or Interactive website Due on the Scheduled Exam Date for this Class
 
