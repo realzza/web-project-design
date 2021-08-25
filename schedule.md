@@ -82,8 +82,8 @@ Design Thinking / Designing for the Web
 **Assignment 2 Due**
 
 - In Class
-  - Discussion: What is "user experience"? What is a "user"? How do you design an "interaction"?
-  - Building information architecture and site mapping, hands-on
+  - Discussion/Lecture: What is "user experience"? What is a "user"? How do you design an "interaction"? The basics of user-centered design
+  - Building information architecture and site-mapping
 - Homework
   - Work on Midterm website site maps: start designing your information architecture and brainstorming content ideas
   - Reading: Donald Norman, _The Design of Everyday Things_, [Chapter 6: The Design Challenge & Chapter 7: User-Centered Design]()
