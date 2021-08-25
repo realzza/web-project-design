@@ -36,6 +36,8 @@ Welcome, Overview, PC Setup
 
 HTML/CSS Review I
 
+[Slides for August 26, 2021](https://docs.google.com/presentation/d/e/2PACX-1vT89GDCdkZ_H-NSQZFE1ULp0t4Lkk3zVIjLh9yx_4J8Xux5grxFa2EsUnWcMIx5ni-9ICPxx-58RgU_/pub?start=false&loop=false&delayms=3000)
+
 - In Class
   - PC Setup troubleshooting
   - HTML/CSS Review: creating files, html syntax, structuring content, file structure, linking, styling text and typography, responsive design & media queries
