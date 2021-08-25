@@ -16,6 +16,7 @@ h6 {
   font-family: "Noto Sans JP", sans-serif;
   text-align: center;
 }
+
 /* The two rules below are called "psuedo classes and they define states.  
 Here the style defined is applied when any a tag in the document is hovered over */
 

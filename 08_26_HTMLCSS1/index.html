@@ -1,65 +1,69 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+  <!--add language attribute for translatability-->
   <head>
-    <title>HTML/CSS 1: First Index</title>
-    <!--This is the head of the document where you link to external CSS and JS files-->
-    <!--and this is how you call the external css file.  
-        The call below links to an external file called style.css next 
-        to this file in the document tree-->
+    <title>HTML/CSS 1: Typography & Style</title>
     <link rel="stylesheet" href="style.css" />
-    <!--You can Also add styles between style tags, inline in your HTML, as below, 
-    but this is best used for quick testing or to override something referenced in the style sheet, above-->
+    <!--link to external .css stylesheet-->
+    <!--you can also add heading style as below, between style tags-->
     <style>
       body {
-        padding: 2em;
-        background-color: #81e9e6;
-      }
-      h1 {
-        text-align: center;
-      }
-      p {
-        max-width: 80%;
-        margin: 1em auto;
-        padding: 2em 4em;
-        background-color: #fefcbf;
-      }
-
-      a {
-        text-decoration: none;
-        font-weight: bold;
-        color: #2a6fdb;
+        font-size: 1.125rem;
       }
     </style>
   </head>
   <body>
-    <h1>This is an html file</h1>
-    <p>
-      Its contents are written in HTML, or HyperText Markup Language. HTML
-      documents contain regular text and multimedia contents, structured by
-      "tags" to make those contents readable and meaningful for the browser,
-      scripts, and styles.
-    </p>
-    <p>
-      For example, the contents of this paragraph are surrounded by a
-      <a href="https://www.w3schools.com/tags/tag_p.asp">"p" tag.</a>
-    </p>
-    <p>
-      And so are these. Right click this page (wherever, really) and select
-      "inspect element" to open up Developer tools and see the html that
-      structures this document.
-    </p>
-    <p>
-      The structural semantics HTML provides for content adds meta-information
-      to it. HTML tags can have
-      <a href="https://www.w3schools.com/html/html_attributes.asp"
-        >Attributes</a
-      >
-      that define additional information about the content, like styles, links,
-      data, identifying information like classes and IDs, etc.
-      <br />
-      <a href="https://www.w3schools.com/html/default.asp">W3 Schools</a> has a
-      number of free tutorials and references for HTML (and CSS and JavaScript).
-      It's a good tool to keep open in a browser tab while you code.
-    </p>
+    Notes on typography, readability, and design. In spite of the fact that
+    today's internet is more and more image, video, and multi-media-heavy by the
+    day, one of the primary mediums of the web is still text. Good typography is
+    an important element of design. Your typography should take into account the
+    tone and content of what you're styling as well as the structure of that
+    document. You can use html tags like h1, h2 (etc.) and p to structure and
+    divide content, or divide it further with div tags. You may also need or
+    want to create unordered lists with ul and li tags and style things like
+    pullout quotes and <a href="http://www.example.com">links</a> to emphasize
+    that content. You'll also want to consider the density of the font style you
+    choose, spacing between the lines, the width of your content, and the
+    alignment of the text. The rest of this text is going to be lorem ipsum, I
+    just needed more text here. Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Ut fringilla arcu posuere nisi euismod, a mollis nibh
+    aliquam. Donec porta, lacus ac aliquam elementum, dui diam porta sapien, at
+    luctus ante libero et nisi. Sed pulvinar, nulla consequat consequat euismod,
+    nisi magna posuere turpis, sit amet condimentum nisi elit a risus. Curabitur
+    eget vehicula enim, varius maximus turpis. Ut vulputate nunc quis ex
+    venenatis, eget tincidunt lectus vehicula. Aliquam erat volutpat. Etiam at
+    egestas orci. Fusce ultrices nec ligula sollicitudin lacinia. Etiam
+    tincidunt elit a dictum congue. Fusce viverra ex eu mollis tristique. Etiam
+    ornare ullamcorper metus vel cursus. Nullam a ex interdum, porttitor odio
+    in, luctus nisl. Donec eu libero risus. Sed eleifend ipsum id ultrices
+    lobortis. Lorem ipsum dolor sit amet, consectetur adipiscing elit. In hac
+    habitasse platea dictumst. In eget aliquam est. Proin commodo mattis purus,
+    efficitur scelerisque nibh ultrices vel. Pellentesque magna metus, eleifend
+    id congue nec, feugiat non velit. Pellentesque habitant morbi tristique
+    senectus et netus et malesuada fames ac turpis egestas. Integer quis tortor
+    dignissim, elementum tellus eget, imperdiet augue. Vivamus aliquet turpis a
+    orci sagittis efficitur. Phasellus lobortis scelerisque lorem, sit amet
+    hendrerit neque sagittis at. Etiam feugiat blandit leo, ut pharetra purus
+    feugiat vitae. Duis ultricies rhoncus viverra. Pellentesque eros neque,
+    volutpat ac tellus eget, interdum auctor velit. Praesent luctus quam sit
+    amet est efficitur dictum vitae vel orci. Cras ut volutpat enim. Cras
+    tincidunt purus vitae auctor dapibus. Nunc volutpat purus at dolor
+    elementum, vel faucibus metus tincidunt. Pellentesque iaculis tortor
+    finibus, semper ante vitae, sollicitudin massa. Mauris bibendum dignissim
+    odio, non elementum leo dapibus cursus. Nulla facilisi. Nulla tristique
+    metus quis tellus eleifend rhoncus. Vestibulum molestie tristique nisi, et
+    porta libero gravida at. Donec facilisis lectus dignissim lacus aliquet, id
+    consequat justo blandit. Aenean condimentum sollicitudin sagittis.
+    Vestibulum vel nunc tempor, vestibulum augue eu, molestie purus.
+    <span class="pullout-quote"
+      >"While typographic quality has little measureable effect on reading speed
+      and comprehension, 'good quality typography is responsible for greater
+      engagement during reading.'"</span
+    ><span class="quote-cite"
+      >Dr. Kevin Larson Quoted in Rutter, Web Typography, p.4</span
+    >
+    <span class="pullout-quote"
+      >"Good typography should do its job and disappear."</span
+    ><span class="quote-cite">Rutter, Web Typography, p. 8</span>
   </body>
 </html>
