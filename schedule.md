@@ -45,9 +45,11 @@ HTML/CSS Review I
   - [Assignment 1](./assignments.md/#assignment-1-format-an-essay-or-article): Take a piece of writing from another class - this should be no more than a few pages, and create an html file with this text as the content. Use paragraph tags and heading tags to structure this content and style it with CSS. Think about the elements of readability, structure, and context, as discussed in class and in the reading. Post this .html file to your CIFS server space, and link to it from your index.html page.
   - Reading (and reference):
     - [We are all Typographers, Ch. 1+2](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/Rutter_WebTypography_Ch1-2.pdf)
-    - For reference - MDN Docs:
-      - [Structuring the Web with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
-      - [Learning to Style with CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+    - For reference:
+      - MDN Docs:[Structuring the Web with HTML](https://developer.mozilla.org/en-US/docs/Learn/HTML)
+      - MDN Docs: [Learning to Style with CSS](https://developer.mozilla.org/en-US/docs/Learn/CSS)
+      - W3 Schools [HTML Reference](https://www.w3schools.com/html/default.asp)
+      - W3 Schools [CSS Reference](https://www.w3schools.com/cssref/default.asp)
 
 ---
 
