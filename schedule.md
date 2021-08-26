@@ -68,7 +68,7 @@ HTML/CSS Review II
   - [Assignment 2](./assignments.md/#assignment-2-apply-a-grid-layout-to-your-content): Add grid or other layout to your content.
   - Reading (and reference):
     - [Beth Tondreau, Layout Essentials: 100 Design Principles for Using Grids, "Getting Started"](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/Tondreau_LayoutEss_GettingStarted.pdf)
-    - [Interaction Design Foundation, "The Grid System: Building a Solid Design" Layout](https://www.interaction-design.org/literature/article/the-grid-system-building-a-solid-design-layout)
+    - [Interaction Design Foundation, "The Grid System: Building a Solid Design Layout"](https://www.interaction-design.org/literature/article/the-grid-system-building-a-solid-design-layout)
   - Some Sample Grid Systems and Frameworks with Grids
     - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) isn't a grid system, but it is a way of laying out, aligning, and spacing elements in a container, even if the size of the container changes by altering their width, height and order to best fit the available space, so is an easy way to incorporate responsive design
     - CSS Grid Layout is native to CSS. It can allow you to make either a row/column grid system, but also allows for many other systems and overlapping elements. See the [MDN Docs on CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) and [CSS-Tricks: A complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
