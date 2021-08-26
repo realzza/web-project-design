@@ -55,7 +55,7 @@ HTML/CSS Review I
 
 ---
 
-### September 2, 2021
+### August 31, 2021
 
 HTML/CSS Review II
 
@@ -78,6 +78,12 @@ HTML/CSS Review II
     - [Skeleton](http://getskeleton.com/#intro) Another simple grid system that uses easy to read class names like "container", "row" and "two columns" or "five columns"
 
 ---
+
+### September 2, 2021
+
+HTML/CSS Review III
+
+- Troubleshooting and Activities TBD
 
 ### September 7, 2021
 
