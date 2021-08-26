@@ -1,9 +1,16 @@
 
+/* This is a comment in CSS
+It is not computed, but used to add notes to the document */
+
 /* This is an @import statement that calls a google fonts file on the internet */
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&display=swap");
 
-/* The "styles" below reference tags in the html, or defined classes and IDs */
 
+
+/* The "styles" below reference tags in the html, or defined classes and IDs */
+body {
+  font-size: 1.125rem;
+}
 
 h1,
 h2,
@@ -14,6 +21,8 @@ h6 {
   font-family: "Noto Sans JP", sans-serif;
 }
 
+
+
 /* The two rules below are called "psuedo classes and they define states.  
 Here the style defined is applied when any a tag in the document is hovered over */
 
@@ -23,4 +32,17 @@ a:hover {
 
 a:visited {
   color: #122c91;
+}
+
+/*The following rules are called "media queries" and define the 
+style of elements at a different screen size */
+
+/* they are much like the rules above, but wrapped in an @ media
+followed by some conditions.  Make sure you close both sets of brackets! */
+
+@media only screen and (max-width: 600px) {
+  body {
+    color:#fff;
+    background-color: rgb(9, 61, 77);
+  }
 }
