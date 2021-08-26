@@ -12,7 +12,6 @@ h4,
 h5,
 h6 {
   font-family: "Noto Sans JP", sans-serif;
-  text-align: center;
 }
 
 /* The two rules below are called "psuedo classes and they define states.  
