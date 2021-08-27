@@ -4,7 +4,7 @@ It is not computed, but used to add notes to the document */
 /* This is an @import statement that calls a google fonts file on the internet */
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;600&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,400;0,700;1,300&display=swap");
-/* Remember the fonts are Lato and Noto Sans JP */
+/* Remember the fonts are Lora for headings and Lato for body */
 
 /* This is a reset the * tag refers to everything */
 * {
@@ -69,7 +69,9 @@ a:hover {
   margin: 2em auto;
 }
 
-@media only screen and (max-width: 760px) {
+/* media query to resize content on smaller screens */
+
+@media only screen and (max-width: 820px) {
   .container {
     max-width: 84%;
     margin: 2em auto;
@@ -131,17 +133,4 @@ p.pullout-quote {
   font-weight: 400;
   color: #8c8c8c;
   text-align: left;
-}
-
-/*The following rules are called "media queries" and define the 
-style of elements at a different screen size */
-
-/* they are much like the rules above, but wrapped in an @ media
-followed by some conditions.  Make sure you close both sets of brackets! */
-
-@media only screen and (max-width: 600px) {
-  body {
-    color: #fff;
-    background-color: rgb(9, 61, 77);
-  }
 }
