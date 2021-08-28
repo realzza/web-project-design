@@ -1,0 +1,28 @@
+/* for flex display, the display property of the parent element is set to flex and then
+certain rules are available for the parent and child elements to control their display.
+*/
+
+.container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+/*child elements can be set to "flex-grow" to fill the remaining space in the container 
+also available: flex-shrink and flex-basis.  You can also use flex: to set all the properties at once*/
+.item {
+  min-height: 240px;
+  background-color: rgba(64, 224, 208, 0.8);
+  margin: 10px;
+  /* flex-grow: 1; /*number val, can set child elements to different values*/
+  flex: 1 240px; /* set flex values at the same time for flex grow and flex-basis*/
+}
+
+/**
+*  Flex reference:
+*
+*  https://css-tricks.com/snippets/css/a-guide-to-flexbox/
+*
+*  https://developer.mozilla.org/en-US/docs/Web/CSS/flex
+**/
