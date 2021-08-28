@@ -1,0 +1,87 @@
+/* grid sizing is 
+
+/* This is an example of a simple responsive grid defining columns for the elements of a container 
+that shift as the screen resizes
+the first set of rules defines the behavior on the smallest screen
+and the @ media queries define display for progressively 
+larger screens
+*/
+
+.container {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-gap: 15px;
+  background-color: rgba(224, 64, 216, 0.8);
+  color: #fff;
+  padding: 10px;
+}
+
+@media only screen and (min-width: 600px) {
+  .container {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .container {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/*
+*/
+
+.item {
+  background-color: rgba(87, 83, 197, 0.815);
+  color: #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  font-size: 1.6em;
+}
+
+/* example with grid-areas defined */
+
+.sidebar {
+  grid-area: sidebar;
+}
+.content {
+  grid-area: content;
+}
+.header {
+  grid-area: header;
+}
+.footer {
+  grid-area: footer;
+}
+
+.container2 {
+  display: grid;
+  grid-gap: 15px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-areas:
+    "header header header"
+    "sidebar content content"
+    "footer footer footer";
+}
+
+.box {
+  background-color: rgb(39, 41, 41);
+  color: rgba(115, 231, 19, 0.8);
+  border-radius: 5px;
+  padding: 15px;
+  font-size: 1.4em;
+}
+
+h1 {
+  text-align: center;
+}
+/**
+*  Grid Reference and Examples
+*
+*  https://www.w3schools.com/css/css_grid.asp
+*
+*  https://css-tricks.com/snippets/css/complete-guide-grid/
+*
+*  https://gridbyexample.com/
+*  
+**/

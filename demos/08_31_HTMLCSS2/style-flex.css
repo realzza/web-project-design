@@ -19,6 +19,9 @@ also available: flex-shrink and flex-basis.  You can also use flex: to set all t
   flex: 1 240px; /* set flex values at the same time for flex grow and flex-basis*/
 }
 
+h1 {
+  text-align: center;
+}
 /**
 *  Flex reference:
 *
