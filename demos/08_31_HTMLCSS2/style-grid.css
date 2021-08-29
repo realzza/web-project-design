@@ -7,6 +7,10 @@ and the @ media queries define display for progressively
 larger screens
 */
 
+.main {
+  padding: 2em 4em;
+}
+
 .container {
   display: grid;
   grid-template-columns: 1fr;

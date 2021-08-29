@@ -1,3 +1,7 @@
+.main {
+  padding: 2em 4em;
+}
+
 /* for flex display, the display property of the parent element is set to flex and then
 certain rules are available for the parent and child elements to control their display.
 */

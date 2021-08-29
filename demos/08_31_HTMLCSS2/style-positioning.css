@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+.stat {
+  /*static is the default position for elements */
+  font-size: 125%;
+  padding: 1em 2em;
+  min-height: 200px;
+  background-color: #30bfbfec;
+  color: #fff;
+  border: 1px solid;
+}
+.abs {
+  /*an absolutely positioned element will be positioned 
+  absolutely, sometimes relative to its container.  it will move with the page on scroll */
+  position: absolute;
+  bottom: 25px;
+  right: 110px;
+  z-index: 99; /* z-index value controls the layering on the page 
+  higher value: closer to top, lower value = closer to back 
+  try setting this value to -1 */
+  font-size: 125%;
+  padding: 1em 2em;
+  min-width: 260px;
+  background-color: #30bf69d2;
+  color: #fff;
+  border: 1px solid rgb(82, 82, 82);
+}
+
+.rel {
+  /* a relatively positioned element is positioned relative to where it
+  ~would have appeared in the page flow, here it's 10 px below where it would have been
+  other than that, it behaves like a static element and moves with the page flow */
+  position: relative;
+  top: 10px;
+  font-size: 125%;
+  padding: 1em 2em;
+  min-height: 260px;
+  min-width: 260px;
+  background-color: #307c9ce7;
+  color: #fff;
+  border: 1px solid rgb(82, 82, 82);
+  margin: 20px;
+}
+
+.rel2 {
+  /*this relatively positioned element has an absolute element as its child */
+  position: relative;
+  top: 10px;
+  font-size: 125%;
+  padding: 1em 2em;
+  min-height: 260px;
+  min-width: 260px;
+  background-color: #307c9ce7;
+  color: #fff;
+  border: 1px solid rgb(82, 82, 82);
+  margin: 20px;
+}
+
+.abs-inner {
+  /* relative positioning is powerful when its used with absolute.
+  an absolute element inside of a relative one will be positioned absolutely relative to its container
+  which can be a useful design feature */
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  padding: 6px 8px;
+  background-color: #30bf69e3;
+  color: #fff;
+  border: 1px solid rgb(82, 82, 82);
+}
+
+.fix {
+  /* fixed position will remain fixed in its position relative to the screen as the 
+  page scrolls */
+  position: fixed;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 10px 20px;
+  background-color: #c4c4c4ee;
+  color: #000;
+  border-top: 1px solid rgb(82, 82, 82);
+}
+
+.stick {
+  /* a sticky element will sit in its position in the page flow until it reaches 
+  the positioned defined by "top:" and then it will remain there */
+  position: sticky;
+  top: -1px;
+  margin: 0;
+  margin-bottom: 1em;
+  width: 100%;
+  text-align: center;
+  font-size: 125%;
+  background-color: #bf30bf;
+  border: 1px solid rgb(82, 82, 82);
+}
