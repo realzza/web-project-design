@@ -1,6 +1,7 @@
 * {
   box-sizing: border-box;
 }
+/*positioning demos, reference: https://css-tricks.com/absolute-relative-fixed-positioining-how-do-they-differ/ */
 
 .stat {
   /*static is the default position for elements */
