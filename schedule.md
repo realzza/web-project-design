@@ -83,7 +83,14 @@ HTML/CSS Review II
 
 HTML/CSS Review III
 
-- Troubleshooting and Activities TBD
+- In Class
+  - Layout continued: CSS frameworks for rapid building and responsive design: Bootstrap & W3.css
+- Homework: Continue work on Assignment 2, Due Monday, September 7
+  - Reading for Monday:
+    - Donald Norman, _The Design of Everyday Things_, [Chapter 6: The Design Challenge & Chapter 7: User-Centered Design](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/Norman_TheDesignOfEverydayThings_Ch6%2B7.pdf)
+    - Google Design Library, ["Is it Good Design?](https://design.google/library/good-design/)
+
+---
 
 ### September 7, 2021
 
@@ -93,10 +100,10 @@ Design Thinking / Designing for the Web
 
 - In Class
   - Discussion/Lecture: What is "user experience"? What is a "user"? How do you design an "interaction"? The basics of user-centered design
-  - Building information architecture and site-mapping
+  - Demo: building information architecture, site-mapping, and user flows
 - Homework
+  - Reading: Google Material Design, ["Accessibility"](https://material.io/design/usability/accessibility.html#understanding-accessibility)
   - Work on Midterm website site maps: start designing your information architecture and brainstorming content ideas
-  - Reading: Donald Norman, _The Design of Everyday Things_, [Chapter 6: The Design Challenge & Chapter 7: User-Centered Design]()
 
 ---
 
@@ -105,11 +112,12 @@ Design Thinking / Designing for the Web
 Interface, Prototyping, and Wireframing
 
 - In Class
-  - Discussion: What is an interface? And User-Centered Design
+  - Discussion: What is an interface? Usability and Accessability
   - Intro to User Experience
   - Adobe XD Demo
 - Homework
-  - Exercise: Pick either an app or website you use daily, use it, and reflect on that experience. For example, open the text app on your phone and text a friend. Or, open an e-commerce site you use, browse for something you like, and add it to your shopping cart. Or, make a post on a social media website. As you're completing this discrete task, take some moments to reflect on your experience and write down your observations. What is the experience like? What steps did you have to take to achieve the result? (be detailed!) What elements of the interface did you most engage with? Were these legible? And how? How did you know how to complete the task you set for yourself? Think about layout, icons, input fields, input methods, etc. What elements of the experience, if any, gave you trouble? Why?
+  - Exercise: Pick either an app or website you use daily, use it, and reflect on that experience. For example, open the text app on your phone and text a friend. Or, open an e-commerce site you use, browse for something you like, and add it to your shopping cart. Or, make a post on a social media website. As you're completing this discrete task, take some moments to reflect on your experience and write down your observations. What is the experience like? What steps did you have to take to achieve the result? (be detailed!) What elements of the interface did you most engage with? Were these legible? And how? How did you know how to complete the task you set for yourself? How accessible is the design? Would differences in hearing, vision, language, or cognition make it more difficult to complete this task? Think about layout, icons, input fields, input methods, etc. What elements of the experience, if any, gave you trouble? Why?
+    - Write up your reflection in a paragraph on an .html web page, post it to your website, and link from your homepage. Please include screenshots embedded as images of the site you used and any details, if applicable.
   - Start [Assignment 3: Sitemap, Wireframes, and Midterm Website Proposal](./assignments.md), due Sept. 16.
 
 ---

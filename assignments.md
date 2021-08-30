@@ -4,7 +4,7 @@
 
 ## Assignment 1: Format an Essay or Article
 
-**Due September 2, 2021**
+**Due August 31, 2021**
 Take a piece of writing you have done in the past. It may be a poem, blog post, or essay of at least 1,000-1,500 words. Format and structure this content using HTML tags, and style it with CSS for readability and style, keeping in mind the content, tone, and reader context(s), as discussed in the _Web Typography_ reading.
 
 Feel free to add images or other multimedia content, but make sure to consider how you want to position these elements with text.
