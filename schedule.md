@@ -91,7 +91,7 @@ HTML/CSS Review III
 - Homework: Continue work on Assignment 2: Layout and Positioning, Due Monday, September 7
   - Reading for Monday:
     - Donald Norman, _The Design of Everyday Things_, [Chapter 6: The Design Challenge & Chapter 7: User-Centered Design](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/Norman_TheDesignOfEverydayThings_Ch6%2B7.pdf)
-    - Google Design Library, ["Is it Good Design?](https://design.google/library/good-design/)
+    - Google Design Library, ["Is it Good Design?"](https://design.google/library/good-design/)
 
 ---
 
