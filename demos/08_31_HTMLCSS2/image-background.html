@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Example of Full-Screen Image Background</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        background: url("./adi-goldstein-NErnyh54GS4-unsplash.jpg") no-repeat
+          center center fixed;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
+      }
+      .text-container {
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.6);
+        font-size: 120%;
+        max-width: 40%;
+        padding: 1em 1.2em;
+        margin: 1em;
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(14, 137, 238);
+      }
+
+      a:hover {
+        font-weight: bold;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="text-container">
+      <h2>This is an example of a full-page image background</h2>
+      <p>The image is called in as the background property on the body.</p>
+      <p>
+        Photo by
+        <a
+          href="https://unsplash.com/@adigold1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Adi Goldstein</a
+        >
+        on
+        <a
+          href="https://unsplash.com/s/photos/forst?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+          >Unsplash</a
+        >
+      </p>
+    </div>
+  </body>
+</html>

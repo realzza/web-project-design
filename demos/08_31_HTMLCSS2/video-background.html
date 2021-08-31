@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <title>Video Background Example</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+    #video {
+      position: fixed;
+      right: 0;
+      bottom: 0;
+      min-width: 100%;
+      min-height: 100%;
+    }
+
+    .text-box {
+      position: fixed;
+      color: #fff;
+      background-color: rgba(0, 0, 0, 0.6);
+      font-size: 120%;
+      max-width: 40%;
+      padding: 1em 1.2em;
+      margin: 1em;
+    }
+
+    a {
+      text-decoration: none;
+      color: rgb(14, 137, 238);
+    }
+
+    a:hover {
+      font-weight: bold;
+    }
+  </style>
+  <body>
+    <video autoplay muted loop id="video">
+      <source src="drone-footage-china.mp4" />
+      Your browser does not support HTML5 Video
+    </video>
+    <div class="text-box">
+      <h1>Full-Screen Video Background</h1>
+      <p>
+        For a full-screen video background, add the video with html video tags,
+        and use CSS to set its position to fixed and its size to fill the
+        screen.
+      </p>
+      <p>
+        <a href="https://www.w3schools.com/howto/howto_css_fullscreen_video.asp"
+          >This example on w3 Schools</a
+        >
+        adds a button to play/pause with JavaScript.
+      </p>
+    </div>
+  </body>
+</html>

@@ -59,23 +59,24 @@ HTML/CSS Review I
 
 HTML/CSS Review II
 
-**Assignment 1 Due**
+**Assignment 1: Typography Due**
 
 - In Class
-  - CSS Layout: spacing, position, flexbox, grid(s) and frameworks for layout, responsive layout, embedding images, image-backgrounds, overlaying elements and z-index
+  - CSS Layout: spacing, position, flexbox, grid(s) and frameworks for layout, responsive layout with Flex and @media only screen, embedding images, image-backgrounds, overlaying elements and z-index
   - HTML/CSS Validation and checking your work
 - Homework
   - [Assignment 2](./assignments.md/#assignment-2-apply-a-grid-layout-to-your-content): Add grid or other layout to your content.
   - Reading (and reference):
     - [Beth Tondreau, Layout Essentials: 100 Design Principles for Using Grids, "Getting Started"](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/Tondreau_LayoutEss_GettingStarted.pdf)
     - [Interaction Design Foundation, "The Grid System: Building a Solid Design Layout"](https://www.interaction-design.org/literature/article/the-grid-system-building-a-solid-design-layout)
-  - Some Sample Grid Systems and Frameworks with Grids
-    - [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) isn't a grid system, but it is a way of laying out, aligning, and spacing elements in a container, even if the size of the container changes by altering their width, height and order to best fit the available space, so is an easy way to incorporate responsive design
-    - CSS Grid Layout is native to CSS. It can allow you to make either a row/column grid system, but also allows for many other systems and overlapping elements. See the [MDN Docs on CSS Grid](https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Grid_Layout) and [CSS-Tricks: A complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
-    - [W3.css](https://www.w3schools.com/w3css/w3css_grid.asp), a css framework with grid system by W3 Schools
-    - [Bootstrap](https://getbootstrap.com/) is a very popular css framework that includes a grid layout system, as well as many other UI elements
-    - [Dead Simple Grid](http://mourner.github.io/dead-simple-grid/) a lightweight css grid system that only has two main classes: row and col
-    - [Skeleton](http://getskeleton.com/#intro) Another simple grid system that uses easy to read class names like "container", "row" and "two columns" or "five columns"
+  - Resources for Positioning, Grid, and Flex
+    - [W3 Schools on Positioning Rules](https://www.w3schools.com/css/css_positioning.asp)
+    - [A List Apart: CSS Positioning 101](https://alistapart.com/article/css-positioning-101/)
+    - [W3 Schools on CSS Grid](https://www.w3schools.com/css/css_grid.asp)
+    - [CSS-Tricks: A Complete Guide to Grid](https://css-tricks.com/snippets/css/complete-guide-grid/)
+    - [Grid By Example](https://gridbyexample.com/)
+    - [CSS-Tricks: A Complete Guide to Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/)
+    - [MDN Docs on Flexbox](https://developer.mozilla.org/en-US/docs/Web/CSS/flex)
 
 ---
 
@@ -85,7 +86,7 @@ HTML/CSS Review III
 
 - In Class
   - Layout continued: CSS frameworks for rapid building and responsive design: Bootstrap & W3.css
-- Homework: Continue work on Assignment 2, Due Monday, September 7
+- Homework: Continue work on Assignment 2: Layout and Positioning, Due Monday, September 7
   - Reading for Monday:
     - Donald Norman, _The Design of Everyday Things_, [Chapter 6: The Design Challenge & Chapter 7: User-Centered Design](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/Norman_TheDesignOfEverydayThings_Ch6%2B7.pdf)
     - Google Design Library, ["Is it Good Design?](https://design.google/library/good-design/)
@@ -96,7 +97,7 @@ HTML/CSS Review III
 
 Design Thinking / Designing for the Web
 
-**Assignment 2 Due**
+**Assignment 2: Layout and Positioning Due**
 
 - In Class
   - Discussion/Lecture: What is "user experience"? What is a "user"? How do you design an "interaction"? The basics of user-centered design
