@@ -16,9 +16,11 @@ certain rules are available for the parent and child elements to control their d
 /*child elements can be set to "flex-grow" to fill the remaining space in the container 
 also available: flex-shrink and flex-basis.  You can also use flex: to set all the properties at once*/
 .item {
-  min-height: 240px;
+  font-size: 120%;
+  text-align: center;
   background-color: rgba(64, 224, 208, 0.8);
   margin: 10px;
+  padding: 2em 1em;
   /* flex-grow: 1; /*number val, can set child elements to different values*/
   flex: 1 240px; /* set flex values at the same time for flex grow and flex-basis*/
 }

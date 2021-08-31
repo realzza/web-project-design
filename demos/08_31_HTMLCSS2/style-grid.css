@@ -1,5 +1,3 @@
-/* grid sizing is 
-
 /* This is an example of a simple responsive grid defining columns for the elements of a container 
 that shift as the screen resizes
 the first set of rules defines the behavior on the smallest screen
@@ -7,10 +5,15 @@ and the @ media queries define display for progressively
 larger screens
 */
 
+/* unlike flex, grid is not automatically responsive */
+
 .main {
   padding: 2em 4em;
 }
+/* set display to grid, and use grid-template-columns to define columns
+* you can also use grid-template-rows.  Grid-gap defines the gap between items */
 
+/* 1 column on small screens */
 .container {
   display: grid;
   grid-template-columns: 1fr;
@@ -20,12 +23,14 @@ larger screens
   padding: 10px;
 }
 
+/*two columns on medium screens */
 @media only screen and (min-width: 600px) {
   .container {
     grid-template-columns: 1fr 1fr;
   }
 }
 
+/*three columns on large screens */
 @media only screen and (min-width: 800px) {
   .container {
     grid-template-columns: 1fr 1fr 1fr;
@@ -33,8 +38,8 @@ larger screens
 }
 
 /*
+The columns are defined by the container so no positioning needs to be set on the child items
 */
-
 .item {
   background-color: rgba(87, 83, 197, 0.815);
   color: #ccc;
@@ -43,7 +48,12 @@ larger screens
   font-size: 1.6em;
 }
 
-/* example with grid-areas defined */
+/* 
+* Second example with grid-areas defined 
+* you can also use grid-areas to build a grid.
+* The sizing and spacing of these areas is defined in the
+* grid-template-areas rule on .container2
+*/
 
 .sidebar {
   grid-area: sidebar;
@@ -68,6 +78,11 @@ larger screens
     "footer footer footer";
 }
 
+@media only screen and (max-width: 760px) {
+  /* define rules for smaller screens */
+}
+
+/*style for all of the content areas with also have the class .box */
 .box {
   background-color: rgb(39, 41, 41);
   color: rgba(115, 231, 19, 0.8);
@@ -79,6 +94,7 @@ larger screens
 h1 {
   text-align: center;
 }
+
 /**
 *  Grid Reference and Examples
 *
