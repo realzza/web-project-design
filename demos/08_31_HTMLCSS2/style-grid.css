@@ -16,8 +16,8 @@ larger screens
 /* 1 column on small screens */
 .container {
   display: grid;
-  grid-template-columns: 1fr;
-  grid-gap: 15px;
+  grid-template-columns: auto;
+  grid-gap: 15px; /*you can also set rows and columns in two properties */
   background-color: rgba(224, 64, 216, 0.8);
   color: #fff;
   padding: 10px;
@@ -26,14 +26,14 @@ larger screens
 /*two columns on medium screens */
 @media only screen and (min-width: 600px) {
   .container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: auto auto;
   }
 }
 
 /*three columns on large screens */
 @media only screen and (min-width: 800px) {
   .container {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: auto auto auto;
   }
 }
 
@@ -46,6 +46,10 @@ The columns are defined by the container so no positioning needs to be set on th
   border-radius: 4px;
   padding: 10px;
   font-size: 1.6em;
+}
+
+/*you can also set items to be wider */
+.longer-item {
 }
 
 /* 
@@ -71,7 +75,6 @@ The columns are defined by the container so no positioning needs to be set on th
 .container2 {
   display: grid;
   grid-gap: 15px;
-  grid-template-columns: 1fr 1fr 1fr;
   grid-template-areas:
     "header header header"
     "sidebar content content"
