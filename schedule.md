@@ -62,6 +62,7 @@ HTML/CSS Review II
 **Assignment 1: Typography Due**
 
 [Demo Files for Class](./demos/08_31_HTMLCSS2)
+[Demo Code](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/08_31_HTMLCSS2)
 
 - In Class
   - CSS Layout: spacing, position, flexbox, grid(s) and frameworks for layout, responsive layout with Flex and @media only screen, embedding images, image-backgrounds, overlaying elements and z-index
