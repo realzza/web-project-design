@@ -12,23 +12,188 @@
       integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We"
       crossorigin="anonymous"
     />
+    <!-- Bootstrap Icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"
+    />
 
-    <title>Hello, world!</title>
+    <title>Boostrap Demo</title>
   </head>
   <body>
-    <ul>
-      <li>Nav item</li>
-      <li>Nav item</li>
-      <li>Nav item</li>
-    </ul>
-    <h1>Hello, world!</h1>
-    <p>This is a Bootstrap example.</p>
-    <p>
-      You can add Bootstrap by linking to the cdn css files in the head of the
-      document, and linking to the necessary Javascript files between script
-      tags within the body tags. Once you've added these links you can use all
-      of the Bootstrap
-    </p>
+    <div class="position-relative">
+      <h1
+        class="
+          vw-100
+          px-5
+          display-4
+          fw-bolder
+          position-absolute
+          top-50
+          start-50
+          translate-middle
+          text-center
+        "
+        style="
+          color: var(--bs-gray-200);
+          text-shadow: 5px 5px 2px rgba(36, 35, 35, 0.795);
+        "
+      >
+        Bootstrap Demos
+      </h1>
+      <img src="header-image.jpg" class="vw-100" alt="The header image" />
+    </div>
+    <div class="container pb-5 mt-3">
+      <p>This is a Bootstrap example.</p>
+      <p>
+        You can add Bootstrap by linking to the cdn css files in the head of the
+        document, and linking to the necessary Javascript files between script
+        tags within the body tags. Once you've added these links you can use all
+        of the Bootstrap classes, layout utilities, and components.
+      </p>
+      <h2 id="basics">Basics</h2>
+      <p>
+        You add Bootstrap to your project by adding their custom class names to
+        your elements or building from their
+        <a href="https://getbootstrap.com/docs/5.1/components/">Components</a>.
+        Bootstrap comes with its own
+        <a href="https://getbootstrap.com/docs/5.1/layout/grid/">grid system</a>
+        built on columns nested in rows. It has built in CSS breakpoints for
+        resizing your design on different sized screens.
+      </p>
+      <p>
+        Primarily, when you're adding boostrap, you'll be adding classes to the
+        html elements in your page to control colors, spacing, layout and
+        display, and this will save you from writing a lot of css.
+      </p>
+      <h2 id="row-column">Rows and Columns</h2>
+      <p class="mb-3">
+        The main elements of the Bootstrap layout are rows and columns. You will
+        need a div surrounding any grid elements with a "container" class. Rows
+        wrap around columns in a 12-column grid.
+      </p>
+      <div class="row mb-3 g-2">
+        <div class="col">
+          <div class="border rounded-1 p-3">
+            <h4>Hello!</h4>
+            <p>I'm a column</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="border rounded-1 p-3">
+            <h4>Hello!</h4>
+            <p>I'm a column</p>
+          </div>
+        </div>
+        <div class="col">
+          <div class="border rounded-1 p-3">
+            <h4>Hello!</h4>
+            <p>I'm a column</p>
+          </div>
+        </div>
+      </div>
+      <p>
+        The columns can also have preset responsive classes using col-xs-*,
+        col-sm-*, col-md-*, col-lg-* and col-xl-*, with numbers from 1-12.
+      </p>
+      <div class="row mb-3 g-2">
+        <div class="col-12 col-md-6 col-lg-2 col-xl-4">
+          <div class="border rounded-1 p-3">
+            <h4>Hello!</h4>
+            <p>I'm a column</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 col-lg-4 col-xl-4">
+          <div class="border rounded-1 p-3">
+            <h4>Hello!</h4>
+            <p>I'm a column</p>
+          </div>
+        </div>
+        <div class="col-12 col-md-3 col-lg-6 col-xl-4">
+          <div class="border rounded-1 p-3">
+            <h4>Hello!</h4>
+            <p>I'm a column</p>
+          </div>
+        </div>
+      </div>
+
+      <h2 id="icons">Icon Library</h2>
+      <p>
+        Bootstrap also has an open source icons library called
+        <a href="https://icons.getbootstrap.com/icons/">Bootstrap Icons</a>.
+      </p>
+      <p>
+        For example, here's a smiley Icon:
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="16"
+          height="16"
+          fill="red"
+          class="bi bi-emoji-wink"
+          viewBox="0 0 16 16"
+        >
+          <path
+            d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"
+          />
+          <path
+            d="M4.285 9.567a.5.5 0 0 1 .683.183A3.498 3.498 0 0 0 8 11.5a3.498 3.498 0 0 0 3.032-1.75.5.5 0 1 1 .866.5A4.498 4.498 0 0 1 8 12.5a4.498 4.498 0 0 1-3.898-2.25.5.5 0 0 1 .183-.683zM7 6.5C7 7.328 6.552 8 6 8s-1-.672-1-1.5S5.448 5 6 5s1 .672 1 1.5zm1.757-.437a.5.5 0 0 1 .68.194.934.934 0 0 0 .813.493c.339 0 .645-.19.813-.493a.5.5 0 1 1 .874.486A1.934 1.934 0 0 1 10.25 7.75c-.73 0-1.356-.412-1.687-1.007a.5.5 0 0 1 .194-.68z"
+          />
+        </svg>
+      </p>
+      <p>
+        Or Here's another icon:
+        <i
+          class="bi bi-box"
+          style="color: rgb(0, 153, 255); font-size: 1.6em"
+        ></i>
+      </p>
+      <p>
+        You can also add these by calling the stylesheet from the CDN link or
+        downloading the .css and adding it to your files. Once you've added a
+        link to the remote or local css files, you can insert icons from their
+        library into your design as either svg or icon fonts.
+      </p>
+      <h2 id="colors">Colors</h2>
+      <p class="bg-light text-primary">
+        Boostrap also has a set of pre-defined
+        <a
+          class="link-success"
+          href="https://getbootstrap.com/docs/5.1/utilities/colors/"
+          >color classes</a
+        >
+        that you can call on backgrounds, text, and links.
+      </p>
+      <p style="color: var(--bs-pink); background-color: var(--bs-gray-300)">
+        This is just to demonstrate another way to add color.
+      </p>
+      <h2 id="display">Display and Spacing Helper Classes</h2>
+      <p>
+        Bootstrap also has a number of display and spacing helper classes to
+        control padding, margins, and display. Padding, for example, is added
+        with the p- and a number from 0-5 signifying Bootstrap's internal units.
+        these can be combined with direction, so "pt-" signifies padding-top and
+        "px-" signifies horizontal padding on each side
+      </p>
+      <div class="d-grid gap-4">
+        <span class="d-none d-xs-block bg-secondary text-white p-4"
+          >Only after xs screen</span
+        >
+        <span class="d-none d-sm-block bg-primary text-white p-4"
+          >only after small screens</span
+        >
+        <span class="d-none d-md-block bg-success text-white p-4"
+          >only after md screens</span
+        ><span class="d-non d-lg-block bg-info text-white p-4"
+          >Only after lg screens</span
+        >
+        <span class="d-none d-xl-block bg-danger text-white p-4"
+          >only after xl screen
+        </span>
+        <span class="d-none d-xxl-block bg-warning text-white p-4"
+          >only after xxl screen</span
+        >
+      </div>
+    </div>
 
     <!-- Optional JavaScript; choose one of the two! -->
 
