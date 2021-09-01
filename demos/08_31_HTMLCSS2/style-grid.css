@@ -46,6 +46,7 @@ The columns are defined by the container so no positioning needs to be set on th
   border-radius: 4px;
   padding: 10px;
   font-size: 1.6em;
+  min-height: 12em;
 }
 
 /*you can also set items to be wider */
@@ -83,6 +84,13 @@ The columns are defined by the container so no positioning needs to be set on th
 
 @media only screen and (max-width: 760px) {
   /* define rules for smaller screens */
+  .container2 {
+    grid-template-areas:
+      "header"
+      "content"
+      "sidebar"
+      "footer";
+  }
 }
 
 /*style for all of the content areas with also have the class .box */
