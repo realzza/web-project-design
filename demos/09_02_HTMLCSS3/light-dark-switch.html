@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Switch between Stylesheets</title>
+    <link id="theme" rel="stylesheet" href="./styles/light-style.css" />
+  </head>
+  <body>
+    <h1>Switching between two stylesheets</h1>
+    <p>In case you want to.</p>
+    <button onclick="toggleTheme()" id="css-switch">Theme Switch</button>
+    <script>
+      //define the function called onclick
+      function toggleTheme() {
+        //get the link element by its Id
+        var theme = document.getElementById("theme");
+        //check the href attribute
+        if (theme.getAttribute("href") == "./styles/light-style.css") {
+          theme.setAttribute("href", "./styles/dark-style.css");
+        } else {
+          theme.setAttribute("href", "./styles/light-style.css");
+        }
+      }
+    </script>
+  </body>
+</html>
