@@ -112,7 +112,9 @@ Design Thinking / Designing for the Web
   - Discussion/Lecture: What is "user experience"? What is a "user"? How do you design an "interaction"? The basics of user-centered design
   - Demo: building information architecture, site-mapping, and user flows
 - Homework
-  - Reading: Google Material Design, ["Accessibility"](https://material.io/design/usability/accessibility.html#understanding-accessibility)
+  - Reading:
+    - Google Material Design, ["Accessibility"](https://material.io/design/usability/accessibility.html#understanding-accessibility)
+    - Jason Juan, ["I Got Rejected by Apple Music... So I Redesigned It](https://medium.com/startup-grind/i-got-rejected-by-apple-music-so-i-redesigned-it-b7e2e4dc64bf)
   - Work on Midterm website site maps: start designing your information architecture and brainstorming content ideas
 
 ---
