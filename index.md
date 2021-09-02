@@ -12,6 +12,8 @@ Fall 2021, ISS 241 / VMS 257 / ISS/CMAC 741
 
 Office hours by appointment, please email.
 
+[Explore Student Websites](#student-websites)
+
 ### Overview
 
 This course covers the design and development of user-centered and interactive projects for the web using HTML, CSS, and JavaScript. It builds on the material introduced in _Fundamentals of Web-Based Multimedia Communications_, and students should have prior experience with HTML/CSS.
@@ -57,3 +59,21 @@ This class includes readings, a few technical assignments for which you'll be as
 You will submit the majority of your assignments to your Duke CIFS server space, which we will spend some time setting up in the first class (if you have not already done so). You will be expected to maintain your Duke CIFS space, or a directory within it, populated with correctly linked .html web pages and links to your completed assignments. Later in the course, we'll learn a few more deployment methods for full-stack applications.
 
 You can find detailed descriptions on the [assignments](./assignments.md) page.
+
+### Student Websites
+
+Check out your colleages' work
+
+- [Bella Almeida](https://people.duke.edu/~iba5/webdesign2/)
+- [Kyra Chan](https://people.duke.edu/~ktc22/)
+- [Jimin Cheon](https://people.duke.edu/~jc910/)
+- [Emma Helmich](https://people.duke.edu/~ech56/)
+- [Jaewon Jung](https://people.duke.edu/~jj312/)
+- [Hannah Kaplon](https://people.duke.edu/~hck11/)
+- [Yixuan Li](https://people.duke.edu/~yl600/web_development_design/)
+- [Caroline Ning](https://people.duke.edu/~xn18/webProject/)
+- [Amelia Paulsen](https://acpaulsen.github.io/WebProjD-D/)
+- [Joshua Petitma](https://wpd.petit.dev/)
+- [Joe Robertson](https://people.duke.edu/~jtr34/)
+- [Michelle Tai](https://people.duke.edu/~mrt36/labs/index.html)
+- [Ziang Zhou](https://people.duke.edu/~zz188/iss241/)
