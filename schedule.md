@@ -87,6 +87,8 @@ HTML/CSS Review II
 
 HTML/CSS Review III
 
+[Slides](https://docs.google.com/presentation/d/1s6sJMcZtksxPbtQmFGC98GGCptzFDfKRf2fggy2U7F0/edit?usp=sharing)
+
 - In Class
   - Layout continued: CSS frameworks for rapid building and responsive design: Bootstrap & W3.css
 - Homework: Continue work on Assignment 2: Layout and Positioning, Due Monday, September 7

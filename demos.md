@@ -17,5 +17,6 @@ Links to the demo files we build in class.
 
 - September 2, 2021 [Bootstrap and W3.css](./demos/09_02_HTMLCSS3/index.html)
   - [Code](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/09_02_HTMLCSS3)
+  - [Slides](https://docs.google.com/presentation/d/1s6sJMcZtksxPbtQmFGC98GGCptzFDfKRf2fggy2U7F0/edit?usp=sharing)
   - CSS Frameworks Options: Bootstrap and W3.css
   - Switching between themes on button press with some easy JavaScript
