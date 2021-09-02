@@ -99,6 +99,9 @@ HTML/CSS Review III
     - [Bootstrap and docs](https://getbootstrap.com/)
     - [Boostrap Icons](https://icons.getbootstrap.com/)
     - [Bootstrap 5 Essential Training on LinkedIn Learning](https://www.linkedin.com/learning-login/share?account=77842946&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fbootstrap-5-essential-training%3Ftrk%3Dshare_ent_url%26shareId%3D3xRRWjlETYau6%252BCXgBah%252Bw%253D%253D)
+      - [Slides and Examples from the LinkedIn Bootstrap Course](https://raybo.org/slides_bootstrap5/#/)
+    - [W3.css](https://www.w3schools.com/w3css/w3css_intro.asp)
+    - Try a google search for "css frameworks" for more framework options
 
 ---
 
