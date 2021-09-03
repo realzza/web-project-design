@@ -11,15 +11,13 @@
       Switch to Dark Theme
     </button>
     <script>
-      //define the function called onclick
+      //define the function called at onclick
       function toggleTheme() {
         //get the link element by its Id
         var theme = document.getElementById("theme");
-
         //get the button
         var button = document.getElementById("css-switch");
-        console.log("button");
-        //check the href attribute
+        //check the href attribute with if {} else {} to determine if a condition is true
         if (theme.getAttribute("href") == "./styles/light-style.css") {
           theme.setAttribute("href", "./styles/dark-style.css");
           button.innerHTML = "Switch to Light Theme";
