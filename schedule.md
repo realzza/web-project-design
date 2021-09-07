@@ -111,11 +111,15 @@ Design Thinking / Designing for the Web
 
 **Assignment 2: Layout and Positioning Due**
 
+[Slides](https://docs.google.com/presentation/d/1s6sJMcZtksxPbtQmFGC98GGCptzFDfKRf2fggy2U7F0/edit?usp=sharing)
+[Transitions and Animations Demo files](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/09_07_CSSTransition)
+
 - In Class
   - Discussion: User-Centered Design
   - Demo: Advanced CSS: Transitions, Transformations, Animation
 - Homework
   - Reading:
+    - Start braingstorming site concepts and architecture (what pages? how do they link?)
     - Google Material Design, ["Accessibility"](https://material.io/design/usability/accessibility.html#understanding-accessibility)
     - Jason Juan, ["I Got Rejected by Apple Music... So I Redesigned It](https://medium.com/startup-grind/i-got-rejected-by-apple-music-so-i-redesigned-it-b7e2e4dc64bf)
 
