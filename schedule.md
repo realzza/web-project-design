@@ -112,6 +112,7 @@ Design Thinking / Designing for the Web
 **Assignment 2: Layout and Positioning Due**
 
 [Slides](https://docs.google.com/presentation/d/1s6sJMcZtksxPbtQmFGC98GGCptzFDfKRf2fggy2U7F0/edit?usp=sharing)
+
 [Transitions and Animations Demo files](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/09_07_CSSTransition)
 
 - In Class
