@@ -112,13 +112,12 @@ Design Thinking / Designing for the Web
 **Assignment 2: Layout and Positioning Due**
 
 - In Class
-  - Discussion/Lecture: What is "user experience"? What is a "user"? How do you design an "interaction"? The basics of user-centered design
-  - Demo: building information architecture, site-mapping, and user flows
+  - Discussion: User-Centered Design
+  - Demo: Advanced CSS: Transitions, Transformations, Animation
 - Homework
   - Reading:
     - Google Material Design, ["Accessibility"](https://material.io/design/usability/accessibility.html#understanding-accessibility)
     - Jason Juan, ["I Got Rejected by Apple Music... So I Redesigned It](https://medium.com/startup-grind/i-got-rejected-by-apple-music-so-i-redesigned-it-b7e2e4dc64bf)
-  - Work on Midterm website site maps: start designing your information architecture and brainstorming content ideas
 
 ---
 
@@ -127,13 +126,10 @@ Design Thinking / Designing for the Web
 Interface, Prototyping, and Wireframing
 
 - In Class
-  - Discussion: What is an interface? Usability and Accessability
-  - Intro to User Experience
-  - Adobe XD Demo
+  - Discussion: Site-mapping, Wireframing, Prototyping
+  - Adobe XD & Figma Demo
 - Homework
-  - Exercise: Pick either an app or website you use daily, use it, and reflect on that experience. For example, open the text app on your phone and text a friend. Or, open an e-commerce site you use, browse for something you like, and add it to your shopping cart. Or, make a post on a social media website. As you're completing this discrete task, take some moments to reflect on your experience and write down your observations. What is the experience like? What steps did you have to take to achieve the result? (be detailed!) What elements of the interface did you most engage with? Were these legible? And how? How did you know how to complete the task you set for yourself? How accessible is the design? Would differences in hearing, vision, language, or cognition make it more difficult to complete this task? Think about layout, icons, input fields, input methods, etc. What elements of the experience, if any, gave you trouble? Why?
-    - Write up your reflection in a paragraph on an .html web page, post it to your website, and link from your homepage. Please include screenshots embedded as images of the site you used and any details, if applicable.
-  - Start [Assignment 3: Sitemap, Wireframes, and Midterm Website Proposal](./assignments.md), due Sept. 16.
+  - Start [Assignment 3: Sitemap, Wireframes, and Midterm Website Proposal](./assignments.md), due Sept. 16
 
 ---
 

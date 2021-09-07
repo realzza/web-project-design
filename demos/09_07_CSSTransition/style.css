@@ -1,0 +1,119 @@
+/**
+* CSS Transitions and Animations
+*  Helpful links:
+* https://www.w3schools.com/css/css3_transitions.asp
+* https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_Animations/Using_CSS_animations
+* https://www.w3schools.com/css/css3_animations.asp
+* https://css-tricks.com/almanac/properties/a/animation/  
+* 
+**/
+
+body {
+  box-sizing: border-box;
+  padding: 1em 2em;
+  font-size: 1.25rem;
+}
+
+code {
+  background-color: #c9c9c9;
+}
+
+.transition-grow {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 1em;
+  background-color: #3c3c3c;
+  border: 1px solid #000;
+  color: #fff;
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
+  /*can also write this out like
+  transition: width 2s linear 0s;
+  */
+}
+
+.transition-grow:hover {
+  width: 350px;
+}
+
+.transformation {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 1em;
+  background-color: #10c053;
+  border: 2px solid #000;
+  /*transition: transform 300ms;*/
+}
+
+.transformation:hover {
+  transform: rotate(45deg) translate(50px, 50px);
+}
+
+/*Animations - specify an @keyframes ___ */
+
+@keyframes animated-example {
+  from {
+    background-color: #1091e7;
+    width: 200px;
+    height: 200px;
+  }
+  to {
+    background-color: rgb(201, 15, 124);
+    width: 300px;
+    height: 300px;
+  }
+}
+
+.animated {
+  width: 200px;
+  height: 200px;
+  background-color: #1091e7;
+  color: #fff;
+  border: 1px solid #3c3c3c;
+  animation-name: animated-example; /* tie to keyframes name */
+  animation-duration: 4s;
+  animation-delay: 0s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes many-steps {
+  0% {
+    background-color: #fff;
+    color: #000;
+    left: 0px;
+  }
+  25% {
+    background-color: #b9b9b9;
+    color: #3c3c3c;
+    left: 20px;
+  }
+  50% {
+    background-color: #949494;
+    color: #929292;
+    left: 40px;
+  }
+  75% {
+    background-color: #4d4c4c;
+    color: #acacac;
+    left: 60px;
+  }
+  100% {
+    background-color: #000;
+    color: #fff;
+    left: 80px;
+  }
+}
+
+.many-keyframes {
+  width: 200px;
+  height: 200px;
+  padding: 10px;
+  margin: 10px;
+  position: relative;
+  border: 1px solid #000;
+  animation: many-steps 4s linear 0s infinite alternate;
+}

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>CSS Transitions</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>CSS Transitions & Animations</h1>
+    <p>
+      The transition properties in CSS allow you to change property values
+      smoothly over a given duration. They are generally used in combination
+      with psuedo-classes like
+      <code>:hover</code> and <code>:active</code> or <code>:focus</code>, which
+      specify rules based on user interaction with page elements.
+    </p>
+    <p>
+      Transitions and animations can be a good way to provide feedback to a user
+      about clickable content or focus attention.
+    </p>
+    <p>
+      <a href="https://www.kirupa.com/html5/learn_animation.htm">Kirupa.com</a>
+      provides one of the most exhaustive intros to CSS animation. Check out the
+      stylesheet referenced in this document for css code and more links.
+    </p>
+    <h3>Examples</h3>
+    <div class="transition-grow"><p>Hover me to see a transition.</p></div>
+    <div class="transformation"><p>There are also transformations</p></div>
+    <p>
+      There are also animations properties, which are a bit more complicated.
+      Just remember they take two steps. First, you need to specify an
+      <code>@keyframes ____ {}</code> rule with a name and the property values
+      to animate in their starting states or ending states. And then that name
+      is used to bind an animation to an element or psuedo-class.
+    </p>
+    <div class="animated">I'm an animated div.</div>
+    <p>
+      Usually, the animation will only play once, unless you specify an
+      <code>animation-iteration-count:</code>. You can set this to a numerical
+      value or "infinite".
+    </p>
+    <p>
+      You can also set the <code>@keyframes {}</code> to follow a series of
+      steps instead of just an initial state and end state. You can specify
+      these steps in percentage. Like below.
+    </p>
+    <div class="many-keyframes"><p>I'm a div with many keyframe steps.</p></div>
+  </body>
+</html>
