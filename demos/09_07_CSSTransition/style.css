@@ -26,17 +26,12 @@ code {
   background-color: #3c3c3c;
   border: 1px solid #000;
   color: #fff;
-  transition-property: width;
-  transition-duration: 2s;
-  transition-timing-function: ease-in;
-  transition-delay: 0s;
-  /*can also write this out like
-  transition: width 2s linear 0s;
-  */
+  transition: width ease-in 2s, color ease-out 2s;
 }
 
 .transition-grow:hover {
   width: 350px;
+  color: #000;
 }
 
 .transformation {
@@ -46,11 +41,11 @@ code {
   margin: 1em;
   background-color: #10c053;
   border: 2px solid #000;
-  /*transition: transform 300ms;*/
+  transition: transform 300ms;
 }
 
 .transformation:hover {
-  transform: rotate(45deg) translate(50px, 50px);
+  transform: rotate(45deg) translate(100px, 100px);
 }
 
 /*Animations - specify an @keyframes ___ */
@@ -134,7 +129,6 @@ code {
   font-size: 1.6em;
   animation-name: slidein;
   animation-duration: 3s;
-  animation-iteration-count: infinite;
 }
 
 .slider-container {
