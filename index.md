@@ -65,15 +65,18 @@ You can find detailed descriptions on the [assignments](./assignments.md) page.
 Check out your colleages' work
 
 - [Bella Almeida](https://people.duke.edu/~iba5/webdesign2/)
+- [Amanda Cai](https://people.duke.edu/~aac77/)
 - [Kyra Chan](https://people.duke.edu/~ktc22/)
 - [Jimin Cheon](https://people.duke.edu/~jc910/)
 - [Emma Helmich](https://people.duke.edu/~ech56/)
 - [Jaewon Jung](https://people.duke.edu/~jj312/)
 - [Hannah Kaplon](https://people.duke.edu/~hck11/)
+- [Ayesham Khan](https://people.duke.edu/~awk16/)
 - [Yixuan Li](https://people.duke.edu/~yl600/web_development_design/)
 - [Caroline Ning](https://people.duke.edu/~xn18/webProject/)
 - [Amelia Paulsen](https://acpaulsen.github.io/WebProjD-D/)
 - [Joshua Petitma](https://wpd.petit.dev/)
 - [Joe Robertson](https://people.duke.edu/~jtr34/)
+- [Allison Shi](https://people.duke.edu/~as1113/)
 - [Michelle Tai](https://people.duke.edu/~mrt36/labs/index.html)
 - [Ziang Zhou](https://people.duke.edu/~zz188/iss241/)
