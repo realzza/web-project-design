@@ -147,10 +147,10 @@ Javascript Ia: What is JavaScript? Where to JavaScript?
 - In Class
   - JavaScript and the browser
   - JavaScript and HTML/CSS
-  - JavaScript helps modify DOM elements
+  - Variables, values, types and operators
 - Homework
-  - Reading: MDN Docs, [JavaScript First Steps](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/First_steps) and _Eloquent JavaScript_, [Chapter 1: Values, Types, and Operators]()
-  - Exercise
+  - Reading: Marjin Haverbeke, _Eloquent JavaScript_, [Chapter 1: Values, Types, and Operators & Ch. 2: Program Structure](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/EloquentJavaScript_Ch1_2.pdf)
+  -
 
 ---
 
@@ -158,40 +158,35 @@ Javascript Ia: What is JavaScript? Where to JavaScript?
 
 **Assignment 3: Sitemap and Wireframes Due**
 
-Javascript Ib: Variables, Declaring Variables, Types, Statements
+Javascript Ib: Functions, Loops and Conditionals
 
 - In Class
-  - Variables
-  - Declaring Variables
-  - Data Types
-  - Operators
+  - Functions & Objects
+  - Declaring functions with ES6 notation
 - Homework
-  - Reading: _Eloquent Javascript_, [Chapter 2: Program Structure]()
-  - Exercise
+  - Reading: _Eloquent JavaScript_, [Chapter 3: Functions]()
+  - Homework: Work on [Assignment 4: Design Iteration](./demos.md/#assignment-4-design-iteration)
 
 ---
 
 ### September 21, 2021
 
-JavaScript Ic: Functions, Loops, and Conditionals
+JavaScript Ic: DOM - The HTML document as a context
 
 - In Class
-  - Functions, Defining Functions, invoking Functions
-  - Local Variables
-  - Invoking functions with Events
+  - Understanding and Manipulating the DOM
 - Homework
-  - Reading: _Eloquent JavaScript_, [Chapter 3: Functions]()
-  - Exercise
+  - Reading/Exercise: [Tania Rascia, "Introduction to the DOM](https://www.taniarascia.com/introduction-to-the-dom/)
 
 ---
 
 ### September 23, 2021
 
-JavaScript Id: Arrays, Iterating Arrays
+JavaScript Id: More on Arrays
+**Design Iterations Due, In Class**
 
 - In Class
-  - Arrays
-  - Arrays are objects (and more)
+  - Discussion: Design Iterations
   - Array Methods
   - Array Iteration with forEach() and map()
 - Homework
@@ -201,15 +196,14 @@ JavaScript Id: Arrays, Iterating Arrays
 
 ### September 28, 2021
 
-JavaScript Ie: Objects, Attributes, Methods... and the DOM
+JavaScript Ie: Objects, Attributes, Methods.
 
 - In Class
   - Objects
   - Object Attributes
   - Methods
-  - the DOM (Document Object Model)
 - Homework
-  - Reading/Exercise: [Tania Rascia, "Introduction to the DOM](https://www.taniarascia.com/introduction-to-the-dom/)
+  -
 
 ## Unit III: Make it Easier: Libraries and Client-Side APIs
 

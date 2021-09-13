@@ -68,15 +68,11 @@ Though you do not need to attend to all of these details now, in the end, the mi
 ## Assignment 4: Design Iteration
 
 **Be ready to discuss in class on September 23**
-For this assignment you're going to iterate through the wireframes and design ideas from your proposal and start adding real content. At this point, you should be moving from dummy content and lorem ipsum to real images and text and planning out a "style guide" for your site. What is your color palette? What fonts will you use for heading and text? What images and other media will you use? How will you position these elements?
+For this assignment you're going to iterate through the wireframes and design ideas from your proposal to 1) start gathering and adding real content like titles, text areas, and any media (images, videos) you will use and 2) define and refine your colors, fonts, and layout. You may want to try more than one color scheme with the same design elements, or different fonts.
 
-You can work directly in CSS/HTML and/or work from wireframes
+At this point, you may be working in Adobe XD, Figma, or the Wireframing tool of your choice, or directly into CSS/HTML with dummy content or real content.
 
-The deliverable for this assignment is a 1-page writeup showing your fonts, colors, and an image of your wireframe iterations in a .html file.
-
-At this point, you should also be building out your site in HTML/CSS.
-<br />
-<br />
+For your deliverables for this assignment please either **screenshot your working HTML** or **save images of your working wireframes**. Write up an .html file with a title, images of your iterations, and labels or brief descriptions of each of the images. Please link to this page from your course homepage. We'll also be discussing your plans and iterations in class.
 
 ## Assignment 5: Midterm Website
 
