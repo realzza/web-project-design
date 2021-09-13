@@ -152,6 +152,10 @@ Javascript Ia: What is JavaScript? Where to JavaScript?
   - Variables, values, types and operators
 - Homework
   - Reading: Marjin Haverbeke, _Eloquent JavaScript_, [Chapter 1: Values, Types, and Operators & Ch. 2: Program Structure](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/EloquentJavaScript_Ch1_2.pdf)
+- Resources and Tutorials for Getting Started and Continuing with JS
+  - [Learn JavaScript](https://learnjavascript.online/), a series of guided intro exercises with in-browser code editing
+  - [The Coding Train](https://thecodingtrain.com/), tons of video tutorials on JavaScript with a creative and experimental approach
+  - [JavaScript 30](https://javascript30.com/), learn JavaScript in 30 days by building a thing each day alongside video tutorials
 
 ---
 
