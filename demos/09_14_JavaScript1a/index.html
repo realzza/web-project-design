@@ -38,8 +38,9 @@
     <script>
       //This defines the function that is called when the button is clicked
       function myFunction() {
-        document.getElementById("example").innerHTML =
-          "You clicked the button!";
+        var element = document.getElementById("example");
+        //console.log(element);
+        element.innerHTML = "You pressed the button!";
       }
     </script>
   </body>

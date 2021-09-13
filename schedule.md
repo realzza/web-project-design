@@ -144,13 +144,14 @@ Interface, Prototyping, and Wireframing
 
 Javascript Ia: What is JavaScript? Where to JavaScript?
 
+[Demo Files](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/09_14_JavaScript1a)
+
 - In Class
   - JavaScript and the browser
   - JavaScript and HTML/CSS
   - Variables, values, types and operators
 - Homework
   - Reading: Marjin Haverbeke, _Eloquent JavaScript_, [Chapter 1: Values, Types, and Operators & Ch. 2: Program Structure](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/EloquentJavaScript_Ch1_2.pdf)
-  -
 
 ---
 
@@ -202,8 +203,7 @@ JavaScript Ie: Objects, Attributes, Methods.
   - Objects
   - Object Attributes
   - Methods
-- Homework
-  -
+- ## Homework
 
 ## Unit III: Make it Easier: Libraries and Client-Side APIs
 
