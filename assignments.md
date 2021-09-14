@@ -72,7 +72,7 @@ For this assignment you're going to iterate through the wireframes and design id
 
 At this point, you may be working in Adobe XD, Figma, or the Wireframing tool of your choice, or directly into CSS/HTML with dummy content or real content.
 
-For your deliverables for this assignment please either **screenshot your working HTML** or **save images of your working wireframes**. Write up an .html file with a title, images of your iterations, and labels or brief descriptions of each of the images. Please link to this page from your course homepage. We'll also be discussing your plans and iterations in class.
+For your deliverables for this assignment please either **screenshot your working pages** or **save images of your working wireframes**. Write up an .html file with a title, images of your iterations, and labels or brief descriptions of each of the images. Please link to this page from your course homepage. We'll also be discussing your plans and iterations in class.
 
 ## Assignment 5: Midterm Website
 
