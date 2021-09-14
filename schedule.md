@@ -155,7 +155,7 @@ Javascript Ia: What is JavaScript? Where to JavaScript?
   - **Finish Wireframes and Sitemaps** (remember these are draft versions)
 - Resources and Tutorials for Getting Started and Continuing with JS
   - [Learn JavaScript](https://learnjavascript.online/), a series of guided intro exercises with in-browser code editing
-  - [The Coding Train](https://thecodingtrain.com/), tons of video tutorials on JavaScript with a creative and experimental approach
+  - [The Coding Train](https://thecodingtrain.com/), tons of video tutorials on JavaScript with a creative and experimental approach. See also, [Dan Shiffman's explanation of declaring variables with let versus var](https://www.youtube.com/watch?v=q8SHaDQdul0&list=PLRqwX-V7Uu6YgpA3Oht-7B4NBQwFVe3pr&index=1)
   - [JavaScript 30](https://javascript30.com/), learn JavaScript in 30 days by building a thing each day alongside video tutorials
   - [p5.js](https://p5js.org/) is a JavaScript library designed for visualization. Creating visual results from code can be a great way to get to know and understand program structure, logic, and syntax.
 
