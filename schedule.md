@@ -166,11 +166,12 @@ Javascript Ia: What is JavaScript? Where to JavaScript?
 Javascript Ib: Functions, Loops and Conditionals
 
 - In Class
-  - Functions & Objects
+  - Functions, while(), for(), and if-then logic
   - Declaring functions with ES6 notation
 - Homework
-  - Reading: _Eloquent JavaScript_, [Chapter 3: Functions]()
+  - Reading: _Eloquent JavaScript_, [Chapter 3: Functions](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/EloquentJavaScript_Ch3.pdf)
   - Homework: Work on [Assignment 4: Design Iteration](./demos.md/#assignment-4-design-iteration)
+  - Resource: The Coding Train, [Videos 16.1-16.3 on let, var, const and the arrow function](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YgpA3Oht-7B4NBQwFVe3pr)
 
 ---
 
