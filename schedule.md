@@ -157,6 +157,7 @@ Javascript Ia: What is JavaScript? Where to JavaScript?
   - [Learn JavaScript](https://learnjavascript.online/), a series of guided intro exercises with in-browser code editing
   - [The Coding Train](https://thecodingtrain.com/), tons of video tutorials on JavaScript with a creative and experimental approach
   - [JavaScript 30](https://javascript30.com/), learn JavaScript in 30 days by building a thing each day alongside video tutorials
+  - [p5.js](https://p5js.org/) is a JavaScript library designed for visualization. Creating visual results from code can be a great way to get to know and understand program structure, logic, and syntax.
 
 ---
 
