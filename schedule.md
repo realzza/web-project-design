@@ -152,6 +152,7 @@ Javascript Ia: What is JavaScript? Where to JavaScript?
   - Variables, values, types and operators
 - Homework
   - Reading: Marjin Haverbeke, _Eloquent JavaScript_, [Chapter 1: Values, Types, and Operators & Ch. 2: Program Structure](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/EloquentJavaScript_Ch1_2.pdf)
+  - **Finish Wireframes and Sitemaps** (remember these are draft versions)
 - Resources and Tutorials for Getting Started and Continuing with JS
   - [Learn JavaScript](https://learnjavascript.online/), a series of guided intro exercises with in-browser code editing
   - [The Coding Train](https://thecodingtrain.com/), tons of video tutorials on JavaScript with a creative and experimental approach
@@ -166,7 +167,7 @@ Javascript Ia: What is JavaScript? Where to JavaScript?
 Javascript Ib: Functions, Loops and Conditionals
 
 - In Class
-  - Functions, while(), for(), and if-then logic
+  - Functions and other things: while(), for(), and if-then logic
   - Declaring functions with ES6 notation
 - Homework
   - Reading: _Eloquent JavaScript_, [Chapter 3: Functions](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/EloquentJavaScript_Ch3.pdf)
