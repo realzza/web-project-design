@@ -38,7 +38,7 @@ console.log("greater than? " + (4 > myNum)); //returns true
 
 // Strings String Methods
 let myString = "I'm a string! I'm great!";
-let anotherString = "this is another string";
+let anotherString = "This is another string";
 console.log(myString.length); // logs a value of the length of the string
 console.log(myString.slice(0, 4)); //logs a section of the string
 console.log(myString.replace("I'm", "You're")); //replaces the first instance in the string of the first parameter with the second
@@ -46,14 +46,16 @@ console.log(myString.replace("I'm", "You're")); //replaces the first instance in
 let newString = myString.concat(
   " ",
   anotherString,
-  " and these are my strings."
+  " ...and these are my strings."
 );
+
+console.log(newString);
 
 // Booleans: true/false values
 let p = false;
 console.log(p);
 
-// you can test true and false with "!" which means not.
+// you can test true and false with "!" which, as in the comparison operators above, means "not".
 if (!p) {
   console.log("I'm false");
 } else {
