@@ -35,12 +35,14 @@
       </div>
     </div>
     <!--Put your JS here, in the body of the document if you want to include it in the page-->
+    <script src="script.js"></script>
     <script>
       //This defines the function that is called when the button is clicked
       function myFunction() {
         var element = document.getElementById("example");
-        //console.log(element);
-        element.innerHTML = "You pressed the button!";
+        console.log(element);
+        element.innerHTML = "<p>You pressed the button!</p>";
+        element.style.backgroundColor = "red";
       }
     </script>
   </body>
