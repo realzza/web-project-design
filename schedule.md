@@ -192,11 +192,12 @@ JavaScript Ic: DOM - The HTML document as a context
 
 ### September 23, 2021
 
-JavaScript Id: More on Arrays
+JavaScript Id: More on Arrays, and Loops
 
 - In Class
   - Array Methods: forEach(), map() and filter()
   - Arrays from HTML Collections
+  - For
 - Homework
   - Reading: _Eloquent JavaScript_, [Chapter 4: Data Structures: Objects and Arrays]()
 
