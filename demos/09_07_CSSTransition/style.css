@@ -26,12 +26,25 @@ code {
   background-color: #3c3c3c;
   border: 1px solid #000;
   color: #fff;
+<<<<<<< HEAD
   transition: width ease-in 2s, color ease-out 2s;
+=======
+  transition-property: width;
+  transition-duration: 2s;
+  transition-timing-function: ease-in;
+  transition-delay: 0s;
+  /*can also write this out like
+  transition: width 2s linear 0s;
+  */
+>>>>>>> fac1895... update schedule.md add to demo files
 }
 
 .transition-grow:hover {
   width: 350px;
+<<<<<<< HEAD
   color: #000;
+=======
+>>>>>>> fac1895... update schedule.md add to demo files
 }
 
 .transformation {
@@ -41,11 +54,19 @@ code {
   margin: 1em;
   background-color: #10c053;
   border: 2px solid #000;
+<<<<<<< HEAD
   transition: transform 300ms;
 }
 
 .transformation:hover {
   transform: rotate(45deg) translate(100px, 100px);
+=======
+  /*transition: transform 300ms;*/
+}
+
+.transformation:hover {
+  transform: rotate(45deg) translate(50px, 50px);
+>>>>>>> fac1895... update schedule.md add to demo files
 }
 
 /*Animations - specify an @keyframes ___ */
@@ -66,7 +87,10 @@ code {
 .animated {
   width: 200px;
   height: 200px;
+<<<<<<< HEAD
   padding: 10px;
+=======
+>>>>>>> fac1895... update schedule.md add to demo files
   background-color: #1091e7;
   color: #fff;
   border: 1px solid #3c3c3c;
@@ -85,22 +109,38 @@ code {
   25% {
     background-color: #b9b9b9;
     color: #3c3c3c;
+<<<<<<< HEAD
     left: 50px;
+=======
+    left: 20px;
+>>>>>>> fac1895... update schedule.md add to demo files
   }
   50% {
     background-color: #949494;
     color: #929292;
+<<<<<<< HEAD
     left: 100px;
+=======
+    left: 40px;
+>>>>>>> fac1895... update schedule.md add to demo files
   }
   75% {
     background-color: #4d4c4c;
     color: #acacac;
+<<<<<<< HEAD
     left: 150px;
+=======
+    left: 60px;
+>>>>>>> fac1895... update schedule.md add to demo files
   }
   100% {
     background-color: #000;
     color: #fff;
+<<<<<<< HEAD
     left: 200px;
+=======
+    left: 80px;
+>>>>>>> fac1895... update schedule.md add to demo files
   }
 }
 
@@ -113,6 +153,7 @@ code {
   border: 1px solid #000;
   animation: many-steps 4s linear 0s infinite alternate;
 }
+<<<<<<< HEAD
 
 @keyframes slidein {
   from {
@@ -136,3 +177,5 @@ code {
   overflow: hidden;
   margin-bottom: 1em;
 }
+=======
+>>>>>>> fac1895... update schedule.md add to demo files
