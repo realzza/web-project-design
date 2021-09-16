@@ -165,15 +165,17 @@ Javascript Ia: What is JavaScript? Where to JavaScript?
 
 **Assignment 3: Sitemap and Wireframes Due**
 
-Javascript Ib: Functions, Loops and Conditionals
+Javascript Ib: Functions, Methods, Events
+
+[Demo Files](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/09_16_JavaScript1b)
 
 - In Class
-  - Functions and other things: while(), for(), and if-then logic
+  - Functions, Methods, Events
   - Declaring functions with ES6 notation
+  - Events in the Browser
 - Homework
   - Reading: _Eloquent JavaScript_, [Chapter 3: Functions](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/EloquentJavaScript_Ch3.pdf)
-  - Homework: Work on [Assignment 4: Design Iteration](./demos.md/#assignment-4-design-iteration)
-  - Resource: The Coding Train, [Videos 16.1-16.3 on let, var, const and the arrow function](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YgpA3Oht-7B4NBQwFVe3pr)
+  - Work on [Assignment 4: Design Iteration](./demos.md/#assignment-4-design-iteration)
 
 ---
 
@@ -182,7 +184,7 @@ Javascript Ib: Functions, Loops and Conditionals
 JavaScript Ic: DOM - The HTML document as a context
 
 - In Class
-  - Understanding and Manipulating the DOM
+  - The DOM and Traversing the DOM
 - Homework
   - Reading/Exercise: [Tania Rascia, "Introduction to the DOM](https://www.taniarascia.com/introduction-to-the-dom/)
 
@@ -191,12 +193,10 @@ JavaScript Ic: DOM - The HTML document as a context
 ### September 23, 2021
 
 JavaScript Id: More on Arrays
-**Design Iterations Due, In Class**
 
 - In Class
-  - Discussion: Design Iterations
-  - Array Methods
-  - Array Iteration with forEach() and map()
+  - Array Methods: forEach(), map() and filter()
+  - Arrays from HTML Collections
 - Homework
   - Reading: _Eloquent JavaScript_, [Chapter 4: Data Structures: Objects and Arrays]()
 
@@ -204,13 +204,13 @@ JavaScript Id: More on Arrays
 
 ### September 28, 2021
 
-JavaScript Ie: Objects, Attributes, Methods.
+**Design Iterations Due, In Class**
 
-- In Class
-  - Objects
-  - Object Attributes
-  - Methods
-- ## Homework
+- In Class:
+  - Working Design Presentations & Group Crit
+  - Workshop on midterm websites
+- Homework:
+  - Finish Midterm websites for Sept. 30
 
 ## Unit III: Make it Easier: Libraries and Client-Side APIs
 

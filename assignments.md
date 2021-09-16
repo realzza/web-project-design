@@ -67,7 +67,7 @@ Though you do not need to attend to all of these details now, in the end, the mi
 
 ## Assignment 4: Design Iteration
 
-**Be ready to discuss in class on September 23**
+**Be ready to discuss in class on September 28**
 For this assignment you're going to iterate through the wireframes and design ideas from your proposal to 1) start gathering and adding real content like titles, text areas, and any media (images, videos) you will use and 2) define and refine your colors, fonts, and layout. You may want to try more than one color scheme with the same design elements, or different fonts.
 
 At this point, you may be working in Adobe XD, Figma, or the Wireframing tool of your choice, or directly into CSS/HTML with dummy content or real content.
