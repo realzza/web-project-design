@@ -94,10 +94,14 @@ let clickDiv = document.getElementById("click-event");
 clickDiv.onclick = function () {
 	let color = randomRange(0, 255);
 	let color2 = randomRange(0, 144);
-	clickDiv.style.backgroundColor = "rgb(" + color2 + ", 240," + color + ")";
+	let color3 = randomRange(25, 255);
+	clickDiv.style.backgroundColor =
+		"rgba(" + color + "," + color2 + "," + color3 + ", 0.7)";
+	//console.log(clickDiv.style.backgroundColor); //uncomment to see the rgba()
 };
 // addEventListener for "scoll" event
 window.addEventListener("scroll", function (e) {
+	//console.log(e);  //uncomment to see the event object
 	let yPos = window.scrollY;
 	let topLink = document.getElementById("to-top");
 	if (yPos >= 240) {
