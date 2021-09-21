@@ -181,23 +181,32 @@ Javascript Ib: Functions, Methods, Events
 
 ### September 21, 2021
 
-JavaScript Ic: DOM - The HTML document as a context
+JavaScript Ic: DOM
 
 - In Class
+
   - The DOM and Traversing the DOM
+  - tree/node
+  - for() and for() ...of to iterate through HTMLCollections and nodeLists
+
 - Homework
-  - Reading/Exercise: [Tania Rascia, "Introduction to the DOM](https://www.taniarascia.com/introduction-to-the-dom/)
+  - Reading: [Tania Rascia, "How to Make Changes to the DOM"](https://www.taniarascia.com/how-to-make-changes-to-the-dom/)
+  - Exercise: Use what we've covered so far on DOM manipulation to design an html page whose main content (at least five elements) is dynamically generated with JavaScript. Feel free to use an array + for, timers, or a series of statements to create these elements. You may have as much or as little interaction as you wish, ie click or scroll events. You should style the elements with CSS OR with .js. **Upload your finished HTML page to your webspace and link to it from your course homepage.**
+  - Keep working on design iterations and building your midterm site
+    - Resource for inspiration: [W3 Schools "How To" list](https://www.w3schools.com/howto/default.asp) of common UI elements, layouts, animations, and interactions
 
 ---
 
 ### September 23, 2021
 
-JavaScript Id: More on Arrays, and Loops
+JavaScript Id: More on Arrays and Timings
 
 - In Class
+
   - Array Methods: forEach(), map() and filter()
-  - Arrays from HTML Collections
-  - For
+  - Arrays from HTMLCollections and NodeLists
+  - Intro to JSON and external data
+
 - Homework
   - Reading: _Eloquent JavaScript_, [Chapter 4: Data Structures: Objects and Arrays]()
 
