@@ -183,7 +183,7 @@ Javascript Ib: Functions, Methods, Events
 
 JavaScript Ic: DOM
 
-- In Class
+- In Class<br />
   [Demo Code](https://maximusrex.github.io/web-project-design/demos/09_21_DOM/)
 
   - The DOM and Traversing the DOM
