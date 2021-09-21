@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>The Document Object Model (DOM)</title>
+		<!--W3 CSS-->
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+	 <!--fontAwesome-->
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+		<!--inline styles-->
+		<style>
+			body {
+				background-color: #fcfcfc;
+        line-height: 1.7;
+			}
+
+      h2,h3,h4,h5 {
+        text-align: left;
+      }
+
+			#example {
+				max-width: 780px;
+				margin: 0.5em auto;
+				padding: 2em;
+			}
+
+      p {
+        padding: 0.4em 1.12em;
+      }
+
+      ul {
+        line-height: 1.8;
+        padding: 1em 2em;
+        max-width: 680px;
+        margin: 0 auto;
+        list-style-type: circle;
+      }
+
+      ul li {
+        margin: 4px;
+        padding: 2px 4px;
+      }
+
+			code {
+				background-color: #bdbbbb;
+				padding: 4px;
+			}
+
+
+  
+		</style>
+	</head>
+	<body>
+    <div id="topNav" class="navBar"></div>
+		<div class="w3-container container">
+			<div id="example">
+        <h1>The Document Object Model (DOM)</h1>
+				<p>
+					This page provides some examples for working with the
+					<a href="https://www.w3schools.com/js/js_htmldom.asp">DOM</a>. The DOM
+					is a representation of the HTML document that can be accessed and
+					modified with JavaScript. It's not the <i>same</i> as the HTML
+					document, and any changes you make with client-side JavaScript will
+					have no effect on the underlying HTML and will revert at reload. The
+					DOM represents the HTML structure of the document as a tree with
+					nested nodes, where each element in the document (or comment, or text
+					outside of an element) is a node in the tree.
+				</p>
+				<h3>How to Access Element Nodes</h3>
+				<p>
+					The simplest way to access elements in JavaScript is with
+					<code>document.getElementbyId();</code>. You can also use:
+          <br>
+          <ul>
+            <li class="class-example"><code>.getElementsByClassName();</code> (returns an array-like object of elements as an HTML collection) </li>
+            <li class="class-example">This <code>li</code> has the same class as above.</li>
+            <li><code>.getElementsByTagName();</code> also returns an array-like object as an HTML collection.</li>
+            <li>And there's also <code>.querySelector();</code> and <code>.querySelectorAll();</code> which can take a tag, class, or id, and yes, the second one returns an array-like object, this time as a NodeList.</li>
+          </ul>
+				</p>
+        <h3>Traversing the DOM</h3>
+        <p>We refer to the DOM as a tree structure of nested nodes, and nodes are referred to as parents, children, and siblings in this structure, in reference to their hierarchy. For example, the div that contains all of thes <code>p</code> elements has the id <code>#example</code>, so we would refer to these <code>p</code> elements as "children" of <code>#example</code>.  You could access them through their parent element with <code>document.getElementById('example').children;</code>, however, this would also return all of the other child elements of <code>#example</code> in the order in which they appear in the page.</p>
+        <ul id="example-ul">
+          <li>I'm a list item.</li>
+          <li>Me too!</li>
+          <li>And me.</li>
+        </ul>
+        <h3>Modifying the DOM</h3>
+        <p>You can use JavaScript to create elements, style elements, add text or html content to elements, add elements to the DOM, add remove elements from the DOM.</p>
+        <p>Because it's JavaScript, we can also do so procedurally with loops and timings.</p>
+			</div>
+    
+      <p>I'm an element outside of the <code>#example div</code>.</p>
+		</div>
+
+		<script>
+ 
+
+    </script>
+	</body>
+</html>
