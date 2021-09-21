@@ -192,7 +192,9 @@ JavaScript Ic: DOM
 
 - Homework
   - Reading: [Tania Rascia, "How to Make Changes to the DOM"](https://www.taniarascia.com/how-to-make-changes-to-the-dom/)
-  - Exercise: Use what we've covered so far on DOM manipulation to design an html page whose main content (at least five elements) is dynamically generated with JavaScript. Feel free to use an array + for, timers, or a series of statements to create these elements. You may have as much or as little interaction as you wish, ie click or scroll events. You should style the elements with CSS OR with .js. **Upload your finished HTML page to your webspace and link to it from your course homepage.**
+  - Exercise: Use what we've covered so far on DOM manipulation to design an html page whose main content (at least five elements) is dynamically generated with JavaScript. Feel free to use an array + for, timers, or a series of statements to create these elements. You may have as much or as little interaction as you wish, ie click or scroll events, or with page load. You should style the elements with CSS OR with .js.
+    <br />
+    **Upload your finished HTML page to your webspace and link to it from your course homepage.**
   - Keep working on design iterations and building your midterm site
     - Resource for inspiration: [W3 Schools "How To" list](https://www.w3schools.com/howto/default.asp) of common UI elements, layouts, animations, and interactions
 
