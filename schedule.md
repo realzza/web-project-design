@@ -206,12 +206,12 @@ JavaScript Id: More on Arrays, Objects and JSON
 
 - In Class
 
-  - Array Methods: forEach(), map() and filter()
-  - Arrays from HTMLCollections and NodeLists
-  - Intro to JSON and external data
+  - Iteration review: for, for...of, and while
+  - Timers in JS: setTimeout() and setInterval()
 
 - Homework
-  - Reading: _Eloquent JavaScript_, [Chapter 4: Data Structures: Objects and Arrays]()
+  - Reading: [Kirupa.Com: "Timers in JS"](https://www.kirupa.com/html5/timers_js.htm)
+  - Work on
 
 ---
 
