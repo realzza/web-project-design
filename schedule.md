@@ -204,6 +204,8 @@ JavaScript Ic: DOM
 
 JavaScript Id: More on Arrays, Objects and JSON
 
+[Array Methods Cheat Sheet](https://github.com/maximusrex/web-project-design/blob/gh-pages/demos/09_23_Timers/Arrays.js)
+
 - In Class
 
   - Iteration review: for, for...of, and while
