@@ -28,4 +28,12 @@ Links to the demo files we build in class.
   - [Slides on User-Centered Design](https://docs.google.com/presentation/d/1s6sJMcZtksxPbtQmFGC98GGCptzFDfKRf2fggy2U7F0/edit?usp=sharing)
 
 - September 14, 2021 JavaScript 1a: Syntax, Variables, Types, Operators
+
   - [Finished Demo](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/09_14_JavaScript1a)
+
+- September 16, 2021 JavaScript 1b: Functions
+
+  - [Finished Demo](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/09_16_JavaScript1b)
+
+- September 21, 2021 JavaScript 1c: DOM
+  - [Finished Demo](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/09_21_DOM)
