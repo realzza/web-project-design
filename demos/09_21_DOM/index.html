@@ -48,12 +48,65 @@
 				padding: 4px;
 			}
 
+			.navBar {
+				overflow: hidden;
+				background-color: #646A72;
+				/* padding: 4px; */
+			}
 
+			.navBar a{
+				float: left;
+				display: block;
+				overflow: hidden;
+				background-color: #646A72;
+				color: bisque;
+				text-align: center;
+				text-decoration: none;
+				font-size: 18px;
+				padding: 12px 16px;
+			}
+
+			.navBar a:hover {
+				background-color: hsl(0, 1%, 74%);
+				color: black;
+			}
+
+			.navBar .icon {
+				display: none;
+			}
+
+			@media screen and (max-width: 600px) {
+				/* .navBar a {display: none;} */
+				.navBar a:not(:first-child) {display: none;}
+				.navBar a.icon {
+					float: right;
+					display: block;
+				}
+			}
+
+			@media screen and (max-width: 600px) {
+				.navBar.responsive{position: relative;}
+				.navBar.responsive .icon {
+					position: absolute;
+					right: 0;
+					top: 0;
+				}
+				.navBar.responsive a {
+					float: none;
+					display: block;
+					text-align: left;
+				}
+			}
   
 		</style>
 	</head>
 	<body>
-    <div id="topNav" class="navBar"></div>
+    <div id="topNav" class="navBar responsive">
+			<a href="#">Home</a>
+			<a href="#">About</a>
+			<a href="#">Team</a>
+			<a href="#" id="icon" class="icon"><i class="fa fa-bars"></i></a>
+		</div>
 		<div class="w3-container container">
 			<div id="example">
         <h1>The Document Object Model (DOM)</h1>
@@ -96,7 +149,7 @@
       <p>I'm an element outside of the <code>#example div</code>.</p>
 		</div>
 
-		<script>
+		<script src="dom.js">
  
 
     </script>
