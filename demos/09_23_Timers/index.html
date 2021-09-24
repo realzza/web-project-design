@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>Iterations and Timers</title>
+		<style>
+			body {
+				height: 100vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			ul {
+				list-style-type: none;
+			}
+			li {
+				margin: 10px;
+				padding: 16px;
+				font-size: 17px;
+			}
+
+			button {
+				font-size: 15px;
+				padding: 14px 16px;
+			}
+
+			#myDiv {
+				visibility: hidden;
+				background-color: #2d2d2d;
+				color: #fcfcfc;
+				font-size: 17px;
+				position: absolute;
+				bottom: 30px;
+				left: 20px;
+				z-index: 1;
+				padding: 14px;
+				border-radius: 4px;
+			}
+			#myDiv.show {
+				visibility: visible;
+				animation: fadein 0.5s, fadeout 0.5s 4.5s;
+			}
+
+			@keyframes fadein {
+				from {
+					bottom: 0;
+					left: -200px;
+					opacity: 0;
+				}
+				to {
+					bottom: 30px;
+					left: 20px;
+					opacity: 1;
+				}
+			}
+
+			@keyframes fadeout {
+				from {
+					bottom: 30px;
+					left: 20px;
+					opacity: 1;
+				}
+				to {
+					bottom: 0;
+					left: -200px;
+					opacity: 0;
+				}
+			}
+
+			.intervalDiv {
+				width: 90%;
+				font-size: 20px;
+				padding: 20px 10px;
+				border: 1px solid blue;
+			}
+		</style>
+	</head>
+	<body>
+		<button id="btn">Click Me!</button>
+		<ul id="myUl">
+			<li>Item 1</li>
+			<li>Item 2</li>
+			<li>Item 3</li>
+			<li>Item 4</li>
+		</ul>
+		<div id="myDiv"><p>I'm going to appear for just a few seconds.</p></div>
+
+		<script>
+			let myUl = document.getElementById("myUl");
+			let li = myUl.children;
+			for (i = 0; i < li.length; i++) {
+				li[i].style.border = "2px solid red";
+			}
+
+			for (let item of li) {
+				item.style.backgroundColor = "#c3c3c3";
+			}
+
+			let index = 0;
+			while (index < li.length) {
+				li[index].style.color = "white";
+				index++;
+			}
+
+			/* let myFlowers = [
+				{ name: "daisy", color: "yellow" },
+				{ name: "azalea", color: "white" },
+				{ name: "rose", color: "red" },
+			];
+
+			let newUl = document.createElement("ul");
+			myFlowers.forEach((flower) => {
+				let newLi = document.createElement("li");
+				newLi.style.backgroundColor = "#c3c3c3";
+				newLi.textContent = flower.name;
+				newLi.style.color = flower.color;
+				newUl.appendChild(newLi);
+			});
+			document.body.appendChild(newUl); */
+
+			let btn = document.getElementById("btn");
+			btn.addEventListener("click", () => {
+				let div = document.getElementById("myDiv");
+				div.className = "show";
+				setTimeout(() => {
+					div.classList.remove("show");
+				}, 5000);
+			});
+
+			function makeDiv() {
+				let intervalDiv = document.createElement("div");
+				intervalDiv.innerHTML = "<p>I am new!</p>";
+				intervalDiv.setAttribute("class", "intervalDiv");
+				document.body.appendChild(intervalDiv);
+			}
+			setInterval(makeDiv, 3000);
+		</script>
+	</body>
+</html>

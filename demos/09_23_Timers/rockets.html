@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Rockets!</title>
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+			integrity="sha256-eZrrJcwDc/3uDhsdt61sL2oOBY362qM3lon1gyExkL0="
+			crossorigin="anonymous"
+		/>
+		<style>
+			body {
+				height: 100vh;
+				display: flex;
+				align-items: center;
+				justify-content: center;
+			}
+			.rocket {
+				color: #c115cd;
+				font-size: 1.8em;
+				position: fixed;
+				top: -1vh;
+				transform: translateY(0);
+				animation: fall 3s ease-in forwards;
+				z-index: -1;
+			}
+
+			@keyframes fall {
+				to {
+					transform: translateY(105vh);
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<script>
+			function makeRocket() {
+				let rocket = document.createElement("i");
+				rocket.className = "rocket fa fa-rocket";
+				let rocketPos = Math.random() * 100 + "vw";
+				rocket.style.left = rocketPos;
+				document.body.appendChild(rocket);
+				setTimeout(() => {
+					rocket.remove();
+				}, 3000);
+			}
+
+			setInterval(makeRocket, 100);
+		</script>
+	</body>
+</html>
