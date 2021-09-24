@@ -205,6 +205,7 @@ JavaScript Ic: DOM
 JavaScript Id: More on Arrays, Objects and JSON
 
 [Array Methods Cheat Sheet](https://github.com/maximusrex/web-project-design/blob/gh-pages/demos/09_23_Timers/Arrays.js)
+[In Class Demo: Loops and Timers](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/09_23_Timers)
 
 - In Class
 
@@ -213,7 +214,7 @@ JavaScript Id: More on Arrays, Objects and JSON
 
 - Homework
   - Reading: [Kirupa.Com: "Timers in JS"](https://www.kirupa.com/html5/timers_js.htm)
-  - Work on
+  - Work on midterm websites - come ready on Tuesday to present your progress on your designs. **Stuck?: Email me, and/or bring your questions to class**
 
 ---
 
