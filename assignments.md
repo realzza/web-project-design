@@ -91,12 +91,17 @@ Your completed midterm site should have:
     <br />
     <br />
 
-## Assignment 6: Library & Plugin Research
+## Assignment 6: API & Library Research
 
 **Due Online Oct 7**
-Find 2-3 Javascript Libraries, Plugins, or Frameworks you are interested in or would like to incorporate into a project.
+Find one or a combination of APIs and libraries you may want to implement for a final project.
 
-Write up a brief on each one, with links, explaining its main uses and post this to your site to share in-class by Oct 7.
+For example, I may want to use P5.js, a database service, and the Twitter API to allow visitors to my app to tweet drawings they make in the browser. You may have a more abstract idea, or be just starting research on what kinds of resources are available. In this case, you can write about a tool you're interested and may want to use in your work.
+
+Do some research on your libraries/APIs. Locate the documentation, perhaps find some tutorials on youtube and resources to get yourself started.
+
+Write up a brief of either ideas for your proposed use or the tool itself, and add links to any resources you've found that may be helpful to you as you build. Create an HTML page with this content and post it to your web space.
+
 <br />
 <br />
 

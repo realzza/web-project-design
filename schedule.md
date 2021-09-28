@@ -234,15 +234,15 @@ JavaScript Id: More on Arrays, Objects and JSON
 
 **Midterm Website Project Due**
 
-Javascript IIa: APIs
+Javascript IIa: APIs, Libraries, and Frameworks
 
 - In Class
-  - Into to APIs
-  - The Browser API
-  - Libraries, Frameworks, Third-Party APIs
+  - Intro to APIs: Browser APIs, Third-Party APIs
+  - Client-side v. Server-side scripting
+  - Client-Side Web APIs: Fetch(), Navigator
 - Homework
   - Read: MDN Docs, [Client Side Web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs)
-  - Over break: research JavaScript libraries, frameworks, and APIs for use in your final projects over break. Try to implement a test of one of these.
+  - Over break: research JavaScript libraries, frameworks, and APIs for use in your final projects over break for [Assignment #7]()
 
 ---
 
@@ -252,13 +252,13 @@ Javascript IIa: APIs
 
 ### October 7, 2021
 
-JavaScript IIb: JQuery / JQuery UI to simplify DOM interaction
+JavaScript IIb: Client-Side Libraries
 
 - In Class
-  - Report back: JavaScript Libraries
-  - Intro to JQuery for DOM
+  - Library Exploration: JQuery for DOM, Leaflet.js, more library examples
 - Homework
-  - JQuery Exercise
+  - Exercise: implement a .js library in a page - existing or new (due Tuesday, Oct. 12)
+  - .JS libraries to explore:
 
 ---
 
