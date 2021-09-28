@@ -240,7 +240,7 @@ Javascript IIa: APIs, Libraries, and Frameworks
   - Intro to APIs: Browser APIs, Third-Party APIs
   - Client-side v. Server-side scripting
   - Client-Side Web APIs: Fetch(), Navigator
-  - Third-Party APIs, example: NYTimes
+  - Third-Party APIs to get data, example: NYTimes API
 - Homework
   - Read: MDN Docs, [Client Side Web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs)
   - Over break: research JavaScript libraries, frameworks, and APIs for use in your final projects over break for [Assignment #7]()
