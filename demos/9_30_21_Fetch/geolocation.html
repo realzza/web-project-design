@@ -21,24 +21,6 @@
 		</div>
 		<script>
 			const btn = document.getElementById("loc");
-			btn.addEventListener("click", getLocation);
-
-			const output = document.getElementById("locResult");
-
-			function getLocation() {
-				if ("geolocation" in navigator) {
-					console.log("geolocation Avail!");
-					navigator.geolocation.getCurrentPosition((position) => {
-						output.innerHTML =
-							"Latitude: " +
-							position.coords.latitude +
-							", Longitude: " +
-							position.coords.longitude;
-					});
-				} else {
-					output.innerHTML = "Geolocation is not enabled.";
-				}
-			}
 		</script>
 	</body>
 </html>
