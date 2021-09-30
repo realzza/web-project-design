@@ -345,7 +345,10 @@ Adding to the Stack - Intro to MongoDB Cloud
 
 ### November 2, 2021
 
-MongoDB Queries
+Intro To React
+
+- In Class:
+- React Quick Start, create react app
 
 **Final Project Proposal and Wireframe Due**
 
@@ -353,16 +356,16 @@ MongoDB Queries
 
 ### November 4, 2021
 
-Intro to Frameworks:
+React II
 
 - In Class:
-  - Intro to React, Starting a React App, Routes
+  - Routes
 
 ---
 
 ### November 9, 2021
 
-React II
+React III
 
 ---
 
@@ -374,7 +377,7 @@ Deploying - Heroku
 
 ### November 16, 2021
 
-Open for JS Library/Framework of your choosing
+RunwayML and/or ML5.js for machine learning
 
 ---
 
