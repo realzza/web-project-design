@@ -236,6 +236,8 @@ JavaScript Id: More on Arrays, Objects and JSON
 
 Javascript IIa: APIs
 
+[Demo: Geolocation and Fetch()](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/9_30_21_Fetch)
+
 - In Class
   - Looking Ahead: Building the JS toolkit with libraries & APIs
   - Intro to APIs: Browser APIs vs 3rd Party APIs
