@@ -105,13 +105,7 @@ Write up a brief of either ideas for your proposed use or the tool itself, and a
 <br />
 <br />
 
-## Assignment 7: Midterm Peer Crit
-
-**Due Oct 14**
-<br />
-<br />
-
-## Assignment 8: Final Project Proposal and Wireframes
+## Assignment 7: Final Project Proposal and Wireframes
 
 **Due Nov 2**
 

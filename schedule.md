@@ -175,7 +175,7 @@ Javascript Ib: Functions, Methods, Events
   - Events in the Browser
 - Homework
   - Reading: _Eloquent JavaScript_, [Chapter 3: Functions](https://sakai.duke.edu/access/content/group/85af1ecd-462a-4d0a-b865-bd4fe108f074/Readings/EloquentJavaScript_Ch3.pdf)
-  - Work on [Assignment 4: Design Iteration](./demos.md/#assignment-4-design-iteration)
+  - Work on [Assignment 4: Design Iteration](./assignments.md/#assignment-4-design-iteration)
 
 ---
 
@@ -244,10 +244,18 @@ Javascript IIa: APIs
   - Read/Do:
     - MDN Docs, [Introduction to web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs)
     - [Khan Academy: Using JS Libraries in Your WebPage](https://www.khanacademy.org/computing/computer-programming/html-css-js/using-js-libraries-in-your-webpage/a/whats-a-js-library)
-  - Over break: research JavaScript libraries, frameworks, and APIs for use in your final projects over break for [Assignment #7]()
+  - Over break: research JavaScript libraries, frameworks, and APIs for use in your final projects over break for [Assignment #7](./assignments.md/#assignment-6-api--library-research)
     - Resources for your search
       - [Awesome JavaScript:](https://github.com/sorrycc/awesome-javascript) a collection of libraries, frameworks, and other resources
-      -
+      - [Wikipedia List of JS Libraries](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries)
+      - We'll be learning to use the [p5.js](https://p5js.org/) library, but only touching the surface of its functionality. Check out their [2021 Showcase](https://showcase.p5js.org/#/2021-All) of projects made with the help of p5, and some of the [other libraies](https://p5js.org/libraries/) that can extend it.
+      - We'll also be learning [The React.js library](https://reactjs.org/docs/add-react-to-a-website.html) for building UI. MDN has [their own set of tutorials](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started) for react.
+      - There are also libraries for [animation](https://animejs.com/), [data visualization](https://d3js.org/), [lightbox image display](https://lokeshdhakar.com/projects/lightbox2/), and even functions as specific as [animating text to look like its being typed](http://mattboldt.github.io/typed.js/)
+      - Things to look for in a library are good documentation and common use.
+      - If you want to create something more experimental for the next project, it might also help to look at the work of other creative coders to get an idea of what you can do:
+        - [Darius Kazemi](http://tinysubversions.com/)
+        - [Allison Parrish](https://www.decontextualize.com/)
+        - [Dan Shiffman](https://shiffman.net/)
 
 ---
 
@@ -257,14 +265,13 @@ Javascript IIa: APIs
 
 ### October 7, 2021
 
-JavaScript IIb: 3rd-Party APIs
+JavaScript IIb: Libraries+
 
 - In Class
-  - JQuery, JQuery UI Demo
-  - Other Common Libraries, Library Applications:
+  - Javascript Libraries intro: galleries, maps, more
+  - JQuery: DOM traversal, event handling, animation
 - Homework
-  - Exercise: implement a .js library in a page - existing or new (due Tuesday, Oct. 12)
-  - .JS libraries to explore:
+  - Exercise: implement a .js library in a page - existing or new (due Tuesday, Oct. 12). This can be any library.
 
 ---
 
