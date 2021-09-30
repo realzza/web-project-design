@@ -241,9 +241,9 @@ Javascript IIa: APIs
   - Intro to APIs: Browser APIs vs 3rd Party APIs
   - Example browser APIs: Fetch(), Geolocation
 - Homework
-  - Read:
+  - Read/Do:
     - MDN Docs, [Introduction to web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs)
-    -
+    - [Khan Academy: Using JS Libraries in Your WebPage](https://www.khanacademy.org/computing/computer-programming/html-css-js/using-js-libraries-in-your-webpage/a/whats-a-js-library)
   - Over break: research JavaScript libraries, frameworks, and APIs for use in your final projects over break for [Assignment #7]()
     - Resources for your search
       - [Awesome JavaScript:](https://github.com/sorrycc/awesome-javascript) a collection of libraries, frameworks, and other resources
@@ -257,7 +257,7 @@ Javascript IIa: APIs
 
 ### October 7, 2021
 
-JavaScript IIb: Libraries for DOM and GUI: JQuery & JQuery UI
+JavaScript IIb: 3rd-Party APIs
 
 - In Class
   - JQuery, JQuery UI Demo
