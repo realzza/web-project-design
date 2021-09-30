@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Geolocation API</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+	</head>
+	<body>
+		<div class="w3-container">
+			<h2>Geolocation</h2>
+			<p>
+				The browser also has several APIs to help access data and functionality.
+				We've already been working with the DOM api for manipulating HTML
+				documents.
+			</p>
+			<p>
+				The Geolocation API allows you to access the location data in the
+				client's web browser (navigator).
+			</p>
+			<button id="loc">Get Your Location</button>
+			<p id="locResult"></p>
+		</div>
+		<script>
+			const btn = document.getElementById("loc");
+			btn.addEventListener("click", getLocation);
+
+			const output = document.getElementById("locResult");
+
+			function getLocation() {
+				if ("geolocation" in navigator) {
+					console.log("geolocation Avail!");
+					navigator.geolocation.getCurrentPosition((position) => {
+						output.innerHTML =
+							"Latitude: " +
+							position.coords.latitude +
+							", Longitude: " +
+							position.coords.longitude;
+					});
+				} else {
+					output.innerHTML = "Geolocation is not enabled.";
+				}
+			}
+		</script>
+	</body>
+</html>

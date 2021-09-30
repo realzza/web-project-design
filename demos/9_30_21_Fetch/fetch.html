@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Using the Fetch() API</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+	</head>
+	<body>
+		<div class="w3-container">
+			<h1>The Fetch() API</h1>
+			<p>
+				The <a href="">Fetch()</a> web API is a browser API that allows you to
+				make HTTP requests and handle responses from the client-side in
+				JavaScript.
+			</p>
+			<p>
+				Because the fetch function here is grabbing the image as an asynchronous
+				network request, you'll need to be running a local server to get this to
+				work locally on your own computer.
+			</p>
+			<p>
+				We'll be working with server-side scripting in the next several classes.
+				For now, you can run a quick server in VS Code to use Fetch() with a
+				plugin like
+				<a
+					href="https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer"
+					>Live Server</a
+				>. Install the Live Server plugin in VS code, then right-click this file
+				in VS Code and select "open with live server". This will open the file
+				in a browser window. Notice URL address for the file now begins with
+				with "http://127.0.0.1" rather than "file:///Users".
+			</p>
+			<button id="fetch">get the image</button>
+			<img id="tapir" width="740px" height="auto" src="" />
+		</div>
+
+		<script>
+			var btn = document.getElementById("fetch");
+		</script>
+	</body>
+</html>

@@ -228,22 +228,26 @@ JavaScript Id: More on Arrays, Objects and JSON
 - Homework:
   - Finish Midterm websites for Sept. 30
 
-## Unit III: Make it Easier: Libraries and Client-Side APIs
+## Unit III: Extending your toolkit with Libraries, APIs, and Frameworks
 
 ### September 30, 2021
 
 **Midterm Website Project Due**
 
-Javascript IIa: APIs, Libraries, and Frameworks
+Javascript IIa: APIs
 
 - In Class
-  - Intro to APIs: Browser APIs, Third-Party APIs
-  - Client-side v. Server-side scripting
-  - Client-Side Web APIs: Fetch(), Navigator
-  - Third-Party APIs to get data, example: NYTimes API
+  - Looking Ahead: Building the JS toolkit with libraries & APIs
+  - Intro to APIs: Browser APIs vs 3rd Party APIs
+  - Example browser APIs: Fetch(), Geolocation
 - Homework
-  - Read: MDN Docs, [Client Side Web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs)
+  - Read:
+    - MDN Docs, [Introduction to web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs)
+    -
   - Over break: research JavaScript libraries, frameworks, and APIs for use in your final projects over break for [Assignment #7]()
+    - Resources for your search
+      - [Awesome JavaScript:](https://github.com/sorrycc/awesome-javascript) a collection of libraries, frameworks, and other resources
+      -
 
 ---
 
@@ -253,10 +257,11 @@ Javascript IIa: APIs, Libraries, and Frameworks
 
 ### October 7, 2021
 
-JavaScript IIb: Client-Side Libraries
+JavaScript IIb: Libraries for DOM and GUI: JQuery & JQuery UI
 
 - In Class
-  - Library Exploration: JQuery for DOM, Leaflet.js, more library examples
+  - JQuery, JQuery UI Demo
+  - Other Common Libraries, Library Applications:
 - Homework
   - Exercise: implement a .js library in a page - existing or new (due Tuesday, Oct. 12)
   - .JS libraries to explore:
@@ -288,32 +293,39 @@ CLI Basics, Intro to Node
   - What is node?
   - Finishing node installation
   - Setting up a project, npm init, package.json
+  - Simple Express Server, hosting static files
 - Homework: TBD
 
 ---
 
 ### October 19, 2021
 
-Node Express http Server
+Node/Express - Working with Local Data, Data from an API
 
 - In Class
-  - Add express, requiring dependencies
-  - Simple express server
-  - Serve static files
-  - Intro to Routes
+  - Working with Data: formats, parsing, doing things
+  - Data from an API: OpenWeatherMap or Similar
 - Homework: TBD
 
 ---
 
 ### October 21, 2021
 
-Node/Express - Routes with Parameters, REST
+Node/Express - Routes with Parameters, REST APIs
+
+- In Class
+  - API call with parameters
+  -
 
 ---
 
 ### October 26, 2021
 
-Node/Express - Data from an API
+Data Persistence: Adding at Database
+
+- In Class:
+  - Simnple Lightweight Database with NeDB
+  -
 
 ---
 
@@ -333,7 +345,10 @@ MongoDB Queries
 
 ### November 4, 2021
 
-Adding UI - Intro to Server-Side Templating, View Engines, React
+Intro to Frameworks:
+
+- In Class:
+  - Intro to React, Starting a React App, Routes
 
 ---
 
