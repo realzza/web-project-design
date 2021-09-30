@@ -251,7 +251,7 @@ Javascript IIa: APIs
       - We'll be learning to use the [p5.js](https://p5js.org/) library, but only touching the surface of its functionality. Check out their [2021 Showcase](https://showcase.p5js.org/#/2021-All) of projects made with the help of p5, and some of the [other libraies](https://p5js.org/libraries/) that can extend it.
       - We'll also be learning [The React.js library](https://reactjs.org/docs/add-react-to-a-website.html) for building UI. MDN has [their own set of tutorials](https://developer.mozilla.org/en-US/docs/Learn/Tools_and_testing/Client-side_JavaScript_frameworks/React_getting_started) for react.
       - There are also libraries for [animation](https://animejs.com/), [data visualization](https://d3js.org/), [lightbox image display](https://lokeshdhakar.com/projects/lightbox2/), and even functions as specific as [animating text to look like its being typed](http://mattboldt.github.io/typed.js/)
-      - Things to look for in a library are good documentation and common use.
+      - There are tons of great 3rd Party APIs to get data and other functionality. We'll be looking at the Twitter API, the NYTimes API, and a few others that require authenticaion and a developer account. [Here's a great list](https://github.com/jdorfman/awesome-json-datasets) of APIs for accessing different kinds of data in JSON format that DO NOT require authentication.
       - If you want to create something more experimental for the next project, it might also help to look at the work of other creative coders to get an idea of what you can do:
         - [Darius Kazemi](http://tinysubversions.com/)
         - [Allison Parrish](https://www.decontextualize.com/)
