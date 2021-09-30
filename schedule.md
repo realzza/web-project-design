@@ -256,6 +256,7 @@ Javascript IIa: APIs
         - [Darius Kazemi](http://tinysubversions.com/)
         - [Allison Parrish](https://www.decontextualize.com/)
         - [Dan Shiffman](https://shiffman.net/)
+          - Dan Shiffman also has a number of tutorials for specific projects like [making twitter bots](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6atTSxoRiVnSuOn6JHnq2yV) and [Machine Learning in JavaScript](https://www.youtube.com/watch?v=26uABexmOX4&list=PLRqwX-V7Uu6YPSwT06y_AEYTqIwbeam3y)
 
 ---
 
