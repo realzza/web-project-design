@@ -269,6 +269,7 @@ Javascript IIa: APIs
 ### October 7, 2021
 
 JavaScript IIb: Libraries+
+**Assignment 7: Library & API Research Due**
 
 - In Class
   - Javascript Libraries intro: galleries, maps, more
