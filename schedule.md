@@ -244,7 +244,7 @@ Javascript IIa: APIs
   - Read/Do:
     - MDN Docs, [Introduction to web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs)
     - [Khan Academy: Using JS Libraries in Your WebPage](https://www.khanacademy.org/computing/computer-programming/html-css-js/using-js-libraries-in-your-webpage/a/whats-a-js-library)
-  - Over break: research JavaScript libraries, frameworks, and APIs for use in your final projects over break for [Assignment #7](./assignments.md/#assignment-6-api--library-research)
+  - **Over Break**: research JavaScript libraries, frameworks, and APIs for use in your final projects over break for [Assignment #7](./assignments.md/#assignment-6-api--library-research)
     - Resources for your search
       - [Awesome JavaScript:](https://github.com/sorrycc/awesome-javascript) a collection of libraries, frameworks, and other resources
       - [Wikipedia List of JS Libraries](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries)
@@ -290,7 +290,7 @@ Javascript IIc: Interactive Canvas with P5.js Library
 
 ---
 
-## Unit IV: JavaScript Stack: Mongo DB, Express, React, and Node for Full Stack Development (MERN)
+## Unit IV: Server-Side Programming with Node.js
 
 ### October 14, 2021
 
@@ -308,11 +308,11 @@ CLI Basics, Intro to Node
 
 ### October 19, 2021
 
-Node/Express - Working with Local Data, Data from an API
+Node/Express - Working with Local Data, Data from a 3rd Party API
 
 - In Class
   - Working with Data: formats, parsing, doing things
-  - Data from an API: OpenWeatherMap or Similar
+  - Data from an API: OpenWeatherMap, NY Times, and/or Similar
 - Homework: TBD
 
 ---
@@ -322,8 +322,9 @@ Node/Express - Working with Local Data, Data from an API
 Node/Express - Routes with Parameters, REST APIs
 
 - In Class
+  - What is REST
   - API call with parameters
-  -
+  - Twitter API
 
 ---
 
@@ -333,7 +334,6 @@ Data Persistence: Adding at Database
 
 - In Class:
   - Simnple Lightweight Database with NeDB
-  -
 
 ---
 
