@@ -268,14 +268,15 @@ Javascript IIa: APIs
 
 ### October 7, 2021
 
-JavaScript IIb: Libraries+
+JavaScript IIb: Adding a Library
 **Assignment 7: Library & API Research Due**
 
 - In Class
   - Javascript Libraries intro: galleries, maps, more
-  - JQuery: DOM traversal, event handling, animation
+  - Building from navigator.geolocate and other location data - now add a map! [(with Leaflet.js)](https://leafletjs.com/)
 - Homework
-  - Exercise: implement a .js library in a page - existing or new (due Tuesday, Oct. 12). This can be any library.
+  - Use what we've been working on over the past two lessons to make an html page that 1) gets some data from an api source (check [this list](https://github.com/jdorfman/awesome-json-datasets) of JSON datasets that don't require authentication) and 2) either displays the data returned in the page or uses a mapping or other .js library to visualize it
+  - Hint: if you're trying a different api from the list, go to the link - the url will usually be the link you want to fetch(). Pay attention to the structure of the JSON returned to understand how you can traverse the JSON to find what data you want. Some APIs [Like reddit's return for r/todayilearned.json](https://www.reddit.com/r/todayilearned.json), which returns the latest posts in the Reddit subreddit "Today I Learned" will give you a ton of highly structured data containing locations, timestamps, and images (yes, as blobs). And, by the way, you can get the results from ANY subreddit by replacing the [subreddit name].json at the end of the URL. The latest posts in the subreddit [r/aww](https://www.reddit.com/r/aww) are at: https://www.reddit.com/r/aww.json
 
 ---
 
