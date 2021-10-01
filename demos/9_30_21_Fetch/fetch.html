@@ -32,10 +32,31 @@
 			</p>
 			<button id="fetch">get the image</button>
 			<img id="tapir" width="740px" height="auto" src="" />
+			<button id="iss">Get the ISS location!</button>
 		</div>
 
 		<script>
 			var btn = document.getElementById("fetch");
+			btn.addEventListener("click", async () => {
+				const response = await fetch("tapir.jpeg");
+				const blob = await response.blob();
+				document.getElementById("tapir").src = URL.createObjectURL(blob);
+			});
+
+			var issBtn = document.getElementById("iss");
+
+			issBtn.addEventListener("click", async () => {
+				const response = await fetch("http://api.open-notify.org/iss-now.json");
+				const data = await response.json();
+				let iss = document.createElement("div");
+				iss.innerHTML =
+					"Iss Position: " +
+					data.iss_position.latitude +
+					", " +
+					data.iss_position.longitude;
+
+				document.body.appendChild(iss);
+			});
 		</script>
 	</body>
 </html>

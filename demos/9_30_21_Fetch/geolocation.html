@@ -3,6 +3,7 @@
 	<head>
 		<title>Geolocation API</title>
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+		<style></style>
 	</head>
 	<body>
 		<div class="w3-container">
@@ -21,6 +22,23 @@
 		</div>
 		<script>
 			const btn = document.getElementById("loc");
+			btn.addEventListener("click", () => {
+				if (navigator.geolocation) {
+					console.log("You have location services enabled!");
+					navigator.geolocation.getCurrentPosition((pos) => {
+						//console.log(pos);
+						//console.log(pos.coords);
+						document.getElementById("locResult").innerHTML =
+							"Your Location: " +
+							pos.coords.latitude +
+							", " +
+							pos.coords.longitude;
+					});
+				} else {
+					let container = (document.getElementById("locResult").innerHTML =
+						"You don't have location services!");
+				}
+			});
 		</script>
 	</body>
 </html>
