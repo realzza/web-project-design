@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<style>
+			.image-div {
+				width: 22%;
+				margin: 4em auto;
+				position: relative;
+			}
+
+			.image-div img {
+				width: 100%;
+				height: auto;
+				position: absolute;
+				top: 0;
+				left: 0;
+			}
+
+			.video-container {
+				width: 90%;
+				height: 90%;
+				display: flex;
+				justify-content: center;
+				overflow-x: hidden;
+				overflow-y: hidden;
+				margin: 0.2em auto;
+			}
+			video {
+				width: 420%;
+			}
+		</style>
+		<title>Responsive Vids</title>
+	</head>
+	<body>
+		<div class="container">
+			<div class="image-div">
+				<img src="cellphone.png" />
+				<div class="video-container">
+					<video
+						preload="metadata"
+						autoplay
+						muted
+						loop
+						src="Onboarding.mp4"
+						type="video/mp4"
+					></video>
+				</div>
+			</div>
+		</div>
+		<!--container-->
+	</body>
+</html>
