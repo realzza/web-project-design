@@ -246,7 +246,7 @@ Javascript IIa: APIs
   - Read/Do:
     - MDN Docs, [Introduction to web APIs](https://developer.mozilla.org/en-US/docs/Learn/JavaScript/Client-side_web_APIs)
     - [Khan Academy: Using JS Libraries in Your WebPage](https://www.khanacademy.org/computing/computer-programming/html-css-js/using-js-libraries-in-your-webpage/a/whats-a-js-library)
-  - **Over Break**: research JavaScript libraries, frameworks, and APIs for use in your final projects over break for [Assignment #7](./assignments.md/#assignment-6-api--library-research)
+  - **Over Break**: research JavaScript libraries, frameworks, and APIs for use in your final projects over break for [Assignment #6](./assignments.md/#assignment-6-api--library-research)
     - Resources for your search
       - [Awesome JavaScript:](https://github.com/sorrycc/awesome-javascript) a collection of libraries, frameworks, and other resources
       - [Wikipedia List of JS Libraries](https://en.wikipedia.org/wiki/List_of_JavaScript_libraries)
@@ -269,12 +269,13 @@ Javascript IIa: APIs
 ### October 7, 2021
 
 JavaScript IIb: Adding a Library
-**Assignment 7: Library & API Research Due**
 
 - In Class
+  - Review of client-side http calls: Fetch(), promises, readable streams
   - Javascript Libraries intro: galleries, maps, more
   - Building from navigator.geolocate and other location data - now add a map! [(with Leaflet.js)](https://leafletjs.com/)
 - Homework
+  - Library & API research
   - Use what we've been working on over the past two lessons to make an html page that 1) gets some data from an api source (check [this list](https://github.com/jdorfman/awesome-json-datasets) of JSON datasets that don't require authentication) and 2) either displays the data returned in the page or uses a mapping or other .js library to visualize it
   - Hint: if you're trying a different api from the list, go to the link - the url will usually be the link you want to fetch(). Pay attention to the structure of the JSON returned to understand how you can traverse the JSON to find what data you want. Some APIs [Like reddit's return for r/todayilearned.json](https://www.reddit.com/r/todayilearned.json), which returns the latest posts in the Reddit subreddit "Today I Learned" will give you a ton of highly structured data containing locations, timestamps, and images (yes, as blobs). And, by the way, you can get the results from ANY subreddit by replacing the [subreddit name].json at the end of the URL. The latest posts in the subreddit [r/aww](https://www.reddit.com/r/aww) are at: https://www.reddit.com/r/aww.json
 
@@ -298,6 +299,7 @@ Javascript IIc: Interactive Canvas with P5.js Library
 
 ### October 14, 2021
 
+**Assignment 6: Library & API Research Due**
 CLI Basics, Intro to Node
 
 - In Class
