@@ -271,13 +271,13 @@ Javascript IIa: APIs
 JavaScript IIb: Adding a Library
 
 - In Class
-  - Review of client-side http calls: Fetch(), promises, readable streams
+  - Review of client-side http calls: Fetch(), promises, .then(), async/await, interpreting the readable stream
   - Javascript Libraries intro: galleries, maps, more
   - Building from navigator.geolocate and other location data - now add a map! [(with Leaflet.js)](https://leafletjs.com/)
 - Homework
   - Library & API research
   - Use what we've been working on over the past two lessons to make an html page that 1) gets some data from an api source (check [this list](https://github.com/jdorfman/awesome-json-datasets) of JSON datasets that don't require authentication) and 2) either displays the data returned in the page or uses a mapping or other .js library to visualize it
-  - Hint: if you're trying a different api from the list, go to the link - the url will usually be the link you want to fetch(). Pay attention to the structure of the JSON returned to understand how you can traverse the JSON to find what data you want. Some APIs [Like reddit's return for r/todayilearned.json](https://www.reddit.com/r/todayilearned.json), which returns the latest posts in the Reddit subreddit "Today I Learned" will give you a ton of highly structured data containing locations, timestamps, and images (yes, as blobs). And, by the way, you can get the results from ANY subreddit by replacing the [subreddit name].json at the end of the URL. The latest posts in the subreddit [r/aww](https://www.reddit.com/r/aww) are at: https://www.reddit.com/r/aww.json
+  - Hint: if you're trying a different api from the list, go to the link - the url will usually be the link you want to fetch(). Pay attention to the structure of the JSON returned to understand how you can traverse the JSON to find what data you want. Some APIs [Like reddit's return for r/todayilearned.json](https://www.reddit.com/r/todayilearned.json), which returns the latest posts in the Reddit subreddit "Today I Learned" will give you a ton of highly structured data containing locations, timestamps, and images (yes, as blobs). And, by the way, you can get the results from ANY subreddit by replacing the [subreddit name].json at the end of the URL endpoint. The latest posts in the subreddit [r/aww](https://www.reddit.com/r/aww) are at: https://www.reddit.com/r/aww.json
 
 ---
 
@@ -290,8 +290,11 @@ Javascript IIc: Interactive Canvas with P5.js Library
   - p5.js canvas
   - P5.js beyond the canvas - libraries, plugins, helpers
 - Homework
+
   - Prep for Oct 14th Class: Install [Homebrew](https://brew.sh/) (on Mac), which is a helpful package installer for Mac and Linux, and/or follow the installation guides for Node.js [on Mac](https://treehouse.github.io/installation-guides/mac/node-mac.html) or [on a Windows PC](https://treehouse.github.io/installation-guides/windows/node-windows.html). On Mac, you will need Homebrew as a helper to install node.js, on PC you will not.
   - The above requires that you use the Command Line Interface on your PC. If you don't have much experience with the command line outside of this course, you might want to check out [A Beginner's Guide to Using the Mac Termina](https://www.makeuseof.com/tag/beginners-guide-mac-terminal/) or [A Beginner's Guide to the Windows Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/)
+
+  **Node is a JavaScript runtime that allows us to run JS code outside of the browser context for server-side application development**
 
 ---
 
