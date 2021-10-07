@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mapping the Data</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+	</head>
+	<body>
+		<div class="w3-container">
+			<h1>Mapping the Data</h1>
+			<p>
+				This example updates from the fetch() example on 9/30. We're getting
+				geolocation data from the
+				<a href="http://open-notify.org/Open-Notify-API/ISS-Location-Now/"
+					>Open Notify International Space Station Location API</a
+				>.
+			</p>
+			<p>
+				Make that location data useful by plotting it in a map with
+				<a href="https://leaflet.js.com">Leaflet.js</a>, a javascript library
+				for interactive maps.
+			</p>
+
+			<button id="iss">Get the ISS location!</button>
+			<div id="map"></div>
+		</div>
+
+		<script>
+			var issBtn = document.getElementById("iss");
+
+			issBtn.addEventListener("click", async () => {
+				const response = await fetch("http://api.open-notify.org/iss-now.json");
+				const data = await response.json();
+				let iss = document.createElement("div");
+				iss.innerHTML =
+					"Iss Position: " +
+					data.iss_position.latitude +
+					", " +
+					data.iss_position.longitude;
+
+				document.body.appendChild(iss);
+			});
+		</script>
+	</body>
+</html>
