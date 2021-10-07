@@ -268,6 +268,8 @@ Javascript IIa: APIs
 
 ### October 7, 2021
 
+[Demo: starter code](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/10_07_API_Library)
+
 JavaScript IIb: Adding a Library
 
 - In Class
