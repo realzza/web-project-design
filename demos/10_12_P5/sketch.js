@@ -14,4 +14,8 @@ function draw() {
 	ellipse(x, y, 30, 30);
 	x = x - 1;
 	y = y - 2;
+	if (y < 0) {
+		x = width / 2;
+		y = height;
+	}
 }
