@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>p5.js</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+		<style>
+			.main {
+				width: 90%;
+				margin: 1em auto;
+			}
+			canvas {
+				display: block;
+				margin: 1em auto;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="w3-container">
+			<div class="main">
+				<h1>p5.js</h1>
+				<p>
+					<a href="">P5.js</a> is a free, open-source JavaScript library for
+					creative coding.
+				</p>
+				<p>
+					You can use p5.js by calling the .js library in your html page (<a
+						href="https://cdnjs.com/libraries/p5.js"
+						>you can find the CDN link here</a
+					>), and invoking P5's native setup() and draw() functions in
+					javascript.
+				</p>
+				<p>
+					P5 makes use of the HTML Canvas element. In the setup() function for
+					this "sketch", the function createCanvas(w,h) is called, which creates
+					an HTML Canvas element and injects it into the page.
+				</p>
+				<p>
+					The draw() loop, predictably, defines what is "drawn on" the canvas.
+					This can be anything from code to generate drawings with shape
+					primitives (like line(), ellipse(), or rect()) to user interaction
+					with mouse events, keycodes, etc. The canvas element in p5 also
+					supports images, audio, 3D, and video.
+				</p>
+				<p>
+					P5.js also has an
+					<a href="https://editor.p5js.org/">online editor</a> where you can
+					experiment and create p5 sketches in the browser.
+				</p>
+			</div>
+		</div>
+		<script src="https://cdn.jsdelivr.net/npm/p5@1.4.0/lib/p5.js"></script>
+		<script src="sketch.js"></script>
+	</body>
+</html>
