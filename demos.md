@@ -36,4 +36,12 @@ Links to the demo files we build in class.
   - [Finished Demo](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/09_16_JavaScript1b)
 
 - September 21, 2021 JavaScript 1c: DOM
+
   - [Finished Demo](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/09_21_DOM)
+
+- September 23, 2021 - Timers
+
+  - [Finished Demo](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/09_23_Timers)
+
+- September 30, 2021 - Fetch()
+  - [Finished Demo](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/09_30_21_Fetch)
