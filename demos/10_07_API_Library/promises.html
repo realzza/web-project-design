@@ -53,8 +53,32 @@
 
 		<script>
 			//get a cat image from cat as a service: https://cataas.com/
+			const btn = document.getElementById("catFetch");
+			let word = "hello";
+			btn.addEventListener("click", () => {
+				fetch(`https://cataas.com/cat/says/${word}`)
+					.then((res) => res.blob())
+					.then((blob) => {
+						const img = document.createElement("img");
+						img.src = URL.createObjectURL(blob);
+						const div = document.getElementById("cat");
+						div.append(img);
+					});
+			});
 
 			//get json data from a fun fact api https://asli-fun-fact-api.herokuapp.com/
+			async function getFact() {
+				for (i = 0; i < 7; i++) {
+					res = await fetch("https://asli-fun-fact-api.herokuapp.com/");
+					data = await res.json();
+					console.log(data);
+					let p = document.createElement("p");
+					p.textContent = data.data.fact;
+					document.body.append(p);
+				}
+			}
+
+			getFact();
 		</script>
 	</body>
 </html>

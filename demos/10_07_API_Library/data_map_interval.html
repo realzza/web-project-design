@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Mapping the Data</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+		<link
+			rel="stylesheet"
+			href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+			integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+			crossorigin=""
+		/>
+		<style>
+			#myDIV {
+				height: 400px;
+			}
+		</style>
+		<script
+			src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+			integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+			crossorigin=""
+		></script>
+	</head>
+	<body>
+		<div class="w3-container">
+			<h1>Mapping the Data</h1>
+			<p>
+				This example updates from the fetch() example on 9/30. We're getting
+				geolocation data from the
+				<a href="http://open-notify.org/Open-Notify-API/ISS-Location-Now/"
+					>Open Notify International Space Station Location API</a
+				>.
+			</p>
+			<p>
+				Make that location data useful by plotting it in a map with
+				<a href="https://leaflet.js.com">Leaflet.js</a>, a javascript library
+				for interactive maps.
+			</p>
+
+			<div id="myDIV"></div>
+		</div>
+
+		<script>
+			let lat, long, marker; //declare globals - we need these on both side of the if/else
+			let firstTime = true; //is this the first load?
+			//call it once
+			getISS();
+			async function getISS() {
+				if (firstTime) {
+					//it's the first time, get the lat long
+					const response = await fetch(
+						"http://api.open-notify.org/iss-now.json"
+					);
+					const data = await response.json();
+					let iss = document.createElement("div");
+					lat = data.iss_position.latitude;
+					long = data.iss_position.longitude;
+					iss.innerHTML = "Iss Position: " + lat + ", " + long;
+					document.body.appendChild(iss);
+					map = L.map("myDIV").setView([lat, long], 1.4); //make the map
+					L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
+						attribution:
+							'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
+					}).addTo(map);
+					myIcon = L.icon({
+						iconUrl: "satellite.png",
+						iconSize: [20, 20],
+						iconAnchor: [10, 10],
+						popupAnchor: [-1, -4],
+					});
+					marker = L.marker([lat, long], {
+						icon: myIcon,
+					});
+					marker.addTo(map);
+					marker.bindPopup("<p>the ISS</p>");
+					firstTime = false; //It's now not the first time
+				} else {
+					//it's not the first time, get the loaction again
+					const response = await fetch(
+						"http://api.open-notify.org/iss-now.json"
+					);
+					const data = await response.json();
+					let iss = document.createElement("div");
+					lat = data.iss_position.latitude;
+					long = data.iss_position.longitude;
+					iss.innerHTML = "Iss Position: " + lat + ", " + long;
+					document.body.appendChild(iss);
+					//just update that LatLng
+					let newLatLng = new L.LatLng(lat, long);
+					marker.setLatLng(newLatLng);
+				}
+			}
+			setInterval(getISS, 3000);
+		</script>
+	</body>
+</html>
