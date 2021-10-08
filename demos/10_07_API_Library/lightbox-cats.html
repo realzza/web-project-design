@@ -38,18 +38,16 @@
 		});
 		// get the cats and create a gallery with lightbox
 		// query: https://cataas.com/cat/gif/says/Howdy%20Friend?width=400&fi=sepia
-		// note: if this is working, but you're getting the same cat over and
-		// over again, check for errors in your fecth URL
-		// this example gets gifs with the text "Howdy Friend" with font-size 20 text in red
+		// this example gets gifs with the text "Howdy Friend" with font-size 40
 		const btn = document.getElementById("getCats");
 		const catMsg = document.getElementById("cat_msg");
 		const numberOfCats = 3; //getting lots of cats can take a while
-		const catArray = [];
+		const catArray = []; //an array for the cats
 		btn.addEventListener("click", async () => {
 			catMsg.textContent = "Please wait, wrangling cats...";
 			for (i = 0; i < numberOfCats; i++) {
 				const res = await fetch(
-					"https://cataas.com/cat/gif/says/Howdy%20Friend?s=20&color=red"
+					"https://cataas.com/cat/gif/says/Howdy%20Friend?s=40&width=600"
 				);
 				const catBlob = await res.blob();
 				const catData = {
@@ -59,7 +57,7 @@
 				catArray.push(catData);
 				catMsg.textContent = `Cat number ${i + 1}, gotten.`;
 			}
-			postThoseCats(catArray);
+			postThoseCats(catArray); //now put the cats on the page, pass the array
 		});
 		function postThoseCats(cats) {
 			catMsg.textContent = "Got those cats!";
@@ -76,6 +74,7 @@
 				a.appendChild(img);
 				div.append(a);
 			});
+			catMsg.textContent = "Click a cat to see the lightbox";
 		}
 	</script>
 </html>
