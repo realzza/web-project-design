@@ -34,11 +34,13 @@
 	<script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
 	<script>
 		lightbox.option({
-			resizeDuration: 200,
 			wrapAround: true,
 		});
 		// get the cats and create a gallery with lightbox
 		// query: https://cataas.com/cat/gif/says/Howdy%20Friend?width=400&fi=sepia
+		// note: if this is working, but you're getting the same cat over and
+		// over again, check for errors in your fecth URL
+		// this example gets gifs with the text "Howdy Friend" with font-size 20 text in red
 		const btn = document.getElementById("getCats");
 		const catMsg = document.getElementById("cat_msg");
 		const numberOfCats = 3; //getting lots of cats can take a while
