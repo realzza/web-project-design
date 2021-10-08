@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Lightbox Gallery of Cats</title>
+		<link rel="stylesheet" href="lightbox/css/lightbox.min.css" />
+		<style>
+			img {
+				width: 30%;
+				height: auto;
+			}
+			#cats {
+				display: flex;
+				justify-content: space-around;
+				flex-wrap: wrap;
+			}
+			#cats a {
+				display: inline-block;
+				margin: 10px;
+				flex-basis: 320px;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="w3-container">
+			<h1>Get a bunch of cats and put them in a gallery</h1>
+			<button id="getCats">Get Cats</button>
+			<p id="cat_msg"></p>
+			<div id="cats"></div>
+		</div>
+	</body>
+	<script src="lightbox/js/lightbox-plus-jquery.min.js"></script>
+	<script>
+		lightbox.option({
+			resizeDuration: 200,
+			wrapAround: true,
+		});
+		// get the cats and create a gallery with lightbox
+		// query: https://cataas.com/cat/gif/says/Howdy%20Friend?width=400&fi=sepia
+		const btn = document.getElementById("getCats");
+		const catMsg = document.getElementById("cat_msg");
+		const numberOfCats = 3;
+		const catArray = [];
+		btn.addEventListener("click", async () => {
+			catMsg.textContent = "Please wait, wrangling cats...";
+			for (i = 0; i < numberOfCats; i++) {
+				const res = await fetch(
+					"https://cataas.com/cat/gif/says/Howdy%20Friend?s20&color=red"
+				);
+				const catBlob = await res.blob();
+				const catData = {
+					index: i,
+					cat: catBlob,
+				};
+				catArray.push(catData);
+				catMsg.textContent = `Cat number ${i + 1}, gotten.`;
+			}
+			postThoseCats(catArray);
+		});
+		function postThoseCats(cats) {
+			catMsg.textContent = "Got those cats!";
+			const div = document.getElementById("cats");
+			cats.forEach((cat) => {
+				//console.log(cat);
+				const a = document.createElement("a");
+				const img = document.createElement("img");
+				img.src = URL.createObjectURL(cat.cat);
+				img.style.width = "300px";
+				img.style.height = "auto";
+				a.setAttribute("data-lightbox", "cats");
+				a.href = URL.createObjectURL(cat.cat);
+				a.appendChild(img);
+				div.append(a);
+			});
+		}
+	</script>
+</html>
