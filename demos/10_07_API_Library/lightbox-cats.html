@@ -41,13 +41,13 @@
 		// query: https://cataas.com/cat/gif/says/Howdy%20Friend?width=400&fi=sepia
 		const btn = document.getElementById("getCats");
 		const catMsg = document.getElementById("cat_msg");
-		const numberOfCats = 3;
+		const numberOfCats = 3; //getting lots of cats can take a while
 		const catArray = [];
 		btn.addEventListener("click", async () => {
 			catMsg.textContent = "Please wait, wrangling cats...";
 			for (i = 0; i < numberOfCats; i++) {
 				const res = await fetch(
-					"https://cataas.com/cat/gif/says/Howdy%20Friend?s20&color=red"
+					"https://cataas.com/cat/gif/says/Howdy%20Friend?s=20&color=red"
 				);
 				const catBlob = await res.blob();
 				const catData = {
