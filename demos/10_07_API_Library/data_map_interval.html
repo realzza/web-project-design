@@ -40,10 +40,11 @@
 		</div>
 
 		<script>
+			// example updating the map every three seconds with setInterval()
 			let lat, long, marker; //declare globals - we need these on both side of the if/else
 			let firstTime = true; //is this the first load?
-			//call it once
-			getISS();
+			getISS(); //invoke getISS once when the page loads
+			setInterval(getISS, 3000); //set an interval to getISS every 3 seconds
 			async function getISS() {
 				if (firstTime) {
 					//it's the first time, get the lat long
@@ -72,24 +73,24 @@
 					});
 					marker.addTo(map);
 					marker.bindPopup("<p>the ISS</p>");
-					firstTime = false; //It's now not the first time
+					firstTime = false; //It's now not the first time anymore
 				} else {
-					//it's not the first time, get the loaction again
+					//it's not the first time, get the location again
 					const response = await fetch(
 						"http://api.open-notify.org/iss-now.json"
 					);
 					const data = await response.json();
 					let iss = document.createElement("div");
+					//set new lat long in vars
 					lat = data.iss_position.latitude;
 					long = data.iss_position.longitude;
 					iss.innerHTML = "Iss Position: " + lat + ", " + long;
 					document.body.appendChild(iss);
-					//just update that LatLng
+					//just update that LatLng for the marker
 					let newLatLng = new L.LatLng(lat, long);
 					marker.setLatLng(newLatLng);
 				}
 			}
-			setInterval(getISS, 3000);
 		</script>
 	</body>
 </html>
