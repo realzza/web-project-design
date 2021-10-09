@@ -42,7 +42,7 @@
 		const btn = document.getElementById("getCats");
 		const catMsg = document.getElementById("cat_msg");
 		const numberOfCats = 3; //getting lots of cats can take a while
-		const catArray = []; //an array for the cats
+		const catArray = []; //an empty array for the cats
 		btn.addEventListener("click", async () => {
 			catMsg.textContent = "Please wait, wrangling cats...";
 			for (i = 0; i < numberOfCats; i++) {
@@ -69,7 +69,7 @@
 				img.src = URL.createObjectURL(cat.cat);
 				img.style.width = "300px";
 				img.style.height = "auto";
-				a.setAttribute("data-lightbox", "cats");
+				a.setAttribute("data-lightbox", "cats"); //set the lightbox attr
 				a.href = URL.createObjectURL(cat.cat);
 				a.appendChild(img);
 				div.append(a);
