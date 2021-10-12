@@ -290,6 +290,10 @@ Javascript IIc: Interactive Canvas with P5.js Library
 [Demo files for class](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/10_12_P5)
 [More p5 Demos](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/10_12_P5/p5_moreExamples) - note: some of these may use previous p5 libraries - the p5 library files are included in each directory
 
+- More p5 Resources
+- [P5's own tutoral set](https://p5js.org/learn/)
+- [Dan Shiffman's Coding Train Youtube Channel](https://www.youtube.com/c/TheCodingTrain/videos) - a number of these demos and lessons employ the p5.js library
+- [The Coding Train: learning JavaScript with p5.js](https://thecodingtrain.com/beginners/p5js/) - this is an intro to JavaScript taught through p5.js
 - In Class
   - Intro to p5.js
   - p5.js canvas
