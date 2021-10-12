@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+    <title>P5 Interface Project</title>
+    <!--link to bootstrap styles - web-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <!--slick carousel plugin stylesheet-->
+    <!--Link to google fonts.  Look in CSS - fonts are "lato" and "source code pro"-->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,400i,700|Staatliches" rel="stylesheet">
+    <!--link to my stylesheet-->
+    <link rel="stylesheet" href="../../css/style_dark.css">
+    <style>
+        .assignments {
+            width: 90%;
+            margin: 2em auto;
+        }
+    </style>
+</head>
+
+    
+<body>
+<div class="main">
+    <div class="assignments">
+    <h2>p5 JS Interface Assignment</h2>
+    <p>For this assignment, you're going to create an interface using p5.js and html/css. <a href="https://sites.duke.edu/ami241l_01_s2019/?p=208&preview=true">View the Assignment </a></p>
+    <p><a href="functionArgs.html">Check out the interface example from class.</a></p>
+    <p>This folder also contains a number of example tools that should be helpful.</p>
+    
+    <div class='grid'>
+    <a href="interface_setup.html"><div class="grid-item grid-item--width2">Interface Setup</div></a>
+    <a href="mic_input.html"><div class="grid-item grid-item--width2">Getting Mic Input</div></a>
+    <a href="moveAround.html"><div class="grid-item grid-item--width3">Move and Object Around with Drag</div></a>
+    <a href="loopArray.html"><div class="grid-item grid-item--width3">Load/Loop through an Array of Images</div></a>
+    <a href="closure.html"><div class="grid-item grid-item--width2">JS Closure</div></a>
+    <a href="nestedLoops.html"><div class="grid-item grid-item--width2">Nested Loops</div></a>
+    <a href="createGraphics.html"><div class="grid-item grid-item--width2">createGraphics()</div></a>
+    <a href="functionArgs.html"><div class="grid-item grid-item--width3">Modularity: Functions &amp; Arguments</div></a>
+    
+    </div>
+    </div>
+       
+</div><!--end of main-->
+    <!--bootstrap scripts-->
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+        <script
+        src="https://code.jquery.com/jquery-migrate-3.0.1.min.js"
+        integrity="sha256-F0O1TmEa4I8N24nY0bya59eP6svWcshqX1uzwaWC4F4="
+        crossorigin="anonymous"></script>
+        <!--Popper js-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <!--bootstrap-->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+>
+        <script src="../js/masonry-master/dist/masonry.pkgd.min.js"></script>
+        <script>
+        
+        
+        //initialize bigtext.js  - this is jquery
+        $(function(){
+                'use strict';
+            
+            //masonry
+            $('.grid').masonry({
+                itemSelector: '.grid-item',
+                columnWidth: 140
+            });
+            
+        });//end page scripts
+            
+ 
+
+    
+        </script>
+    </body>
+</html>

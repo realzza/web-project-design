@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head><title>p5 Interface</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Helvetica', sans-serif;
+        }
+        .sidebar {
+            width: 20%;
+            height: 100vh;
+            background-color: #adadad;
+            float:left;
+        }
+        
+        .sidebar p {
+            width: 80%;
+            margin: 10px auto;
+            margin-bottom: 1em;
+        }
+        .sidebar button {
+            width: 90%;
+            margin: 1em auto;
+            background-color: #fff;
+            border-color: rgb(255, 24, 202);
+            padding: 10px 4px;
+            display: block;
+        }
+        
+        .sidebar .penSizes, .sidebar .penColors {
+            width: 100%;
+        }
+        
+        .sidebar .penSizes button, .sidebar .penColors button {
+            width: 40%;
+            display: inline-block;
+            margin: 10px;
+            background-color: #fff;
+            border-color: rgb(255, 24, 202);
+            padding: 10px 4px;
+        }
+        
+        .sidebar .penSizes p, .sidebar .penColors p {
+            width: 100%;
+            margin: 10px auto;
+            text-align: center;
+        }
+        .main{
+            width: 80%;
+            margin:0;
+            float:left;
+            background-color: #cccccc;
+            height:100vh;
+        }
+    
+    </style>
+    </head>
+<body>
+    <div class="sidebar">
+        <p>NOTE!  Open this file in firefox if viewing locally.  LoadImage() throws a cross-origin error in chrome</p>
+    <button id="clear">Clear Sketch</button>
+        <div class="penSizes">
+            <p>Choose a Stroke Weight</p>
+            <button id="four">4</button>
+            <button id="six">6</button>
+            <button id="eight">8</button>
+            <button id="ten">10</button>
+        </div>
+        <div class="penColors">
+            <p>Choose a Color</p>
+            <button id="red">Red</button>
+            <button id="green">Green</button>
+            <button id="blue">Blue</button>
+            <button id="black">Black</button>
+        </div>
+    <button id="sticker">Add A Cat Sticker</button>
+    </div>
+    
+    <div class="main" id="interface">
+    </div>
+    
+    <script src="../js/p5/p5.min.js"></script>
+    <script src="../js/p5/addons/p5.sound.min.js"></script>
+    <script src="../js/p5/addons/p5.dom.min.js"></script>
+    <script src="functionArgs.js"></script>
+    </body></html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head><title>p5 Interface</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body{
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+        }
+        .sidebar {
+            width: 20%;
+            height: 100vh;
+            background-color: #adadad;
+            float:left;
+        }
+        .sidebar button {
+            width: 90%;
+            margin: 1em auto;
+            background-color: #fff;
+            border-color: rgb(255, 24, 202);
+            padding: 10px 4px;
+            display: block;
+        }
+        .main{
+            width: 80%;
+            margin:0;
+            float:left;
+            background-color: #cccccc;
+            height:100vh;
+        }
+    
+    </style>
+    </head>
+<body>
+    <div class="sidebar">
+    <button id="clear">Clear Sketch</button>
+    <button id="changePen">Change pen</button>
+    </div>
+    
+    <div class="main" id="interface">
+    </div>
+    
+    <script src="../js/p5/p5.min.js"></script>
+    <script src="../js/p5/addons/p5.sound.min.js"></script>
+    <script src="../js/p5/addons/p5.dom.min.js"></script>
+    <script src="interface.js"></script>
+    </body></html>

@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>p5: Drag and Drop</title>
+    <style>
+        body{
+            margin: 0;
+            width: 100%;
+            text-align: center;
+        }
+        
+        #dropzone {
+            font-size: 16px;
+            padding: 1em 2em;
+            font-family:monospace;
+            color: #000;
+            border: 1px solid #333;
+            border-radius: 14px;
+            margin: 1em;
+        }
+        
+        #dropzone:hover{
+            background-color: #333;
+            color: #fff;
+            border: 1px solid #000;
+        }
+    </style>
+    
+    </head>
+    <body>
+    <h1>Drag and Drop</h1>
+        <!--Note this file calls an older version of the p5 library loaded through a CDN-->
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/p5.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.dom.js"></script>
+        <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.1/addons/p5.sound.js"></script>
+        <script src="dragDrop.js"></script>
+        <p>Drag and Drop your image file, load it to the canvas.</p>
+        <button id="dropzone" class="drop">Drop your file here</button>
+    </body>
+</html>

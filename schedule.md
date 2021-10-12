@@ -287,6 +287,8 @@ JavaScript IIb: Adding a Library
 ### October 12, 2021
 
 Javascript IIc: Interactive Canvas with P5.js Library
+[Demo files for class](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/10_12_P5)
+[More p5 Demos](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/10_12_P5/p5_moreExamples) - note: some of these may use previous p5 libraries - the p5 library files are included in each directory
 
 - In Class
   - Intro to p5.js

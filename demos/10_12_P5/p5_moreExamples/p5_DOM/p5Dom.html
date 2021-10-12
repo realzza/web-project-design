@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>P5 DOM</title>
+        <link href="https://fonts.googleapis.com/css?family=Noto+Sans:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+    /*new styles for the Divs we're creating*/
+        #newDiv {
+            padding:1em;
+            color:'#fff';
+        }
+        
+        .myButton {
+            display: block;
+            min-width: 80px;
+            min-height: 20px;
+            border-radius: none;
+            margin: 1em;
+            font-size: 16px;
+        }
+    
+    
+    </style>
+    </head>
+<body>
+    <div class="main">
+    <div class="slide">
+        <h3>P5 DOM</h3>
+        <p>Because it is based on JavaScript, p5.js also has several methods for <a href="https://p5js.org/reference/#/libraries/p5.dom">manipulating the DOM</a>.  createCanvas(), is actually DOM manipulation as you are creating a canvas element in the HTML document.</p>
+        <p>See the attached Sketch.js file for the JavaScript for the examples.  Again, this is written in instance mode.</p>
+        </div>
+    <div class="slide" id="createElements">
+        <h3>creating elements</h3>
+        <p>create elements with functions like .createP() and .createDiv().</p>
+        <p>you can also set .style()</p>
+        <p>as always, if you set these in setup() they will be run once when the sketch is loaded, but if you set them in draw(), you can animate them with it loop.</p>
+        </div>
+    <div class="slide" id="mouseInteraction">
+        <h3>changing properties with mouse interaction</h3>
+        <p>You can also hook changes in properties for your new html elements into mouse or keyboard interaction.</p></div>
+    <div class="slide" id="callbackFunction">
+        <h3>creating callback function</h3><p>Or tie DOM events like button clicks to changes in the canvas or DOM.</p></div>
+    <div class="slide" id="inputs">
+        <h3>sliders and inputs</h3>
+        <p>You can also create elements like sliders and inputs and change values and properties with those.</p></div>
+
+    </div><!--.main-->
+    <script src="p5/p5.min.js"></script>
+    <script src="p5/addons/p5.dom.min.js"></script>
+    <script src="sketch.js"></script>
+    </body></html>
