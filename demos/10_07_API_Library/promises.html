@@ -1,56 +1,57 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Promises, Promises</title>
-		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+  <head>
+    <title>Promises, Promises</title>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
 
-		<style>
-			.main {
-				max-width: 90%;
-				margin: 1.2em auto;
-			}
-		</style>
-	</head>
-	<body>
-		<div class="w3-container w3-padding-large">
-			<div class="main">
-				<h1>Promises in JavaScript</h1>
-				<p>
-					The fetch() function (native to the Browser API) returns a "promise"
-					object. You can use .then() or .catch() with a promie to fire a
-					function when the promise has been "fulfilled".
-				</p>
-				<p>
-					then() and catch() both expect a function as an argument (the function
-					that is fired when the promise is fulfilled or rejected).
-				</p>
-				<p>
-					Check out
-					<a
-						href="https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bKLPQvPRNNE65kBL62mVfx"
-						>Dan Shiffman's tutorial series on JavaScript promises</a
-					>
-					for an extended explanation and examples.
-				</p>
-				<p>
-					The response from the promise contains the data we're looking for from
-					an endpoint. This sent as a "readable stream", and must be converted
-					to .json() or an image .blob() or .text() for .txt and structured text
-					data like .csv.
-				</p>
-				<p>
-					We can also invoke fetch() with async/await keywords. Async also
-					signifies that we expect a function to return a promise. See
-					<a
-						href="https://www.smashingmagazine.com/2020/11/comparison-async-await-versus-then-catch/"
-						>Smashing Magazine: A Comparison of async/await versus then/catch</a
-					>.
-				</p>
-				<button id="catFetch">Go fetch a cat</button>
-				<div id="cat"></div>
-			</div>
-		</div>
+    <style>
+      .main {
+        max-width: 90%;
+        margin: 1.2em auto;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="w3-container w3-padding-large">
+      <div class="main">
+        <h1>Promises in JavaScript</h1>
+        <p>
+          The fetch() function (native to the Browser API) returns a "promise"
+          object. You can use .then() or .catch() with a promie to fire a
+          function when the promise has been "fulfilled".
+        </p>
+        <p>
+          then() and catch() both expect a function as an argument (the function
+          that is fired when the promise is fulfilled or rejected).
+        </p>
+        <p>
+          Check out
+          <a
+            href="https://www.youtube.com/playlist?list=PLRqwX-V7Uu6bKLPQvPRNNE65kBL62mVfx"
+            >Dan Shiffman's tutorial series on JavaScript promises</a
+          >
+          for an extended explanation and examples.
+        </p>
+        <p>
+          The response from the promise contains the data we're looking for from
+          an endpoint. This sent as a "readable stream", and must be converted
+          to .json() or an image .blob() or .text() for .txt and structured text
+          data like .csv.
+        </p>
+        <p>
+          We can also invoke fetch() with async/await keywords. Async also
+          signifies that we expect a function to return a promise. See
+          <a
+            href="https://www.smashingmagazine.com/2020/11/comparison-async-await-versus-then-catch/"
+            >Smashing Magazine: A Comparison of async/await versus then/catch</a
+          >.
+        </p>
+        <button id="catFetch">Go fetch a cat</button>
+        <div id="cat"></div>
+      </div>
+    </div>
 
+<<<<<<< HEAD
 		<script>
 			//get a cat image from cat as a service: https://cataas.com/
 			const btn = document.getElementById("catFetch");
@@ -81,4 +82,36 @@
 			getFact();
 		</script>
 	</body>
+=======
+    <script>
+      //get a cat image from cat as a service: https://cataas.com/
+      const btn = document.getElementById("catFetch");
+      let word = "Hello";
+      btn.addEventListener("click", () => {
+        // fetch("https://cataas.com/cat/gif")
+        fetch(`https://cataas.com/cat/says/${word}`)
+          .then((response) => response.blob())
+          .then((blob) => {
+            const img = document.createElement("img");
+            img.src = URL.createObjectURL(blob);
+            const div = document.getElementById("cat");
+            div.append(img);
+          });
+      });
+
+      //get json data from a fun fact api https://asli-fun-fact-api.herokuapp.com/
+      async function getFact() {
+        for (i = 0; i < 7; i++) {
+          res = await fetch("https://asli-fun-fact-api.herokuapp.com/");
+          data = await res.json();
+          console.log(data);
+          let p = document.createElement("p");
+          p.textContent = data.data.fact;
+          document.body.append(p);
+        }
+      }
+      getFact();
+    </script>
+  </body>
+>>>>>>> 06cf863... push htmls
 </html>
