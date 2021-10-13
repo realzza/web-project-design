@@ -12,7 +12,7 @@ function setup() {
 	myVideo = createCapture(VIDEO);
 	//give video a size so it doesn't appear so so large
 	myVideo.size(640, 360);
-	//un-comment the line below to hide myVideo, and create your own in the canvas
+	//un-comment the line below to hide myVideo, and create your own in the canvas (see the draw() loop)
 	myVideo.hide();
 
 	//console.log(myVideo);

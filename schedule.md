@@ -288,6 +288,7 @@ JavaScript IIb: Adding a Library
 
 Javascript IIc: Interactive Canvas with P5.js Library
 [Demo files for class](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/10_12_P5)
+
 [More p5 Demos](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/10_12_P5/p5_moreExamples) - note: some of these may use previous p5 libraries - the p5 library files are included in each directory
 
 - More p5 Resources
@@ -298,12 +299,6 @@ Javascript IIc: Interactive Canvas with P5.js Library
   - Intro to p5.js
   - p5.js canvas
   - P5.js beyond the canvas - libraries, plugins, helpers
-- Homework
-  - Prep for Oct 14th Class: Install [Homebrew](https://brew.sh/) (on Mac), which is a helpful package installer for Mac and Linux, and/or follow the installation guides for Node.js [on Mac](https://treehouse.github.io/installation-guides/mac/node-mac.html) or [on a Windows PC](https://treehouse.github.io/installation-guides/windows/node-windows.html). On Mac, you will need Homebrew as a helper to install node.js, on PC you will not.
-  - Node requires that you use the Command Line Interface on your PC. If you don't have much experience with the command line outside of this course, you might want to check out [A Beginner's Guide to Using the Mac Terminal](https://www.makeuseof.com/tag/beginners-guide-mac-terminal/) or [A Beginner's Guide to the Windows Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/). We'll be making extensive use of the Terminal available within VS Code
-  - Optional, rn: Eventually, you'll also need accounts with the following services if you don't already have them - [Github](https://github.com/) for version control. You'll also need the [Github CLI](https://cli.github.com/) for pushing to Github from terminal. I'f you've already completed the above steps for installing Node with homebrew, you can simply <code>$ brew install gh</code> in your terminal
-  - [Heroku](http://heroku.com), a cloud based app platform, and a simple way to host applications built with Node.js. And, you'll need the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli), which you can also install with Homebrew in the terminal
-    **Node is a JavaScript runtime that allows us to run JS code outside of the browser context for server-side application development**
 
 ---
 
@@ -312,50 +307,65 @@ Javascript IIc: Interactive Canvas with P5.js Library
 ### October 14, 2021
 
 **Assignment 6: Library & API Research Due**
-CLI Basics, Intro to Node
+MORE P5.JS!
 
 - In Class
-  - Command Line Basics: naviagting around, mkdir, touch, sudo
-  - What is node? What is NPM?
-  - Finishing node installation, helpers: nodemon
-  - Setting up a project, npm init, package.json, what is a package?
-  - requiring things
-  - Simple Express Server, hosting static files
-- Homework: TBD
+  - Using logic to generate images
+  - More with video: manipulate pixels
+  - saving images with saveFrames() (we can use this later to send image data to a server)
+  - Face tracking with CLMtracker.js: detect a smile
 
 ---
 
 ### October 19, 2021
 
-Node/Express - Getting Data server-side
+** No CLASS - Complete Node.js setup on your computer **
 
-- In Class
-  - Server-side api call w/ Authentication (Open Weather Map)
-  - Passing data from client to server
-  - Saving with fs
-- Homework: TBD
+- NODE JS Setup
+
+  - 1. MAC USERS: First, you need to make sure you have XCode Tools installed. You can find out by opening up a new Terminal window (go applications-->Utilities-->Terminal), and typing "gcc" in the prompt. Hit enter. If you do not have XCode tools, they will be installed.
+  - 1.  (a) MAC USERS: Install [Homebrew](https://brew.sh/), which is a helpful package installer for Mac and Linux. Just like with xcode, you install Homebrew via the terminal by typing the command on the page linked above (or copy/paste) and hit enter. Homebrew should install automatically. If you get an error, try using the same code, but add "-g " to the beginning. You will be prompted for your user password.
+
+  - 2. Follow the Installation Guides for Node.js
+
+    - [on Mac](https://treehouse.github.io/installation-guides/mac/node-mac.html)
+    - [on a Windows PC](https://treehouse.github.io/installation-guides/windows/node-windows.html).
+
+  - Node requires that you use the Command Line Interface on your PC. If you don't have much experience with the command line outside of this course, please do one of the following tutorials:
+  - [A Beginner's Guide to Using the Mac Terminal](https://www.makeuseof.com/tag/beginners-guide-mac-terminal/)
+  - [A Beginner's Guide to the Windows Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/)
+
+  We'll be making extensive use of the Terminal available within VS Code
+
+  - Optional, rn: Eventually, you'll also need accounts with the following services if you don't already have them - [Github](https://github.com/) for version control. You'll also need the [Github CLI](https://cli.github.com/) for pushing to Github from terminal. I'f you've already completed the above steps for installing Node with homebrew, you can simply <code>$ brew install gh</code> in your terminal
+  - [Heroku](http://heroku.com), a cloud based app platform, and a simple way to host applications built with Node.js. And, you'll need the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli), which you can also install with Homebrew in the terminal
+
+    **Node is a JavaScript runtime that allows us to run JS code outside of the browser context for server-side application development**
 
 ---
 
 ### October 21, 2021
 
-Node/Express - Writing routes, routes with parameters
+Intro to Node, Express, and Serving Static Files
 
 - In Class
-  - Routes / Endpoints
-  - Routes with Parameters
+  - Node installation troubleshooting
+  - What is node? What is NPM? What's a "package"?
+  - Using the terminal in vs code
+  - npm init
+  - express router
+  - serving static files
 
 ---
 
 ### October 26, 2021
 
-Data Persistence: Adding at Database
+Routes in Express, FS, NeDB
 
 - In Class:
-  - Simple Lightweight Database with NeDB
-  - Git / Version control
-  - Hiding API keys, uploading to Git
-  - Easy app hosting with Heroku
+  - writing routes
+  - FS to save files
+  - NeDB - intro to saving data
 
 ---
 
