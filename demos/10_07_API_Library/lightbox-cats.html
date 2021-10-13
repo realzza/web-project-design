@@ -46,9 +46,7 @@
 		btn.addEventListener("click", async () => {
 			catMsg.textContent = "Please wait, wrangling cats...";
 			for (i = 0; i < numberOfCats; i++) {
-				const res = await fetch(
-					"https://cataas.com/cat/gif/says/Howdy%20Friend?s=40&width=600"
-				);
+				const res = await fetch("https://cataas.com/cat/gif");
 				const catBlob = await res.blob();
 				const catData = {
 					index: i,
