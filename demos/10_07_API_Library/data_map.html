@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html>
-<<<<<<< HEAD
 	<head>
 		<title>Mapping the Data</title>
 		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
@@ -78,88 +77,4 @@
 			};
 		</script>
 	</body>
-=======
-  <head>
-    <title>Mapping the Data</title>
-    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
-    <link
-      rel="stylesheet"
-      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
-      integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
-      crossorigin=""
-    />
-    <style>
-      #map {
-        height: 400px;
-      }
-    </style>
-    <script
-      src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
-      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
-      crossorigin=""
-    ></script>
-  </head>
-  <body>
-    <div class="w3-container">
-      <h1>Mapping the Data</h1>
-      <p>
-        This example updates from the fetch() example on 9/30. We're getting
-        geolocation data from the
-        <a href="http://open-notify.org/Open-Notify-API/ISS-Location-Now/"
-          >Open Notify International Space Station Location API</a
-        >.
-      </p>
-      <p>
-        Make that location data useful by plotting it in a map with
-        <a href="https://leaflet.js.com">Leaflet.js</a>, a javascript library
-        for interactive maps.
-      </p>
-
-      <button id="iss">Get the ISS location!</button>
-      <div id="map"></div>
-    </div>
-
-    <script>
-      var issBtn = document.getElementById("iss");
-
-      issBtn.addEventListener("click", async () => {
-        const response = await fetch("http://api.open-notify.org/iss-now.json");
-        const data = await response.json();
-        let iss = document.createElement("div");
-        iss.innerHTML =
-          "Iss Position: " +
-          data.iss_position.latitude +
-          ", " +
-          data.iss_position.longitude;
-
-        document.body.appendChild(iss);
-
-        var map = L.map("map").setView(
-          [data.iss_position.latitude, data.iss_position.longitude],
-          1
-        );
-
-        L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-          attribution:
-            '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors',
-        }).addTo(map);
-
-        var myIcon = L.icon({
-          iconUrl: "my-icon.png",
-          iconSize: [38, 95],
-          iconAnchor: [22, 94],
-          popupAnchor: [-3, -76],
-          shadowUrl: "my-icon-shadow.png",
-          shadowSize: [68, 95],
-          shadowAnchor: [22, 94],
-        });
-
-        L.marker([data.iss_position.latitude, data.iss_position.longitude])
-          .addTo(map)
-          .bindPopup("A pretty CSS3 popup.<br> Easily customizable.")
-          .openPopup();
-      });
-    </script>
-  </body>
->>>>>>> 06cf863... push htmls
 </html>
