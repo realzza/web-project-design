@@ -309,11 +309,13 @@ Javascript IIc: Interactive Canvas with P5.js Library
 **Assignment 6: Library & API Research Due**
 MORE P5.JS!
 
+[Demo Files](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/10_14_P5_2)
+
 - In Class
-  - Using logic to generate images
-  - More with video: manipulate pixels
-  - saving images with saveFrames() (we can use this later to send image data to a server)
-  - Face tracking with CLMtracker.js: detect a smile
+  - p5 DOM
+  - images in p5
+  - looking at the pixel array
+  - more with video - snapshots from the camera
 
 ---
 
