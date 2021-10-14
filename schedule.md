@@ -324,7 +324,7 @@ MORE P5.JS!
 - NODE JS Setup
 
   - 1. MAC USERS: First, you need to make sure you have XCode Tools installed. You can find out by opening up a new Terminal window (go applications-->Utilities-->Terminal), and typing "gcc" in the prompt. Hit enter. If you do not have XCode tools, they will be installed.
-  - 1.  (a) MAC USERS: Install [Homebrew](https://brew.sh/), which is a helpful package installer for Mac and Linux. Just like with xcode, you install Homebrew via the terminal by typing the command on the page linked above (or copy/paste) and hit enter. Homebrew should install automatically. If you get an error, try using the same code, but add "-g " to the beginning. You will be prompted for your user password.
+  - 1.  (a) MAC USERS: Install [Homebrew](https://brew.sh/), which is a helpful package installer for Mac and Linux. Just like with xcode, you install Homebrew via the terminal by typing the command on the page linked above (or copy/paste) and hit enter. Homebrew should install automatically. If you get an error, try using the same code, but add "-g " to the end. This means, "install globally," which may be necessary based on your computer's permissions. You will be prompted for your user password.
 
   - 2. Follow the Installation Guides for Node.js
 
@@ -334,10 +334,12 @@ MORE P5.JS!
   - Node requires that you use the Command Line Interface on your PC. If you don't have much experience with the command line outside of this course, please do one of the following tutorials:
   - [A Beginner's Guide to Using the Mac Terminal](https://www.makeuseof.com/tag/beginners-guide-mac-terminal/)
   - [A Beginner's Guide to the Windows Command Prompt](https://www.makeuseof.com/tag/a-beginners-guide-to-the-windows-command-line/)
+  - And both mac and pc users might find [This video on command line basics](https://www.linkedin.com/learning-login/share?account=77842946&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fprogramming-foundations-version-control-with-git%2Fcommand-line-basics%3Ftrk%3Dshare_video_url%26shareId%3DOapZMWnNQ22YHqTI5YSh4Q%253D%253D) useful.
+    - This is from [a longer series on using Github](https://www.linkedin.com/learning-login/share?account=77842946&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fprogramming-foundations-version-control-with-git%3Ftrk%3Dshare_ent_url%26shareId%3DOapZMWnNQ22YHqTI5YSh4Q%253D%253D) for version control that may also be helpful if you're new to Git, which we will use to help us get Node-based apps up on the web.
 
-  We'll be making extensive use of the Terminal available within VS Code
+  We'll also be making extensive use of the Terminal available within VS Code. The commands will be the same.
 
-  - Optional, rn: Eventually, you'll also need accounts with the following services if you don't already have them - [Github](https://github.com/) for version control. You'll also need the [Github CLI](https://cli.github.com/) for pushing to Github from terminal. I'f you've already completed the above steps for installing Node with homebrew, you can simply <code>$ brew install gh</code> in your terminal
+  - Optional, rn: Eventually, you'll also need accounts with the following services if you don't already have them - [Github](https://github.com/) for version control. You'll also need the [Github CLI](https://cli.github.com/) for pushing to Github from terminal. I'f you've already completed the above steps for installing Node with homebrew, you can simply <code>$ brew install gh</code> in your terminal to install the Github CLI.
   - [Heroku](http://heroku.com), a cloud based app platform, and a simple way to host applications built with Node.js. And, you'll need the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli), which you can also install with Homebrew in the terminal
 
     **Node is a JavaScript runtime that allows us to run JS code outside of the browser context for server-side application development**
