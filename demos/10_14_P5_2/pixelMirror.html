@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Pixel Array / Pixels</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+	</head>
+	<body>
+		<div class="w3-container">
+			<h1>Manipulating Pixels</h1>
+			<p>
+				This example builds on the previous one by getting the pixel values from
+				a live video, calculating their brightness, and mapping them to the
+				canvas.
+			</p>
+			<p>
+				See the
+				<a href="https://www.youtube.com/watch?v=rNqaw8LT2ZU"
+					>Coding Train Tutorial</a
+				>
+				on making a "brightness mirror" for the full demo.
+			</p>
+			<div id="main"></div>
+		</div>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"
+			integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script>
+			let video;
+			let vScale = 5;
+			function setup() {
+				cnv = createCanvas(400, 225);
+				cnv.parent("main");
+				pixelDensity(1); //needs to be set to 1xp=1px for retina display
+				video = createCapture(video);
+				//make the video small
+				video.size(width / vScale, height / vScale);
+			}
+			function draw() {
+				background(51);
+				video.loadPixels();
+
+				for (var y = 0; y < video.height; y++) {
+					for (var x = 0; x < video.width; x++) {
+						let index = (x + y * video.width) * 4;
+						let videoR = video.pixels[index + 0];
+						let videoG = video.pixels[index + 1];
+						let videoB = video.pixels[index + 2];
+						let videoA = video.pixels[index + 3];
+						var bright = (videoR + videoG + videoB) / 3; //get brightness val from average of color vals
+
+						//map brightness to the "vScale" val, rect size will be relative to brightness
+						let w = map(bright, 0, 255, 0, vScale);
+						//now just place those rectangles with the brightness val as the fill
+						fill(bright); //make the fill the brightness val
+						rectMode(CENTER);
+						rect(x * vScale, y * vScale, w, w);
+					}
+				}
+			}
+		</script>
+	</body>
+</html>
