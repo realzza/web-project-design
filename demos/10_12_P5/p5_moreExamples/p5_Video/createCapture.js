@@ -5,22 +5,31 @@
 var myVideo;
 
 function setup() {
-	createCanvas(640, 360);
-	background(51);
-	//create the video, store it in a variable.  This will create a video as an element separate from the canvas
+  createCanvas(640, 360);
+  background(51);
+  //create the video, store it in a variable.  This will create a video as an element separate from the canvas
 
+<<<<<<< HEAD
 	myVideo = createCapture(VIDEO);
 	//give video a size so it doesn't appear so so large
 	myVideo.size(640, 360);
 	//un-comment the line below to hide myVideo, and create your own in the canvas (see the draw() loop)
 	myVideo.hide();
+=======
+  myVideo = createCapture(VIDEO);
+  //give video a size so it doesn't appear so so large
+  myVideo.size(640, 360);
+  //un-comment the line below to hide myVideo, and create your own in the canvas
+  //myVideo.hide();
+>>>>>>> 28a36a8... stage unstaged changes
 
-	//console.log(myVideo);
+  //console.log(myVideo);
 }
 function draw() {
-	// draw the video onto the canvas (using the width and height of the canvas)
-	image(myVideo, 0, 0, width, height);
+  // draw the video onto the canvas (using the width and height of the canvas)
+  image(myVideo, 0, 0, width, height);
 
+<<<<<<< HEAD
 	//simple manipulation -
 	//tint the video - can do this in the canvas
 	//tint(230, 12, 0);
@@ -46,4 +55,31 @@ function draw() {
 			rect(x, y, 8, 8);
 		}
 	}
+=======
+  //simple manipulation -
+  //tint the video - can do this in the canvas
+  // tint(230, 12, 0);
+  //or change the size, tie it to a mouse position
+  //image(myVideo,0,0, mouseX, height);
+  // rotate(PI / 3.0); //rotate the video
+  //or flip it and display a flipped version
+  //translate(myVideo.width,0);
+  // scale(-1.0,1.0);
+  //display the video with by using the variable and image()
+  // image(myVideo,0,0);
+  //or work directly with pixels
+  //hint: increase the value in the position that 12 is in now, to change the size of the bit-mapping
+  myVideo.loadPixels();
+  for (var y = 0; y < height; y += 12) {
+    for (var x = 0; x < width; x += 12) {
+      var offset = (y * width + x) * 4;
+      fill(
+        myVideo.pixels[offset],
+        myVideo.pixels[offset + 1],
+        myVideo.pixels[offset + 2]
+      );
+      rect(x, y, 12, 12);
+    }
+  }
+>>>>>>> 28a36a8... stage unstaged changes
 }
