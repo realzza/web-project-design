@@ -1,4 +1,5 @@
 <<<<<<< HEAD
+<<<<<<< HEAD
 let example_div = document.getElementById("example");
 example_div.style.backgroundColor = "#9f9f9f";
 
@@ -49,6 +50,8 @@ myIcon.addEventListener("click", () => {
 	}
 });
 =======
+=======
+>>>>>>> 1fb8f44... class code
 let example_div = document.getElementById("example");
 example_div.style.backgroundColor = "#9f9f9f";
 
@@ -110,4 +113,7 @@ myIcon.addEventListener("click", () => {
     topNav.className = "navBar";
   }
 });
+<<<<<<< HEAD
+>>>>>>> 1fb8f44... class code
+=======
 >>>>>>> 1fb8f44... class code
