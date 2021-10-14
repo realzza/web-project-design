@@ -51,7 +51,11 @@ myIcon.addEventListener("click", () => {
 });
 =======
 =======
+<<<<<<< HEAD
 >>>>>>> 1fb8f44... class code
+=======
+>>>>>>> c0887401060d292c36b3206f1bcefa0162784085
+>>>>>>> ba29cb602e05e377cb4a2207e70e01f65f688d8c
 let example_div = document.getElementById("example");
 example_div.style.backgroundColor = "#9f9f9f";
 
@@ -116,4 +120,8 @@ myIcon.addEventListener("click", () => {
 <<<<<<< HEAD
 >>>>>>> 1fb8f44... class code
 =======
+<<<<<<< HEAD
 >>>>>>> 1fb8f44... class code
+=======
+>>>>>>> c0887401060d292c36b3206f1bcefa0162784085
+>>>>>>> ba29cb602e05e377cb4a2207e70e01f65f688d8c
