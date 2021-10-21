@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>p5 DOM</title>
+	</head>
+	<body>
+		<div id="canvas"></div>
+		<div id="main"></div>
+		<script
+			src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.4.0/p5.min.js"
+			integrity="sha512-N4kV7GkNv7QR7RX9YF/olywyIgIwNvfEe2nZtfyj73HdjCUkAfOBDbcuJ/cTaN04JKRnw1YG1wnUyNKMsNgg3g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		></script>
+		<script>
+			let div, button, colorPicker, myPicture;
+
+			function preload() {
+				myPicture = loadImage("kitten.jpeg");
+			}
+			function setup() {
+				let cnv = createCanvas(600, 400);
+				cnv.position(400, 300);
+				background(51);
+				div = createDiv("<p>Here! I am a new Div</p>");
+				button = createButton("BUTTON!");
+				button.position(20, 20);
+				button.mousePressed(changeBack);
+				colorPicker = createColorPicker("#ed225d");
+				colorPicker.position(400, 280);
+				console.log(colorPicker);
+				cnv.mousePressed(placeKitten);
+				let img = createImg("kitten.jpeg");
+				img.position(400, 400);
+				img.size(120, 100);
+			}
+
+			function placeKitten() {
+				image(myPicture, mouseX - 50, mouseY - 60, 120, 100);
+			}
+
+			function changeBack() {
+				background(random(255));
+			}
+
+			function draw() {
+				//div.position(mouseX, mouseY);
+				//image(myPicture, 100, 100, 120, 100);
+				//background(colorPicker.color());
+			}
+		</script>
+	</body>
+</html>
