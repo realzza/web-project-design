@@ -353,12 +353,26 @@ MORE P5.JS!
 Intro to Node, Express, and Serving Static Files
 
 - In Class
+
   - Node installation troubleshooting
   - What is node? What is NPM? What's a "package"?
   - Using the terminal in vs code
   - npm init
   - express router
   - serving static files
+
+- Homework:
+
+  - Complete the demo from class if you haven't already: npm init to create a project, create an app.js with an express server that hosts a "public" folder at localhost:3000. Add an index.html file to /public. Have that file load an image using fetch()
+  - Read and Practice in the command line: [David Baumgold, "Getting to Know the Command Line"](https://www.davidbaumgold.com/tutorials/command-line/)
+  - Work on Final Project Research
+    - For inspiration, check out various projects by [Joey Lee](https://jk-lee.com/) and [Allison Parrish](https://www.decontextualize.com/), both instructors at [NYU's ITP Program](https://tisch.nyu.edu/itp) and creative technologists
+    - See also, [Treehouse.com: 7 Awesome things you can build in Node.js](https://blog.teamtreehouse.com/7-awesome-things-can-build-node-js)
+
+- Resources:
+  - [Node.js DOCS Guides](https://nodejs.org/en/docs/guides/)
+  - [NPM CLI Commands](https://docs.npmjs.com/cli/v7/commands)
+  - [Express.js DOCS](https://expressjs.com/)
 
 ---
 
@@ -375,6 +389,8 @@ Routes in Express, FS, NeDB
 
 ### October 28, 2021
 
+**Final Project Proposal Draft**
+
 Adding to the Stack - Intro to MongoDB Cloud
 
 ---
@@ -385,8 +401,6 @@ Intro To React
 
 - In Class:
 - React Quick Start, create react app
-
-**Final Project Proposal and Wireframe Due**
 
 ---
 
@@ -400,6 +414,8 @@ React II
 ---
 
 ### November 9, 2021
+
+**Final Project Proposal + Initial Sitemap / App Outline Due**
 
 React III
 
