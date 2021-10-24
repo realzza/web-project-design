@@ -380,10 +380,24 @@ Intro to Node, Express, and Serving Static Files
 
 Routes in Express, FS, NeDB
 
+[Demo Start Files]()
+
 - In Class:
-  - writing routes
+
+  - writing routes, routes with parameters
   - FS to save files
   - NeDB - intro to saving data
+  - discussion of final project proposals
+
+- Homework:
+  - Finish in-class example with routes to get and post data using fs and nedb
+  - Work on final project proposal research, and come to next class ready to present brief thoughts on your final project ideas so far:
+    - A basic outline of what your app or website will do
+    - A list of any supporting JavaScript libraries or Frameworks
+    - A list of any APIs or Data you may use
+    - Will your project have a database or a way to save persistent data? What kinds of data and what formats do you need?
+    - Notes on possible users / use-cases
+  - Set up for Oct. 28 Class: [Get a Heroku account](http://heroku.com) and a [Github account](https://github.com)
 
 ---
 
@@ -391,7 +405,10 @@ Routes in Express, FS, NeDB
 
 **Final Project Proposal Draft**
 
-Adding to the Stack - Intro to MongoDB Cloud
+In Class:
+
+- Presentation/Discussion: Final Project Ideas
+- Posting a simple app on Heroku, Git
 
 ---
 
