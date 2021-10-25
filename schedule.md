@@ -389,6 +389,11 @@ Routes in Express, FS, NeDB
   - NeDB - intro to saving data
   - discussion of final project proposals
 
+- Resources:
+
+  - [Express Guide to Routing](https://expressjs.com/en/guide/routing.html)
+  - [Express Basic Routing Snippets](https://expressjs.com/en/starter/basic-routing.html)
+
 - Homework:
   - Finish in-class example with routes to get and post data using fs and nedb
   - Work on final project proposal research, and come to next class ready to present brief thoughts on your final project ideas so far:
