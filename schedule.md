@@ -393,9 +393,10 @@ Routes in Express, FS, NeDB
 
   - [Express Guide to Routing](https://expressjs.com/en/guide/routing.html)
   - [Express Basic Routing Snippets](https://expressjs.com/en/starter/basic-routing.html)
+  - [Excellent Dan Shiffman Tutorial on Routes](https://www.youtube.com/watch?v=e4qKBkwwkNg&t=0s) from a [series of videos](https://shiffman.net/a2z/node-api/) on using node to build APIs for working with text and text-based data
 
 - Homework:
-  - Finish in-class example with routes to get and post data using fs and nedb - you can use the example in class, sending image data back and forth, or build your own routes
+  - Finish in-class example with routes to get and post data using fs and nedb - you can use the example in class, sending image data back and forth, or build your own routes and data (like user input)
   - Work on final project proposal research, and come to next class ready to present brief thoughts on your final project ideas so far:
     - A basic outline of what your app or website will do
     - A list of any supporting JavaScript libraries or Frameworks
@@ -414,6 +415,7 @@ In Class:
 
 - Presentation/Discussion: Final Project Ideas
 - Posting a simple app on Heroku, Git
+- .gitignore, hiding environment variables
 
 ---
 
@@ -431,7 +433,7 @@ Intro To React
 React II
 
 - In Class:
-  - Routes
+  - Routes in React
 
 ---
 
@@ -445,7 +447,7 @@ React III
 
 ### November 11, 2021
 
-Deploying - Heroku
+Mongo DB
 
 ---
 
