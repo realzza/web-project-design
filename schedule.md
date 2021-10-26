@@ -395,7 +395,7 @@ Routes in Express, FS, NeDB
   - [Express Basic Routing Snippets](https://expressjs.com/en/starter/basic-routing.html)
 
 - Homework:
-  - Finish in-class example with routes to get and post data using fs and nedb
+  - Finish in-class example with routes to get and post data using fs and nedb - you can use the example in class, sending image data back and forth, or build your own routes
   - Work on final project proposal research, and come to next class ready to present brief thoughts on your final project ideas so far:
     - A basic outline of what your app or website will do
     - A list of any supporting JavaScript libraries or Frameworks
