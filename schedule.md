@@ -394,6 +394,7 @@ Routes in Express, FS, NeDB
   - [Express Guide to Routing](https://expressjs.com/en/guide/routing.html)
   - [Express Basic Routing Snippets](https://expressjs.com/en/starter/basic-routing.html)
   - [Excellent Dan Shiffman Tutorial on Routes](https://www.youtube.com/watch?v=e4qKBkwwkNg&t=0s) from a [series of videos](https://shiffman.net/a2z/node-api/) on using node to build APIs for working with text and text-based data
+  - See also: YouTube Playlists: [Dan Shiffman on working with Data from 2017](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6a-SQiI4RtIwuOrLJGnel0r), and [2019](https://www.youtube.com/playlist?list=PLRqwX-V7Uu6YxDKpFzf_2D84p0cyk4T7X)
 
 - Homework:
   - Finish in-class example with routes to get and post data using fs and nedb - you can use the example in class, sending image data back and forth, or build your own routes and data (like user input)
