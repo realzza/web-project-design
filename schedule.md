@@ -418,6 +418,10 @@ In Class:
 - Posting a simple app on Heroku, Git
 - .gitignore, hiding environment variables
 
+- Resources
+- [Installing the Github CLI](https://github.com/cli/cli)
+- [Installing the Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli)
+
 ---
 
 ### November 2, 2021
