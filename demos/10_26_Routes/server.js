@@ -26,7 +26,7 @@ app.post("/addEntry", (request, response) => {
 	const timestamp = Date.now();
 	const imgPath = `public/images/img_${timestamp}.png`;
 	fs.writeFileSync(imgPath, saveImage, "base64");
-	data.img = imgPath;
+	data.img = imgPath.slice(7);
 
 	database.insert(data);
 	response.json(data);
