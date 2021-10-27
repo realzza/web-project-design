@@ -32,7 +32,7 @@
 				margin-left: -120px;
 			}
 			#canvas {
-				margin-top: 16px;
+				margin: 16px 0;
 			}
 			.p5Canvas {
 				margin: 0 auto;
@@ -65,20 +65,20 @@
 				<div class="w3-panel w3-card w3-ios-deep-blue">
 					<h1>Virtual Photobooth</h1>
 					<p><a href="./all.html">See All Entries</a></p>
-				</div>
 
-				<div class="w3-row-padding">
-					<div class="w3-col s12 m8 w3-panel w3-white w3-card w3-padding-64">
-						<div id="videoContainer"></div>
-						<div id="controls">
-							<div id="location">
-								<span id="lat"></span>
-								<span id="long"></span>
+					<div class="w3-row-padding">
+						<div class="w3-col s12 m8 w3-panel w3-white w3-card w3-padding-64">
+							<div id="videoContainer"></div>
+							<div id="controls">
+								<div id="location">
+									<span id="lat"></span>
+									<span id="long"></span>
+								</div>
 							</div>
 						</div>
-					</div>
-					<div class="w3-col s12 m4">
-						<div id="canvas"></div>
+						<div class="w3-col s12 m4">
+							<div id="canvas"></div>
+						</div>
 					</div>
 				</div>
 			</div>
@@ -209,6 +209,10 @@
 				const response = await fetch("/addEntry", options);
 				const json = await response.json();
 				console.log(json);
+				let successMsg = document.createElement("p");
+				successMsg.textContent = `Thank you for your entry, ${json.userName}!`;
+				reset();
+				document.getElementById("controls").append(successMsg);
 			}
 		</script>
 	</body>
