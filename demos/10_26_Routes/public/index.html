@@ -64,6 +64,7 @@
 			<div class="w3-container w3-padding-large">
 				<div class="w3-panel w3-card w3-ios-deep-blue">
 					<h1>Virtual Photobooth</h1>
+					<p><a href="./all.html">See All Entries</a></p>
 				</div>
 
 				<div class="w3-row-padding">
@@ -189,7 +190,26 @@
 				btn.show();
 			}
 
-			async function submitEntry() {}
+			async function submitEntry() {
+				let img = cnv.elt.toDataURL();
+				let userName = userInput.value();
+				let data = {
+					userName,
+					img,
+					lat,
+					long,
+				};
+				const options = {
+					method: "POST",
+					headers: {
+						"Content-Type": "application/json",
+					},
+					body: JSON.stringify(data),
+				};
+				const response = await fetch("/addEntry", options);
+				const json = await response.json();
+				console.log(json);
+			}
 		</script>
 	</body>
 </html>
