@@ -3,10 +3,13 @@
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 05d0ead... solve conflicts
 =======
 >>>>>>> 829c3fe90b0192cb4d21c59f403834ab6efe0bee
+=======
+>>>>>>> 443e906... solve conflicts
 let example_div = document.getElementById("example");
 example_div.style.backgroundColor = "#9f9f9f";
 
@@ -59,6 +62,7 @@ myIcon.addEventListener("click", () => {
 =======
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 >>>>>>> 1fb8f44... class code
 =======
@@ -73,6 +77,8 @@ myIcon.addEventListener("click", () => {
 >>>>>>> c0887401060d292c36b3206f1bcefa0162784085
 >>>>>>> ba29cb602e05e377cb4a2207e70e01f65f688d8c
 >>>>>>> 829c3fe90b0192cb4d21c59f403834ab6efe0bee
+=======
+>>>>>>> 443e906... solve conflicts
 let example_div = document.getElementById("example");
 example_div.style.backgroundColor = "#9f9f9f";
 
@@ -138,6 +144,7 @@ myIcon.addEventListener("click", () => {
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 1fb8f44... class code
 =======
 =======
@@ -154,3 +161,6 @@ myIcon.addEventListener("click", () => {
 >>>>>>> c0887401060d292c36b3206f1bcefa0162784085
 >>>>>>> ba29cb602e05e377cb4a2207e70e01f65f688d8c
 >>>>>>> 829c3fe90b0192cb4d21c59f403834ab6efe0bee
+=======
+>>>>>>> 1fb8f44... class code
+>>>>>>> 443e906... solve conflicts
