@@ -33,6 +33,7 @@ Next.s is a framework for working with React that basically builds a layer of ab
 - [Heroku Guide to Node.js app deployment](https://devcenter.heroku.com/articles/deploying-nodejs)
   - Heroku has some [built in database addons](https://elements.heroku.com/addons/#data-stores)
 - [Amazon Web Services guide to deploying a Node.js Stack Web App on AWS](https://aws.amazon.com/getting-started/hands-on/deploy-nodejs-web-app/). Note: you'll need an account for this, and it will cost some amout of $ to host your app, depending on your storage and usage needs.
+  - [Amazon's own Node.js examples](https://docs.aws.amazon.com/sdk-for-javascript/v2/developer-guide/s3-node-examples.html)
 - [Digital Ocean](https://www.freecodecamp.org/news/deploy-nodejs-app-server-to-production/) is another option for a hosting service with node.js support. It offers a bit of free hosting to users with a GitHub student account, and has pricing tiers as low as $5/mo.
 
 ## Machine Learning w/ images, video: ML5.js & RunwayML
