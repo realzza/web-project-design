@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>React: Simple Intro Using the CDN</title>
+		<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css" />
+	</head>
+	<body>
+		<div class="w3-container">
+			<div class="w3-card w3-panel">
+				<h1>Adding React to your HTML site</h1>
+				<p>
+					React is a component-based library for building UI in JavaScript Apps.
+					It uses JSX, an extension of JavaScript, which allows you to declare
+					custom UI components.
+				</p>
+				<p>
+					You can use React components without building a React app from scratch
+					by calling the CDN files in script tags in your document. Follow
+					<a href="https://reactjs.org/docs/add-react-to-a-website.html"
+						>this tutorial</a
+					>
+					to practice on your own with this method.
+				</p>
+				<p>
+					<a href="https://reactjs.org/">The React Homepage</a> also has a few
+					simple examples with an in-browser editor so you can get used to what
+					react components look like and how they work
+				</p>
+				<p>The elements below are rendered with React.</p>
+			</div>
+			<div id="root" class="w3-card w3-panel"></div>
+		</div>
+		<!-- Load React. -->
+		<!-- Note: when deploying, replace "development.js" with "production.min.js". -->
+		<script src="https://unpkg.com/react@^16/umd/react.production.min.js"></script>
+		<script src="https://unpkg.com/react-dom@16.13.0/umd/react-dom.production.min.js"></script>
+		<script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
+		<script type="text/babel">
+			//react code goes here, this is in JSX, which is being compiled in the browser using the Babel library
+			class App extends React.Component {
+				render() {
+					return (
+						<div className="App">
+							<h1>Hello World</h1>
+							<p>This is a react component</p>
+						</div>
+					);
+				}
+			}
+			//now render that element
+
+			ReactDOM.render(<App />, document.getElementById("root"));
+			// note - if we were to deploy this, we're getting a warning in the inspector.  We'd want to pre-compile this code for production: https://reactjs.org/docs/add-react-to-a-website.html#add-jsx-to-a-project
+		</script>
+	</body>
+</html>
