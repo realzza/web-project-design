@@ -429,7 +429,7 @@ In Class:
 Intro To React
 
 - In Class:
-- React Quick Start, create react app
+- React Quick Start, create react app, components
 
 - Homework (this week)
   - [React.js Essential Training](https://www.linkedin.com/learning-login/share?account=77842946&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Freact-js-essential-training%3Ftrk%3Dshare_ent_url%26shareId%3DkjimdENxTEaA4JHgeOC3Uw%253D%253D) - Entire tutorial is about 2 hours, get through as much as you can & try to get through at least #3: React Components
@@ -441,7 +441,7 @@ Intro To React
 React II
 
 - In Class:
-  - Routes in React
+  - Props, States
 
 ---
 
@@ -450,6 +450,9 @@ React II
 **Final Project Proposal + Initial Sitemap / App Outline Due**
 
 React III
+
+- In Class:
+  - React Router
 
 ---
 

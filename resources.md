@@ -58,6 +58,11 @@ Next.s is a framework for working with React that basically builds a layer of ab
 - [MDN Docs: Basic Client-Side Form Validation](https://developer.mozilla.org/en-US/docs/Learn/Forms/Form_validation)
 - [MDN: Sending Forms: Security Issues](https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_and_retrieving_form_data#security_issues)
 
+## Security and Passwords
+
+- [Tania Rascia: Basic Authentication for an Express Node App](https://www.taniarascia.com/basic-authentication-for-an-express-node-app-htpasswd/)
+- [Tania Rascia: Client-Side authentication the right way](https://www.taniarascia.com/full-stack-cookies-localstorage-react-express/)
+
 # General Resources
 
 Here you'll find a number of resources and tutorials for topics covered in this course from HTML/CSS reference and review to deploying full stack apps to the web. The internet is full of great resources for learning how to code in any language, but especially web-based markup and the languages and utilities that the modern web is built upon.
