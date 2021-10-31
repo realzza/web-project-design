@@ -2,6 +2,8 @@
 
 # Final Project Resource Suggestions
 
+(this list will be updated)
+
 ## Working with React / Next.js
 
 (note: there are thousands of resources for these on the web as React is one of the most popular JS tools. These are a few high-quality ones to get started)
@@ -29,7 +31,8 @@ Next.s is a framework for working with React that basically builds a layer of ab
 
 - [Heroku Guide to Node.js app deployment](https://devcenter.heroku.com/articles/deploying-nodejs)
   - Heroku has some [built in database addons](https://elements.heroku.com/addons/#data-stores)
-- [Amazon Web Services guide to deploying a Node.js Stack Web App on AWS](https://aws.amazon.com/getting-started/hands-on/deploy-nodejs-web-app/). Note: you'll need an account for this, and it will cost some amout of $ to host your app, depending on your storage and usage needs -[Digital Ocean](https://www.freecodecamp.org/news/deploy-nodejs-app-server-to-production/) is another option for a hosting service with node.js support. It offers a bit of free hosting to users with a GitHub student account, and has pricing tiers as low as $5/mo.
+- [Amazon Web Services guide to deploying a Node.js Stack Web App on AWS](https://aws.amazon.com/getting-started/hands-on/deploy-nodejs-web-app/). Note: you'll need an account for this, and it will cost some amout of $ to host your app, depending on your storage and usage needs.
+- [Digital Ocean](https://www.freecodecamp.org/news/deploy-nodejs-app-server-to-production/) is another option for a hosting service with node.js support. It offers a bit of free hosting to users with a GitHub student account, and has pricing tiers as low as $5/mo.
 
 ## Machine Learning w/ images, video: ML5.js & RunwayML
 
@@ -40,7 +43,7 @@ Next.s is a framework for working with React that basically builds a layer of ab
 
 ## Working with Text
 
-[The Coding Train's Working With Text Tutorials](https://thecodingtrain.com/learning/programming-with-text/) cover a ton of topics for working with text in JavaScript, including evaluation and manipulation with regular expressions, js libraries for text analysis, and natural language processing
+- [The Coding Train's Working With Text Tutorials](https://thecodingtrain.com/learning/programming-with-text/) cover a ton of topics for working with text in JavaScript, including evaluation and manipulation with regular expressions, js libraries for text analysis, and natural language processing
 
 ## Form Validation
 
