@@ -45,6 +45,11 @@ Next.s is a framework for working with React that basically builds a layer of ab
 
 - [The Coding Train's Working With Text Tutorials](https://thecodingtrain.com/learning/programming-with-text/) cover a ton of topics for working with text in JavaScript, including evaluation and manipulation with regular expressions, js libraries for text analysis, and natural language processing
 
+## Google Books API
+
+- [Video Tutorial: React Book Search App using Google Books API V3](https://www.youtube.com/watch?v=LGcgChoD_qY)
+- [Google's Own Developer Docs for the Books API](https://developers.google.com/books/docs/v1/using)
+
 ## Form Validation
 
 - [W3 Schools Basic Form Validation with HTML and JS](https://www.w3schools.com/js/js_validation.asp)
