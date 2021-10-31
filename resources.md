@@ -12,7 +12,7 @@
 - [LinkedIn: Learning React JS](https://www.linkedin.com/learning-login/share?account=77842946&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Flearning-react-js-5%3Ftrk%3Dshare_ent_url%26shareId%3DlsUXn84NTlCxwNmLVKqwOw%253D%253D): Another good intro video course
 - [LinkedIn: Building Modern Projects with React](https://www.linkedin.com/learning-login/share?account=77842946&forceAccount=false&redirect=https%3A%2F%2Fwww.linkedin.com%2Flearning%2Fbuilding-modern-projects-with-react%3Ftrk%3Dshare_ent_url%26shareId%3DqebqCcYyRKaJPulO%252BSNI7g%253D%253D): An intermediate-level course introducing the ecosystem of React helper tools to make building complex apps simpler
 - [React's own "Learn React" tutorial](https://reactjs.org/tutorial/tutorial.html)
-- [Tania Rascia's React Overview and Walkthrough](https://www.taniarascia.com/getting-started-with-react/)
+- [Tania Rascia's React Overview](https://www.taniarascia.com/getting-started-with-react/): an excellent and easy-to-follow text based tutorial
 - [Another Good Text-Based React Tutorial](https://ibaslogic.com/react-tutorial-for-beginners/)
 - [Geeks for Geeks: How to Learn ReactJS: A Complete Guide](https://www.geeksforgeeks.org/how-to-learn-reactjs-a-complete-guide-for-beginners/)
 
