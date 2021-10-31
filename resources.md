@@ -20,11 +20,12 @@ Next.s is a framework for working with React that basically builds a layer of ab
 
 - [Next.js Tutorial by Next.js](https://nextjs.org/learn/basics/create-nextjs-app/setup) - covers Next by making a blog with the framework and deploying - concise & a great intro to Next
 
-## Building a Blog Platform
+## Building a Blog (or any CRUD App)
 
 (see also above next.js tutorial)
 
 - [Okta developer blog - Build a Basic CRUD App with Node](https://developer.okta.com/blog/2018/06/28/tutorial-build-a-basic-crud-app-with-node): uses OKTA (free option available) as an authentication service and Sequelize as the db solution. Note: does not cover deploy
+- [MongoDB MERN Stack Tutorial](https://www.mongodb.com/languages/mern-stack-tutorial)
 - [Learn & Build a MERN Stack application in 100 hrs](https://medium.com/@rajatdhoot/learn-build-a-mern-stack-application-in-100-hours-part-1-ee56e3f61979): Build a Blog with MongoDB, Express, React, and Node (MERN) stack. (Not actually 100 hours)
 - [The MDN Express Tutorial Module - Build A Local Library Website](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website) could be tweaked to make a simple blog platform
 
