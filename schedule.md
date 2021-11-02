@@ -429,6 +429,8 @@ Resources
 
 Intro To React
 
+[Demo index.js](https://github.com/maximusrex/web-project-design/tree/gh-pages/demos/11_2_ReactIntro)
+
 In Class:
 
 - React Quick Start, create react app, components
