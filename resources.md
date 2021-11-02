@@ -29,6 +29,13 @@ Next.s is a framework for working with React that basically builds a layer of ab
 - [Learn & Build a MERN Stack application in 100 hrs](https://medium.com/@rajatdhoot/learn-build-a-mern-stack-application-in-100-hours-part-1-ee56e3f61979): Build a Blog with MongoDB, Express, React, and Node (MERN) stack. (Not actually 100 hours)
 - [The MDN Express Tutorial Module - Build A Local Library Website](https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Tutorial_local_library_website) could be tweaked to make a simple blog platform
 
+## Databasing and Saving Files
+
+- [Use an AWS Bucket to Save Files from your Node.js App](https://stackabuse.com/uploading-files-to-aws-s3-with-node-js/)
+- [MongoDB Tutorial (by MongoDB)](https://www.mongodb.com/blog/post/quick-start-nodejs-mongodb--how-to-get-connected-to-your-database) MongoDB is probably one of the most popular database as a service solutions. There are helper Node packages (like Mongoose), extensive documentation, and MongoDB offers a free tier of its Atlas Cloud Database as a service
+- [MongoDB CRUD Operations Tutorial](https://www.mongodb.com/developer/quickstart/node-crud-tutorial/)
+- [NEdb](https://www.npmjs.com/package/nedb) is the in-memory database solution that we walked through in class
+
 ## Deploying
 
 - [Heroku Guide to Node.js app deployment](https://devcenter.heroku.com/articles/deploying-nodejs)
