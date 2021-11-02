@@ -40,20 +40,6 @@
 		<script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
 		<script type="text/babel">
 			//react code goes here, this is in JSX, which is being compiled in the browser using the Babel library
-			class App extends React.Component {
-				render() {
-					return (
-						<div className="App">
-							<h1>Hello World</h1>
-							<p>This is a react component</p>
-						</div>
-					);
-				}
-			}
-			//now render that element
-
-			ReactDOM.render(<App />, document.getElementById("root"));
-			// note - if we were to deploy this, we're getting a warning in the inspector.  We'd want to pre-compile this code for production: https://reactjs.org/docs/add-react-to-a-website.html#add-jsx-to-a-project
 		</script>
 	</body>
 </html>
