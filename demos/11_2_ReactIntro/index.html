@@ -40,6 +40,18 @@
 		<script src="https://unpkg.com/babel-standalone@6.26.0/babel.js"></script>
 		<script type="text/babel">
 			//react code goes here, this is in JSX, which is being compiled in the browser using the Babel library
+			class App extends React.Component {
+				render() {
+					return (
+						<div className="App">
+							<h1>Hello! I'm in React</h1>
+							<p>This is a component</p>
+						</div>
+					);
+				}
+			}
+
+			ReactDOM.render(<App />, document.getElementById("root"));
 		</script>
 	</body>
 </html>
