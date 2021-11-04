@@ -107,9 +107,20 @@ Write up a brief of either ideas for your proposed use or the tool itself, and a
 
 ## Assignment 7: Final Project Proposal and Wireframes
 
-**Due Nov 2**
+**Due Nov 9**
 
-TBA, but this will follow the basic format of the midterm proposal.
+This should follow the basic guidelines for the midterm project proposal and should include information about your
+
+- Basic Concept
+- Any supporting JavaScript libraries or frameworks you plan on using
+- Any data sources (your own database or any external data, e.g. an API)
+- The information architecture as you have planned it so far
+- You may have a one-page app, but please note any links and routing you plan on using to display content
+- Any draft wireframes you've developed so far (these may be in Figma, XD, or hand-drawn/digitally drawn)
+- Any media, fonts, and colors you have planned for your designs
+
+You may not have thought this far ahead on all of the details for your front-end, but this is designed to get you to start thinking about them, so please include the plans you have so far, even if they are basic or may change in another iteration.
+
 <br />
 <br />
 

@@ -447,7 +447,12 @@ React II
 
 In Class:
 
-- Props, States
+- Props, State, getting Data, and Router
+
+Homework:
+
+- **Finish and post your Final Project Proposals** to your sites.duke.edu site and link from your home page
+  - [Guidelines](https://maximusrex.github.io/web-project-design/assignments.html/#assignment-7-final-project-proposal-and-wireframes)
 
 ---
 
@@ -455,11 +460,12 @@ In Class:
 
 **Final Project Proposal + Initial Sitemap / App Outline Due**
 
-React III
+React III, React + MongoDB
 
 In Class:
 
-- React Router
+- React router (con't if we don't finish on Nov. 9)
+- Intro to MongoDB
 
 ---
 
