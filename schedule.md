@@ -412,6 +412,8 @@ Routes in Express, FS, NeDB
 
 **Final Project Proposal Draft**
 
+[Recording from Oct 28 Class](https://www.dropbox.com/s/b2blq0g46n5yujg/VMS257_10_29_HerokuDeploy.mp4?dl=0)
+
 In Class:
 
 - Presentation/Discussion: Final Project Ideas
