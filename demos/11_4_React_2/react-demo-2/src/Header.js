@@ -6,10 +6,12 @@ const Title = () => {
 	return <h1>{siteName}</h1>;
 };
 
+//simple component
 const Tagline = () => {
 	return <p className="tagline">the greatest site in the world</p>;
 };
 
+//class component
 class Header extends Component {
 	render() {
 		return (
